@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <h1>HEJ</h1>
+      <h1>Gamer</h1>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
