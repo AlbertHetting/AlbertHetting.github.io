@@ -1,23 +1,25 @@
+import QuickSummary from "../components/QuickSummary";
+
 export default function Home() {
 
 return (
 
+<div>
 
 
-    <section>
-        <video src="..Videos/HomepageFINAL.mp4"></video>
+<section className="upper">
+    <video id="mainvideo" 
+    src="public/Videos/HomepageFINAL.mp4" 
+    autoPlay  
+    muted 
+    />
+</section>
+
+<QuickSummary/>
 
 
 
-
-
-
-    </section>
-
-
-
-
-
+</div>
 
 
 )

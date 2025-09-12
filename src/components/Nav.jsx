@@ -14,7 +14,10 @@ function LinkLabel({ text }) {
       <span className="sr-only">{text}</span>
       <span className="nav-letters" aria-hidden="true">
         {chars.map((ch, i) => (
-          <span className="nav-letter" key={`${ch}-${i}`} style={{ ['--i']: i }}>
+          <span className="nav-letter" 
+          key={`${ch}-${i}`} 
+          style={{ ['--i']: i }}>
+
             <span className="nav-letter-inner">
               <span className="nav-line">{ch}</span>
               <span className="nav-line">{ch}</span>
@@ -42,24 +45,6 @@ export default function NavBar() {
               >
                 <LinkLabel text={item.label} />
               </NavLink>
-
-              {Array.isArray(item.children) && item.children.length > 0 && (
-                <ul role="menu" aria-label={`${item.label} submenu`}>
-                  {item.children.map((c) => (
-                    <li key={c.to} role="none">
-                      <NavLink
-                        to={c.to}
-                        role="menuitem"
-                        className={({ isActive }) =>
-                          isActive ? "active" : undefined
-                        }
-                      >
-                        <LinkLabel text={c.label} />
-                      </NavLink>
-                    </li>
-                  ))}
-                </ul>
-              )}
             </li>
           ))}
         </ul>
