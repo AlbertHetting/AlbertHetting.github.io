@@ -1,73 +1,369 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+body{
+    color: white;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #434141;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Rest of css */
+
+  #logo{
+    max-width: 4%;
+    z-index: 100;
+    position: fixed;
+    z-index: 1000;
 }
 
-body {
-  margin: 0;
+#logobox{
+    margin-top: -41.5%;
+    margin-left: 1%;
+}
+
+.upper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#mainvideo{
+    width: 75%;
+    overflow: hidden;
+}
+
+.maintitle h1{
+    color: black;
+    font-family: "Lexend", serif;
+    font-weight: 400;
+    font-size: 120px;
+    margin-top: 21%;
+    text-align: center;
+    opacity: 60%;
+    filter: blur(0px) brightness(1);
+}
+
+
+
+/* ANIMATION AF HEADER*/
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 2.5%;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  z-index: 10;
+  background: transparent;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  color: white;
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 150px;
+  margin: 0;
+  padding: 0;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.navigation ul li {
+  position: relative;
+  display: inline-block;
+  padding: 3% 0;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* ------------------------------------
+   Link typography & base styling
+------------------------------------ */
+.navigation a {
+  font-family: "Lexend", serif;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  opacity: 0.85;
+
+  display: inline-flex;       
+  align-items: center;
+  position: relative;
+
+  line-height: 1;             /* Exactly one line tall */
+  white-space: nowrap;        /* Keeps words on one line */
+}
+
+/* Keyboard focus */
+.navigation a:focus-visible {
+  outline: 2px solid #999;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Letter-by-letter roll */
+
+.nav-letters {    /* Wrap containing all letters */
+  display: inline-flex;
+  height: 1em;     /* Visible viewport is exactly one line */
+  overflow: hidden;
+}
+
+/* Each letter has its own viewport */
+.nav-letter {
+  display: block;
+  height: 1em;
+  overflow: hidden;
+}
+
+/* Two-line stack per letter that we translate by ONE line */
+.nav-letter-inner {
+  display: block;
+  will-change: transform;
+  transition: transform 0.25s ease;
+  transition-delay: calc(var(--i) * 0.03s);  /* stagger per letter */
+}
+
+/* Each copy sits on its own row */
+.nav-line {
+  display: block;
+  line-height: 1;
+}
+
+/* On hover/focus: move up by ONE of the two lines */
+.navigation a:hover .nav-letter-inner,
+.navigation a:focus-visible .nav-letter-inner {
+  transform: translateY(-50%);
+}
+
+
+
+/* ------------------------------------
+   Accessibility helpers
+------------------------------------ */
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .nav-letter-inner {
+    transition: none;
+    transform: none !important;
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
 
-.NavigationBar {
-  color: white;
+/* ------------------------------------
+   Responsiveness
+------------------------------------ */
+@media (max-width: 1200px) {
+  .navigation ul { gap: 80px; }
+  .navigation a { font-size: 26px; }
+}
+
+@media (max-width: 768px) {
+  header { padding: 0 5%; }
+  .navigation ul { gap: 32px; }
+  .navigation a { font-size: 22px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  main{
+    margin-top: 50%;
+  }
+  main p{
+    font-family: "lexend", Serif;
+    color: black;
+    margin-top: 0.5%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .hidden h1{
+    color: black;
+    font-family: "Lexend", serif;
+    font-weight: 400;
+    font-size: 100px;
+    margin-top: 21%;
+    text-align: center;
+    filter: blur(0px) brightness(1);
+}
+
+/* PORTFOLIO MEDIA RULES */
+section .portfoliopicks{
+  scale: 65%;
+  margin-top: -2%;
+  width: 100%;
+  height: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+}
+
+
+.gradient1{
+  position: relative;
+  opacity: 0.5;
+  margin-left: 60%;
+  margin-top: -30%;
+  height: 600px;
+  width: 900px;
+  background-image: linear-gradient(160deg, red, yellow);
+  filter: blur(100px);
+  z-index: -1;
+}
+
+.gradient2{
+  position: relative;
+  opacity: 0.5;
+  margin-left: 8%;
+  margin-top: -22%;
+  height: 600px;
+  width: 900px;
+  background-image: linear-gradient(160deg, blue, rgb(0, 255, 242));
+  filter: blur(100px);
+  z-index: -1;
+}
+
+.gradient3{
+  position: relative;
+  opacity: 0.65;
+  margin-left: 45%;
+  margin-top: -23%;
+  height: 300px;
+  width: 300px;
+  background-image: linear-gradient(160deg, purple, rgb(37, 0, 122));
+  filter: blur(70px);
+  z-index: -1;
+}
+
+
+.gradient5{
+  position: relative;
+  opacity: 0.5;
+  margin-left: 5%;
+  margin-top: -32%;
+  height: 700px;
+  width: 700px;
+  background-image: linear-gradient(160deg, rgb(111, 0, 255), rgb(255, 0, 212));
+  filter: blur(100px);
+  z-index: -1;
+}
+
+.gradient5{
+  position: relative;
+  opacity: 0.5;
+  margin-left: 45%;
+  margin-top: -32%;
+  height: 700px;
+  width: 1200px;
+  background-image: linear-gradient(160deg, rgb(0, 26, 255), rgb(0, 183, 255));
+  filter: blur(100px);
+  z-index: -1;
+}
+
+
+
+section .portfolio2{
+  scale: 67.3%;
+  margin-top: 6%;
+  width: 100%;
+  height: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+footer h1{
+  margin-top: 1%;
+  color: black;
+  font-weight: 120;
+  align-items: center;
+  text-align: center;
+  font-family: "Lexend", serif;
+}
+
+
+
+
+
+@media (max-width: 2350px){
+
+
+  section .portfolio2{
+    margin-top: 0%;
+
+  }
+
+
+}
+
+@media (max-width: 2050px){
+
+
+  section .portfolio2{
+    margin-top: -10%;
+
+  }
+
+
+}
+
+
+@media (max-width: 1920px){
+
+  section .portfoliopicks{
+    scale: 50%;
+    margin-top: -2%;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+  }
+    
+  section .portfolio2{
+    scale: 51.6%;
+    margin-top: -12%;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+  }
+
+  .gradients{
+    position: relative;
+    margin-top: -40%;
+    transform: scale(55%);
+    z-index: -1;
+  }
+
+  .gradients2{
+    position: relative;
+    margin-top: -40%;
+    transform: scale(55%);
+    z-index: -1;
+  }
+
 }

@@ -4,14 +4,12 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NavBar from "./components/Nav";
-import Header from "./components/Header";
+import "./index.css";
 
 function App() {
   return (
     <div>
       <NavBar />
-      <h1>Gamer</h1>
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
