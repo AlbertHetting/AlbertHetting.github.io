@@ -8,11 +8,13 @@ return (
 
 
 <section className="upper">
-    <video id="mainvideo" 
-    src="public/Videos/HomepageFINAL.mp4" 
-    autoPlay  
-    muted 
-    />
+  <video
+    id="mainvideo"
+    src="/videos/HomepageFINAL.mp4"
+    autoPlay
+    muted
+    preload="metadata"
+  />
 </section>
 
 <QuickSummary/>
