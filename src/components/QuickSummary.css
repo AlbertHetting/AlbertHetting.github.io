@@ -1,79 +1,269 @@
+:root {
+  --icon-size: 80px;
+  --Company-size: 80px;
+  --icon-size-small: 50px;
+
+  /* spacing tokens */
+  --space-xs: 0.5rem;   /* ~8px  */
+  --space-sm: 0.75rem;  /* ~12px */
+  --space-md: 1rem;     /* ~16px */
+  --space-lg: 1.5rem;   /* ~24px */
+  --space-xl: 3rem;     /* ~48px */
+}
+
 .SummaryText{
   color: black;
   font-family: "lexend", serif;
   font-weight: 400;
   font-size: 45px;
-  opacity: 0.85;
-  margin-top: 5%;
-  margin-left: 20%;
+  margin-top: 6%;
+  text-align: center;
 }
 
-.Statistics h1{
-    color: black;
-    font-family: "lexend", serif;
-    font-weight: 200;
-    font-size: 35px;
+.StatisticsCon {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Quick Summary part */
+.Statistics h1 {
+  color: black;
+  font-family: "lexend", serif;
+  font-weight: 100;
+  font-size: 28px;
 }
 
 .Statistics {
   display: flex;
-  flex-wrap: wrap;          /* allow items to go to a new line */
-  justify-content: flex-end;/* right-align the first row */
-  gap: 15%;                /* optional spacing */
-  margin-right: 3%;
-  margin-top: 2%;
+  justify-content: flex-end;       
+  gap: var(--space-xl);            
+  margin-top: var(--space-md);     
 }
 
-.line{
-    width: 100%;
-    height: 3px;
-    background: black;
-    opacity: 0.5;
-    border-radius: 2px;
-    margin-top: 3%;
+.line,
+.line2 {
+  width: 100%;
+  height: 3px;
+  background: black;
+  opacity: 0.5;
+  border-radius: 2px;
+  margin-top: var(--space-md);
+}
+
+.line3 {
+  width: 100%;
+  height: 3px;
+  background: black;
+  opacity: 0.5;
+  border-radius: 2px;
+  margin-top: var(--space-md);
+}
+
+.Statistics h2 {
+  color: black;
+  font-family: "lexend", serif;
+  font-weight: 500;
+  font-size: 65px;
+  text-align: center;
 }
 
 
-
-.Statistics h1{
-    color: black;
-    font-family: "lexend", serif;
-    font-weight: 200;
-    font-size: 35px;
-    margin-bottom: 0%;
-}
-
-
-
-.Statistics2 h1{
-    color: black;
-    font-family: "lexend", serif;
-    font-weight: 200;
-    font-size: 35px;
-}
-
-.Statistics2 {
+.ProgramRow { /* FIX THIS*/
   display: flex;
-  justify-content: flex-end;/* right-align the first row */
-  text-align: right;
-  gap: 15%;                /* optional spacing */
-  margin-right: 3%;
-  margin-top: 3%;
+  gap: var(--space-lg);           
+  margin-top: var(--space-lg);     
 }
 
-
-:root { --icon-size: 56px; }
-
-
-.program-icons {
-  display: flex;        /* or grid */
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  gap: 2%;
-}
 
 .program-icons img {
-  max-width: var(--icon-size); /* cap each icon’s width */
-  height: auto;                /* keep aspect ratio */
+  max-width: var(--icon-size);
+  height: auto;                    
   display: block;
 }
+
+.arbejdsinfo {
+  display: flex;
+  gap: var(--space-lg);           
+  margin-top: var(--space-lg);     
+}
+
+.arbejdsinfo h3 {
+  font-family: "lexend", serif;
+  font-weight: 250;
+  color: black;
+  opacity: 0.7;
+}
+
+.WorkText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.Companies img {
+  max-width: var(--Company-size);
+  border-radius: 12px;
+}
+
+.arbejde, .program-icons {
+  width: auto;
+}
+
+.ProjectText {
+  display: flex;
+  gap: var(--space-lg);            /* was 5% */
+  margin-top: var(--space-lg);     /* was 4% */
+}
+
+.Projekter p {
+  font-family: "lexend", Serif;
+  align-items: center;
+  font-size: 18px;
+  color: black;
+  opacity: 0.7;
+}
+
+
+
+
+
+
+/* ANIMATION af ikoner og tekst I quicksummary (fra hook)*/
+
+:root{
+  --reveal-distance: -18px;
+  --reveal-duration: .6s;
+  --stagger-step: 120ms; 
+}
+
+/* Fade down */
+.program-icons.reveal{
+  opacity: 0;
+  transform: translateY(var(--reveal-distance));
+  transition: opacity var(--reveal-duration) ease,
+              transform var(--reveal-duration) ease;
+  will-change: opacity, transform;
+}
+.program-icons.reveal.in-view{
+  opacity: 1;
+  transform: none;
+}
+
+/* Select grandchildren, and animate */
+.program-icons.reveal.stagger > .ProgramRow > .program-icon{
+  opacity: 0;
+  transform: translateY(var(--reveal-distance));
+  transition: opacity var(--reveal-duration) ease,
+              transform var(--reveal-duration) ease;
+}
+
+/* If in view */
+.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon{
+  opacity: 1;
+  transform: none;
+}
+
+/* Dalay per item*/
+.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(1) { transition-delay: calc(0 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(2) { transition-delay: calc(1 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(3) { transition-delay: calc(2 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(4) { transition-delay: calc(3 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(5) { transition-delay: calc(4 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(6) { transition-delay: calc(5 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(7) { transition-delay: calc(6 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(8) { transition-delay: calc(7 * var(--stagger-step)); }
+
+
+
+/*Meida Rules for en smule responsiveness*/
+
+@media (max-width: 1385px) {
+
+.StatisticsCon {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.Statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;       
+  gap: var(--space-xl);            
+  margin-top: var(--space-md);     
+}
+
+.arbejdsinfo {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-lg);           
+  margin-top: var(--space-lg);     
+}
+
+.Arbejde h1{
+  display: flex;
+  justify-content: center;
+}
+
+.line,
+.line2,
+.line3 {
+  width: 50%;
+  margin-left: 25%;
+  align-items: center;
+  height: 3px;
+  background: black;
+  opacity: 0.5;
+  border-radius: 2px;
+  margin-top: var(--space-md);
+}
+
+
+.Projekter h1{
+  display: flex;
+  justify-content: center;
+}
+
+
+.ProjectText {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-lg);            /* was 5% */
+  margin-top: var(--space-lg);     /* was 4% */
+}
+
+
+
+.program-icons h1 {
+display: flex;
+justify-content: center;
+}
+
+
+.program-icons img {
+  max-width: var(--icon-size-small);
+  height: auto;                    
+  display: block;
+}
+
+.arbejdsinfo img{
+  max-width: var(--icon-size);
+}
+
+
+.ProgramRow { /* FIX THIS*/
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);           
+  margin-top: var(--space-lg);     
+}
+
+
+}
+
+
+

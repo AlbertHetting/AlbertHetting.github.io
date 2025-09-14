@@ -5,6 +5,5 @@
   { "id": 4, "image": "public/Icons/LightRoom.png" },
   { "id": 5, "image": "public/Icons/Photoshop.png" },
   { "id": 6, "image": "public/Icons/PremierePro.png" },
-  { "id": 7, "image": "public/Icons/Procreate.png" },
-  { "id": 8, "image": "public/Icons/VSCode.png" }
+  { "id": 7, "image": "public/Icons/Procreate.png" }
 ]
