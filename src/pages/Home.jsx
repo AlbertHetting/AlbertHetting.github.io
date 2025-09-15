@@ -1,4 +1,5 @@
 import QuickSummary from "../components/QuickSummary";
+import Footer from "../components/Footer.jsx"
 
 export default function Home() {
 
@@ -25,12 +26,18 @@ return (
 
     <h1>Want to know more?</h1>
 
-    <button>
-      Download CV
-    </button>
+  <a
+    className="button"                              
+    href={`${import.meta.env.BASE_URL}public/CVALBERTHETING2025.jpg`}
+    download
+  >
+    Download CV
+  </a>
 
 
     </section>
+
+  <Footer></Footer>
 
 
 </div>
