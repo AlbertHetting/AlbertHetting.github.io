@@ -1,8 +1,10 @@
 import "./FooterStyle.css";
+import { useRevealOnScroll } from "../Hooks/ScrollAni.jsx";
+
 
 export default function Footer(){
 
-
+useRevealOnScroll(); 
 
             return(
 
@@ -10,6 +12,8 @@ export default function Footer(){
             <div className="FooterCon">
                 <footer>
 
+
+                <div className="program-icons reveal stagger">
                 <div className="Contact">
                     <h2> Contact </h2>
                     <div className="line4"></div>
@@ -17,11 +21,13 @@ export default function Footer(){
                     <h1>Phone: +45 50 45 15 04</h1>
                     <h1>Email work: Albert@wifinowevents.com</h1>
                 </div>
+                </div>
 
 
 
                 <div className="Socials">
 
+                        <div className="program-icons reveal stagger">
                         <h2>Socials</h2>
                         <div className="line5"></div>
 
@@ -41,11 +47,13 @@ export default function Footer(){
                         <img src={`${import.meta.env.BASE_URL}SocialIcons/LinkedIn.png`} href="https://www.linkedin.com/in/alberthetting/"/>
                         <a href="https://www.linkedin.com/in/alberthetting/">Linkedin</a>
                         </div>
+                        </div>
 
                 </div>
 
 
                 <div className="Contact">
+                    <div className="program-icons reveal stagger">
                     <h2> Downloads </h2>
                     <div className="line4"></div>
                
@@ -55,7 +63,7 @@ export default function Footer(){
                         Download CV
                      </a>
 
-
+                    </div>
 
                 </div>
 
