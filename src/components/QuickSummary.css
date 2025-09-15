@@ -2,6 +2,8 @@
   --icon-size: 80px;
   --Company-size: 80px;
   --icon-size-small: 50px;
+  --works-size: 600px;
+  --works-size-small: 300px;
 
   /* spacing tokens */
   --space-xs: 0.5rem;   /* ~8px  */
@@ -9,6 +11,7 @@
   --space-md: 1rem;     /* ~16px */
   --space-lg: 1.5rem;   /* ~24px */
   --space-xl: 3rem;     /* ~48px */
+  --space-xxl: 6rem;    /*  96px */
 }
 
 .SummaryText{
@@ -69,7 +72,7 @@
 }
 
 
-.ProgramRow { /* FIX THIS*/
+.ProgramRow { 
   display: flex;
   gap: var(--space-lg);           
   margin-top: var(--space-lg);     
@@ -113,8 +116,8 @@
 
 .ProjectText {
   display: flex;
-  gap: var(--space-lg);            /* was 5% */
-  margin-top: var(--space-lg);     /* was 4% */
+  gap: var(--space-lg);            
+  margin-top: var(--space-lg);     
 }
 
 .Projekter p {
@@ -125,7 +128,34 @@
   opacity: 0.7;
 }
 
+.AboutMeText h1{
+  margin-top: var(--space-xl);
+  color: black;
+  font-family: "lexend", Serif;  font-size: 30px;
+  text-align: center;
+  color: black;
+  opacity: 1;
+  padding-bottom: var(--space-md);
+}
 
+
+.AboutMeText p{
+  margin-top: var(--space-xs);
+  color: black;
+  font-family: "lexend", Serif;
+  font-size: 18px;
+  color: black;
+  opacity: 0.8;
+}
+
+
+.AboutMeText {
+  max-width: 115ch;        
+  margin: 3rem auto 0;
+  padding-top: 0.1rem;            
+  text-align: left;   
+  padding-bottom: var(--space-xl);     
+}
 
 
 
@@ -133,17 +163,19 @@
 /* ANIMATION af ikoner og tekst I quicksummary (fra hook)*/
 
 :root{
-  --reveal-distance: -18px;
-  --reveal-duration: .6s;
-  --stagger-step: 120ms; 
+  --reveal-distance: -25px;
+  --reveal-duration: .5s;
+  --stagger-step: 100ms; 
 }
 
-/* Fade down */
+
+/* Fade-down */
 .program-icons.reveal{
   opacity: 0;
   transform: translateY(var(--reveal-distance));
-  transition: opacity var(--reveal-duration) ease,
-              transform var(--reveal-duration) ease;
+  transition:
+    opacity var(--reveal-duration) ease,
+    transform var(--reveal-duration) ease;
   will-change: opacity, transform;
 }
 .program-icons.reveal.in-view{
@@ -151,29 +183,127 @@
   transform: none;
 }
 
-/* Select grandchildren, and animate */
-.program-icons.reveal.stagger > .ProgramRow > .program-icon{
+/* Animate GRANDCHILDREN: .program-icons.reveal.stagger */
+.program-icons.reveal.stagger > * > *{
   opacity: 0;
   transform: translateY(var(--reveal-distance));
-  transition: opacity var(--reveal-duration) ease,
-              transform var(--reveal-duration) ease;
+  transition:
+    opacity var(--reveal-duration) ease,
+    transform var(--reveal-duration) ease;
 }
 
-/* If in view */
-.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon{
+/* Final state */
+.program-icons.reveal.in-view.stagger > * > *{
   opacity: 1;
   transform: none;
 }
 
-/* Dalay per item*/
-.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(1) { transition-delay: calc(0 * var(--stagger-step)); }
-.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(2) { transition-delay: calc(1 * var(--stagger-step)); }
-.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(3) { transition-delay: calc(2 * var(--stagger-step)); }
-.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(4) { transition-delay: calc(3 * var(--stagger-step)); }
-.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(5) { transition-delay: calc(4 * var(--stagger-step)); }
-.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(6) { transition-delay: calc(5 * var(--stagger-step)); }
-.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(7) { transition-delay: calc(6 * var(--stagger-step)); }
-.program-icons.reveal.in-view.stagger > .ProgramRow > .program-icon:nth-child(8) { transition-delay: calc(7 * var(--stagger-step)); }
+/* Stagger delays across the grandchildren */
+.program-icons.reveal.in-view.stagger > * > *:nth-child(1) { transition-delay: calc(0 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > * > *:nth-child(2) { transition-delay: calc(1 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > * > *:nth-child(3) { transition-delay: calc(2 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > * > *:nth-child(4) { transition-delay: calc(3 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > * > *:nth-child(5) { transition-delay: calc(4 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > * > *:nth-child(6) { transition-delay: calc(5 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > * > *:nth-child(7) { transition-delay: calc(6 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > * > *:nth-child(8) { transition-delay: calc(7 * var(--stagger-step)); }
+.program-icons.reveal.in-view.stagger > * > *:nth-child(9) { transition-delay: calc(8 * var(--stagger-step)); }
+
+
+
+
+
+.WorksContainer{
+  margin-top: var(--space-xl);
+  height: auto;
+  padding-bottom: 4rem;
+  background-color: rgb(235, 235, 235);
+}
+
+
+.WorksText h1{
+  padding-top: var(--space-xl) ;
+  padding-bottom: var(--space-xl);
+  color: black;
+  font-family: "lexend", Serif;  
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  opacity: 1;
+}
+
+
+.WorksGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
+  gap: 2rem;
+  max-width: 120rem;     /* center the whole grid block */
+  margin: 0 auto;        /* centers the container */
+  padding: 0 1rem;       /* optional side padding */
+}
+
+/* center content inside each card */
+.WorksGrid > * { display: grid; place-items: center; }
+
+
+.WorksIcon img{
+  max-width: var(--works-size);
+}
+
+
+.CVsection{
+  padding-top: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CVsection h1{
+  font-family: "lexend", serif;
+  color: black;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+
+
+button {
+  align-items: center;
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: "lexend", serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+}
+
+button:before {
+  background-color: #000000;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 0;
+}
+
+button:hover:before {
+  background-color: #000000;
+  width: 5rem;
+}
+
+
+
+
+
 
 
 
@@ -232,8 +362,8 @@
 .ProjectText {
   display: flex;
   justify-content: center;
-  gap: var(--space-lg);            /* was 5% */
-  margin-top: var(--space-lg);     /* was 4% */
+  gap: var(--space-lg);            
+  margin-top: var(--space-lg);     
 }
 
 
@@ -255,11 +385,30 @@ justify-content: center;
 }
 
 
-.ProgramRow { /* FIX THIS*/
+.ProgramRow { 
   display: flex;
   justify-content: center;
   gap: var(--space-sm);           
   margin-top: var(--space-lg);     
+}
+
+
+
+.WorksGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
+  gap: 2rem;
+  max-width: 60rem;     /* center the whole grid block */
+  margin: 0 auto;        /* centers the container */
+  padding: 0 1rem;       /* optional side padding */
+}
+
+/* center content inside each card */
+.WorksGrid > * { display: grid; place-items: center; }
+
+
+.WorksIcon img{
+  max-width: var(--works-size-small);
 }
 
 

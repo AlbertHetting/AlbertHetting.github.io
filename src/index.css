@@ -20,6 +20,8 @@ body{
 #mainvideo{
     width: 75%;
     overflow: hidden;
+    height: auto;
+    aspect-ratio: 16 / 9;    
 }
 
 .maintitle h1{

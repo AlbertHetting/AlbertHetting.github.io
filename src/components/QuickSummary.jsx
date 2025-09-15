@@ -2,6 +2,7 @@ import "./QuickSummary.css";
 import Programs from "./Programs.jsx";
 import WorkHistory from "./Companies.jsx";
 import { useRevealOnScroll } from "../Hooks/ScrollAni.jsx";
+import Highlights from "./BestWorks.jsx";
 
 
 
@@ -47,8 +48,24 @@ useRevealOnScroll();
     </section>
     </div>
 
-        
- 
+    <div className="program-icons reveal stagger">
+    <section className="AboutMeText"> 
+
+      <h1>Who Am I?</h1>
+
+      <p> Skills range from communication, management and instruction to technical support, database management and video production. <br></br> <br></br>
+
+          My strongest attributes are: discipline, relaxed, persistence, passion and consistency.  <br></br> <br></br>
+
+          I stay logical under pressure while remaining organized in digital workflows where I strive to create something better than last time.
+      </p>
+
+    </section>
+    </div>
+
+
+      <Highlights></Highlights>
+
 
     </div>
   );
