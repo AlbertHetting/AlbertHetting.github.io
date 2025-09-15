@@ -26,19 +26,19 @@ export default function Footer(){
                         <div className="line5"></div>
 
                         <div className="Social1">
-                        <img src="../public/SocialIcons/Github.png" href="https://github.com/AlbertHetting"/>
+                        <img src={`${import.meta.env.BASE_URL}SocialIcons/Github.png`} href="https://github.com/AlbertHetting"/>
                         <a href="https://github.com/AlbertHetting">Github</a>
                         </div>
 
 
                          <div className="Social2">
-                        <img src="../public/SocialIcons/Instagram.png" href="https://www.instagram.com/albert_hetting/"/>
+                        <img src={`${import.meta.env.BASE_URL}SocialIcons/Instagram.png`} href="https://www.instagram.com/albert_hetting/"/>
                         <a href="https://www.instagram.com/albert_hetting/">Instagram</a>
                         </div>
 
 
                          <div className="Social3">
-                        <img src="../public/SocialIcons/LinkedIn.png" href="https://www.linkedin.com/in/alberthetting/"/>
+                        <img src={`${import.meta.env.BASE_URL}SocialIcons/LinkedIn.png`} href="https://www.linkedin.com/in/alberthetting/"/>
                         <a href="https://www.linkedin.com/in/alberthetting/">Linkedin</a>
                         </div>
 
