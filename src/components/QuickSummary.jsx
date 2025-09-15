@@ -53,7 +53,7 @@ useRevealOnScroll();
 
       <h1>Who Am I?</h1>
 
-      <p> Skills range from communication, management and instruction to technical support, database management and video production. <br></br> <br></br>
+      <p> My skills range from communication, management and instruction to technical support, database management and video production. <br></br> <br></br>
 
           My strongest attributes are: discipline, relaxed, persistence, passion and consistency.  <br></br> <br></br>
 

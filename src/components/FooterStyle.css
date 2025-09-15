@@ -10,7 +10,7 @@
 Footer {
   display: flex;
   justify-content: flex-end;       
-  gap: var(--space-xl);            
+  gap: 8rem;            
   margin-top: var(--space-md);  
   padding-bottom: 2rem;   
 }
@@ -93,4 +93,25 @@ footer, h2{
 .button2:hover:before {
   background-color: #000000;
   width: 3rem;
+}
+
+
+@media (max-width: 1200px){
+
+
+Footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.FooterCon {
+  margin-top: 0rem;
+  display: flex;
+  justify-content: center;
+}
+
+
 }

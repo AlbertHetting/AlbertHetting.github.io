@@ -4,6 +4,7 @@
   --icon-size-small: 50px;
   --works-size: 600px;
   --works-size-small: 300px;
+  --works-size-xs: 180px;
   --works-size-medium: 450px;
 
   /* spacing tokens */
@@ -217,7 +218,7 @@
 .WorksContainer{
   margin-top: var(--space-xl);
   height: auto;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   background-color: rgb(235, 235, 235);
 }
 
@@ -443,6 +444,30 @@ justify-content: center;
   max-width: var(--works-size-small);
 }
 
+
+}
+
+
+
+
+@media (max-width: 980px){
+
+
+.WorksIcon img{
+  max-width: var(--works-size-xs);
+}
+
+.WorksGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
+  gap: 2rem;
+  max-width: 40rem;     /* center the whole grid block */
+  margin: 0 auto;        /* centers the container */
+  padding: 0 1rem;       /* optional side padding */
+}
+
+/* center content inside each card */
+.WorksGrid > * { display: grid; place-items: center; }
 
 }
 

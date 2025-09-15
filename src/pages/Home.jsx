@@ -11,7 +11,7 @@ return (
 <section className="upper">
   <video
     id="mainvideo"
-    src="/videos/HomepageFINAL.mp4"
+    src="/videos/HomepageFinal2.mp4"
     autoPlay
     muted
     playsInline
