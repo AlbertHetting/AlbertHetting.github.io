@@ -11,7 +11,7 @@ return (
 <section className="upper">
   <video
     id="mainvideo"
-    src="/videos/HomepageFinal2.mp4"
+    src="/videos/HomepageFinal3.mp4"
     autoPlay
     muted
     playsInline
@@ -21,7 +21,7 @@ return (
 
 <QuickSummary/>
 
-
+  <div className="program-icons reveal stagger">
     <section className="CVsection">
 
     <h1>Want to know more?</h1>
@@ -36,6 +36,7 @@ return (
 
 
     </section>
+    </div>
 
   <Footer></Footer>
 

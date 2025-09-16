@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import ProjectDisplay from "../components/Projectdisplay";
 import { NavLink } from "react-router";
+import "../components/Projects.css"
+
+
 
 export default function Projects() {
   const [project, setProjects] = useState([]);
@@ -14,10 +17,21 @@ export default function Projects() {
     getData();
   }, []);
   return (
-    <section id="clients">
-      <div className="headline-container">
-        <h2>Projects</h2>
-      </div>
+      <div>
+
+
+        <section className="upper2">
+        <video
+          id="mainvideo2"
+         src="/videos/ProjectFinal4.mp4"
+         autoPlay
+          muted
+          playsInline
+          preload="metadata"/>
+        </section>
+
+
+    <section id="Projects">
       {project.map((project) => (
         <div key={project.id}>
           <ProjectDisplay project={project} />
@@ -25,5 +39,6 @@ export default function Projects() {
         </div>
       ))}
     </section>
+    </div>
   );
 }

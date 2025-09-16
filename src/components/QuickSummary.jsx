@@ -53,7 +53,7 @@ useRevealOnScroll();
 
 
 
-        <div className="program-icons reveal stagger">
+    <div className="program-icons reveal stagger">
     <section className="AboutMeText"> 
 
       <h1>Who Am I?</h1>

@@ -1,0 +1,234 @@
+:root {
+  --header-font: 32px;
+    --normal-text: 20px;
+    --medium-font: 24px;
+    --thumbnail-size: 1250px;
+    --thumbnail-medium: 950px;
+    --icon-size-normal: 40px;
+
+}
+
+body{
+    color: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+/* ANIMATION af ikoner og tekst I quicksummary (fra hook)*/
+
+:root{
+  --reveal-distance: -25px;
+  --reveal-duration: .5s;
+  --stagger-step: 100ms; 
+}
+
+
+/* Fade-down */
+.Thumbnail.reveal2{
+  opacity: 0;
+  transform: translateY(var(--reveal-distance));
+  transition:
+    opacity var(--reveal-duration) ease,
+    transform var(--reveal-duration) ease;
+  will-change: opacity, transform;
+}
+.Thumbnail.reveal2.in-view2{
+  opacity: 1;
+  transform: none;
+}
+
+/* Animate GRANDCHILDREN: .program-icons.reveal.stagger */
+.Thumbnail.reveal2.stagger > * > *{
+  opacity: 0;
+  transform: translateY(var(--reveal-distance));
+  transition:
+    opacity var(--reveal-duration) ease,
+    transform var(--reveal-duration) ease;
+}
+
+/* Final state */
+.Thumbnail.reveal2.in-view2.stagger > * > *{
+  opacity: 1;
+  transform: none;
+}
+
+/* Stagger delays across the grandchildren */
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(1) { transition-delay: calc(0 * var(--stagger-step)); }
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(2) { transition-delay: calc(1 * var(--stagger-step)); }
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(3) { transition-delay: calc(2 * var(--stagger-step)); }
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(4) { transition-delay: calc(3 * var(--stagger-step)); }
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(5) { transition-delay: calc(4 * var(--stagger-step)); }
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(6) { transition-delay: calc(5 * var(--stagger-step)); }
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(7) { transition-delay: calc(6 * var(--stagger-step)); }
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(8) { transition-delay: calc(7 * var(--stagger-step)); }
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(9) { transition-delay: calc(8 * var(--stagger-step)); }
+
+
+
+
+
+
+
+  
+
+/* Rest of css */
+
+.upper2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#mainvideo2{
+    width: 85%;
+    overflow: hidden;
+    height: auto;
+    aspect-ratio: 32 / 15;    
+}
+
+
+
+.project-row h3{
+    font-family: "lexend", serif;
+    color: black;
+    max-width: 10ch;
+    font-weight: 380;
+    font-size: var(--medium-font);
+}
+
+
+.project-row h2{
+    font-family: "lexend", serif;
+    color: black;
+    max-width: 10ch;
+    font-weight: 200;
+    font-size: var(--normal-text);
+    padding-top: 1rem;
+}
+
+
+.projectimage{
+    max-width: var(--thumbnail-size);
+    position: relative;
+    display: block;
+    border-radius: 10px;
+     z-index: 1; 
+}
+
+.project-container{
+    padding-top: 3rem;
+}
+
+
+
+
+
+.project-row{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-right: 5.5%;
+}
+
+
+.project-apps img{
+    max-width: var(--icon-size-normal);
+    object-fit: contain;
+    display: block;
+    margin: 0; 
+}
+
+.project-apps{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 per row */
+  column-gap: 0.5rem;   /* only horizontal spacing */
+  row-gap: 0.5rem;         /* no vertical spacing */
+  list-style: none;   
+  padding: 0;         /* remove default UL padding */
+  margin: 0;          /* remove default UL margin */
+
+    align-content: start;
+    align-items: start;
+    justify-items: start;
+     height: auto;       /* override any inherited fixed height */
+
+}
+
+
+
+#glow-1 {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  /* single-color glow */
+  box-shadow: 0 0 30px 8px hsla(347, 100%, 54%, 0.45);
+}
+
+#glow-2 {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  /* single-color glow */
+  box-shadow: 0 0 30px 8px hsla(44, 54%, 54%, 0.45);
+}
+
+#glow-3 {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  /* single-color glow */
+  box-shadow: 0 0 30px 8px hsla(279, 79%, 11%, 0.45);
+}
+
+
+@media (max-width: 1950px){
+
+.projectimage{
+    max-width: var(--thumbnail-medium);
+    position: relative;
+    display: block;
+    border-radius: 10px;
+     z-index: 1; 
+}
+
+.project-container{
+    padding-top: 3rem;
+}
+
+
+
+
+
+.project-row{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-right: 2%;
+}
+
+
+.project-apps img{
+    max-width: var(--icon-size-normal);
+    object-fit: contain;
+    display: block;
+    margin: 0; 
+}
+
+
+
+}
+

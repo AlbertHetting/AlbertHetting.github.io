@@ -10,24 +10,24 @@
 Footer {
   display: flex;
   justify-content: flex-end;       
-  gap: 8rem;            
+  gap: 12rem;            
   margin-top: var(--space-md);  
-  padding-bottom: 2rem;   
+  padding-bottom: 5rem;   
 }
 
 
 footer, h1{
     color: black;
     font-family: "lexend", serif;
-    font-size: 25px;
-    font-weight: 350;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 footer, h2{
-    color: black;
-    font-family: "lexend", serif;
-    font-size: 30px;
-    font-weight: 450;
+  color: black;
+  font-family: "lexend", serif;
+  font-weight: 100;
+  font-size: 28px;
 }
 
 
@@ -50,7 +50,7 @@ footer, h2{
 
 
 .Socials img{
-    max-width: 32px;
+    max-width: 25px;
 
 }
 
@@ -58,7 +58,7 @@ footer, h2{
 .Socials a{
     color: black;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -70,7 +70,7 @@ footer, h2{
   cursor: pointer;
   display: flex;
   font-family: "lexend", serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
   text-decoration: none;
@@ -92,7 +92,7 @@ footer, h2{
 
 .button2:hover:before {
   background-color: #000000;
-  width: 3rem;
+  width: 2rem;
 }
 
 
@@ -104,6 +104,9 @@ Footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 4rem;            
+  margin-top: var(--space-md);  
+  padding-bottom: 5rem;  
 }
 
 
@@ -111,6 +114,14 @@ Footer {
   margin-top: 0rem;
   display: flex;
   justify-content: center;
+}
+
+
+
+.Social1, .Social2, .Social3{
+    display: flex;
+    gap: 0rem;
+    align-items: center;
 }
 
 

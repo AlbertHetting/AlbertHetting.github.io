@@ -1,24 +1,52 @@
 [
   {
     "id": 1,
-    "title": "Sonar, Radar Rebrand",
-    "year": 2024,
-    "description": "Mit portfolio bygget med React.",
-    "tags": ["Sonar", "Portfolio", "Frontend"],
-    "image": "public/Icons/AfterEffects.png",
-    "links": [
-      { "url": "https://AlbertHetting.github.io", "text": "React Portfolio" }
-    ]
-  },
-  {
-    "id": 2,
     "title": "Steeno Museum Interactive Experience",
     "year": 2025,
-    "description": "Mit portfolio bygget med React.",
+    "month": 5,
+    "date": 23,
+    "description": "23/5 - 2025",
     "tags": ["React", "Portfolio", "Frontend"],
-    "image": "/img/portfolio.webp",
-    "links": [
-      { "url": "https://AlbertHetting.github.io", "text": "React Portfolio" }
+    "image": "public/Projects/Steeno.jpg",
+      "appIcons": [
+      "public/Icons/AfterEffects.png",
+      "public/Icons/PremierePro.png",
+      "public/Icons/VSCode.png"
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Music Quiz Class CO-OP Assignment",
+    "year": 2025,
+    "month": 2,
+    "date": 6,
+    "description": "6/2 - 2025",
+    "tags": ["React", "Portfolio", "Frontend"],
+    "image": "public/Projects/MusicQuiz.jpg",
+       "appIcons": [
+      "public/Icons/VSCode.png",
+      "public/Icons/PremierePro.png"
+    ]
+  },
+
+    {
+    "id": 3,
+    "title": "Sonar, Radar Rebrand",
+    "year": 2024,
+    "month": 12,
+    "date": 19,
+    "description": "19/12 - 2024",
+    "tags": ["Sonar", "Portfolio", "Frontend"],
+    "image": "public/Projects/Sonar.jpg",
+       "appIcons": [
+      "public/Icons/LightRoom.png",
+      "public/Icons/Illustrator.png",
+      "public/Icons/Procreate.png",
+      "public/Icons/VSCode.png"
     ]
   }
+
+
+
 ]
