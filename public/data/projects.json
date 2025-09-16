@@ -7,7 +7,7 @@
     "date": 23,
     "description": "23/5 - 2025",
     "tags": ["React", "Portfolio", "Frontend"],
-    "image": "Projects/Steeno.jpg",
+    "image": "ProjectImages/Steeno.jpg",
       "appIcons": [
       "public/Icons/AfterEffects.png",
       "public/Icons/PremierePro.png",
@@ -23,7 +23,7 @@
     "date": 6,
     "description": "6/2 - 2025",
     "tags": ["React", "Portfolio", "Frontend"],
-    "image": "Projects/MusicQuiz.jpg",
+    "image": "ProjectImages/MusicQuiz.jpg",
        "appIcons": [
       "public/Icons/VSCode.png",
       "public/Icons/PremierePro.png"
@@ -38,7 +38,7 @@
     "date": 19,
     "description": "19/12 - 2024",
     "tags": ["Sonar", "Portfolio", "Frontend"],
-    "image": "Projects/Sonar.jpg",
+    "image": "ProjectImages/Sonar.jpg",
        "appIcons": [
       "public/Icons/LightRoom.png",
       "public/Icons/Illustrator.png",

@@ -7,6 +7,17 @@ export default function ProjectDisplay({ project }) {
 
 useRevealOnScroll2(); 
 
+
+const withBase = (p) => {
+  const base = import.meta.env.BASE_URL || "/"; // e.g. "/your-repo/" on GH Pages
+  if (!p) return "";
+  if (p.startsWith("public/")) return base + p.slice(7);          // "public/Projects/x.jpg" -> "/your-repo/Projects/x.jpg"
+  if (p.startsWith("/")) return base === "/" ? p : base + p.slice(1); // "/Projects/x.jpg" -> "/your-repo/Projects/x.jpg"
+  return base + p;                                                 // "Projects/x.jpg" -> "/your-repo/Projects/x.jpg"
+};
+
+
+
   return (
     <div className="project-container">
       <div className="Thumbnail reveal2 stagger">
@@ -19,9 +30,12 @@ useRevealOnScroll2();
       <figure>
 
 
-        <img src={project.image} alt={project.description} className="projectimage" id={project ? `glow-${project.id}` : undefined} />
-
-
+       <img
+        className="projectimage"
+        src={withBase(project?.image)}
+        alt={project?.description || ""}
+        id={project ? `glow-${project.id}` : undefined}
+      />
 
       </figure>
 
