@@ -58,9 +58,9 @@ useRevealOnScroll();
 
       <h1>Who Am I?</h1>
 
-      <p> My skills range from communications, project management & training to technical support, database administration and video production. <br></br> <br></br>
+      <p> My skills range from communications, project management & training to technical support, database administration, & video production. 
 
-          My strongest attributes are: Discipline, focus, persistence, passion and consistency.  <br></br> <br></br>
+          My strongest attributes are: Discipline, focus, persistence, passion, & consistency.
 
           In digital workflows I always strive to create something better than my previous project.
       </p>
