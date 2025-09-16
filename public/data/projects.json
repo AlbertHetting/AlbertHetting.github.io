@@ -4,8 +4,8 @@
     "title": "Sonar, Radar Rebrand",
     "year": 2024,
     "description": "Mit portfolio bygget med React.",
-    "tags": ["React", "Portfolio", "Frontend"],
-    "image": "/img/portfolio.webp",
+    "tags": ["Sonar", "Portfolio", "Frontend"],
+    "image": "public/Icons/AfterEffects.png",
     "links": [
       { "url": "https://AlbertHetting.github.io", "text": "React Portfolio" }
     ]

@@ -48,7 +48,12 @@ useRevealOnScroll();
     </section>
     </div>
 
-    <div className="program-icons reveal stagger">
+
+      <Highlights></Highlights>
+
+
+
+        <div className="program-icons reveal stagger">
     <section className="AboutMeText"> 
 
       <h1>Who Am I?</h1>
@@ -62,9 +67,6 @@ useRevealOnScroll();
 
     </section>
     </div>
-
-
-      <Highlights></Highlights>
 
 
     </div>

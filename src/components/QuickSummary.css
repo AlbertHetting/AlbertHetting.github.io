@@ -132,7 +132,7 @@
 }
 
 .AboutMeText h1{
-  margin-top: var(--space-xl);
+  margin-top: var(--space-md);
   color: black;
   font-family: "lexend", Serif;  font-size: 30px;
   text-align: center;
@@ -146,6 +146,7 @@
   margin-top: var(--space-xs);
   color: black;
   font-family: "lexend", Serif;
+  text-align: center;
   font-size: 18px;
   color: black;
   opacity: 0.8;
@@ -153,11 +154,11 @@
 
 
 .AboutMeText {
-  max-width: 115ch;        
+  max-width: 100ch;        
   margin: 3rem auto 0;
   padding-top: 0.1rem;            
   text-align: left;   
-  padding-bottom: var(--space-xl);     
+  padding-bottom: var(--space-sm);     
 }
 
 
@@ -256,7 +257,7 @@
 
 
 .CVsection{
-  padding-top: var(--space-xl);
+  padding-top: var(--space-md);
   display: flex;
   flex-direction: column;
   align-items: center;

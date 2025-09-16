@@ -3,7 +3,7 @@ import "../index.css";
 
 const NAV = [
   { label: "Home", to: "/" },
-  { label: "Works", to: "/projects" /*, children: [] */ },
+  { label: "Projects", to: "/projects" /*, children: [] */ },
   { label: "About", to: "/about" },
 ];
 

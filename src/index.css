@@ -119,7 +119,7 @@ header {
 /* On hover/focus: move up by ONE of the two lines */
 .navigation a:hover .nav-letter-inner,
 .navigation a:focus-visible .nav-letter-inner {
-  transform: translateY(-50%);
+  transform: translateY(-54%);
 }
 
 

@@ -16,7 +16,7 @@ export default function Projects() {
   return (
     <section id="clients">
       <div className="headline-container">
-        <h2>Clients</h2>
+        <h2>Projects</h2>
       </div>
       {project.map((project) => (
         <div key={project.id}>
