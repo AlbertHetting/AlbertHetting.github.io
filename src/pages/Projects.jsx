@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import ProjectDisplay from "../components/Projectdisplay";
 import { NavLink } from "react-router";
 import "../components/Projects.css"
+import Footer from "../components/Footer.jsx"
 
 
 
@@ -39,6 +40,9 @@ export default function Projects() {
         </div>
       ))}
     </section>
+
+        <Footer></Footer>
+
     </div>
   );
 }

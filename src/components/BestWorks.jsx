@@ -13,7 +13,7 @@ export default function Highlights(){
     
       useEffect(() => {
         async function getData() {
-          const response = await fetch("/data/Highlights.json"); // Highlights JSON
+          const response = await fetch("/data/Highlights.json"); 
           const data = await response.json();
           setHighlights(data);
         }
@@ -38,7 +38,7 @@ export default function Highlights(){
             ? highlights.image.replace(/^public\//, "/")
             : "";
 
-            if (!src) return null; // skip if missing
+            if (!src) return null; 
 
             return (
                 <div key={highlights.id} className="WorksIcon">
@@ -49,21 +49,9 @@ export default function Highlights(){
             </div>
             </div>
 
-
-
-
     </div>
 
-
-
-
-
     )
-
-
-
-
-
 
     
  }

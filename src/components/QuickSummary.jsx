@@ -33,7 +33,7 @@ useRevealOnScroll();
             <h2>6+</h2>
 
             <p>Projects that are completed <br></br>
-            related to school or work, Check <br></br>
+            related to school or work, check <br></br>
             back to see this number increase!
             
             </p>
