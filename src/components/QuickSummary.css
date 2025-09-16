@@ -137,6 +137,7 @@
   font-family: "lexend", Serif;  font-size: 30px;
   text-align: center;
   color: black;
+  font-weight: 300;
   opacity: 1;
   padding-bottom: var(--space-md);
 }
@@ -267,7 +268,7 @@
   font-family: "lexend", serif;
   color: black;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 

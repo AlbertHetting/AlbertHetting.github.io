@@ -25,7 +25,7 @@ export default function Programs() {
 
   return (
             <div className="program-icons">
-                <h1>Programs</h1>
+                <h1>Software Tools</h1>
                 <div className="line3"></div>
 
 
