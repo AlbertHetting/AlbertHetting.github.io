@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "title": "Steeno Museum Interactive Experience",
+    "year": 2025,
+    "month": 5,
+    "date": 23,
+    "description": "23/5 - 2025",
+    "grade": "Rated grade: 12",
+    "descriptiondetail": "The project was the final exam for the second semester on multimedia design",
+    "aboutproject": "We wanted to explore how we could make an exhibition at the Steno Museum more relevant and attractive for children aged 8–13, regardless of gender. In addition, we explored how to rethink the use of screens in exhibitions aimed at children and young people, and how to connect the exhibition’s physical content with interactive on screen elements. The goal was to create a relevant, relatable, and exciting museum experience for the target audience, presented through a multimedia interactive design exåerience.",
+    "tags": ["React", "Portfolio", "Frontend"],
+    "image": "ProjectImages/Steeno.jpg",
+    "image2": "ProjectImages/Steeno2.jpg",
+      "appIcons": [
+      "public/Icons/AfterEffects.png",
+      "public/Icons/PremierePro.png",
+      "public/Icons/VSCode.png"
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Music Quiz Class CO-OP Assignment",
+    "year": 2025,
+    "month": 2,
+    "date": 6,
+    "description": "6/2 - 2025",
+    "grade": "No grade was given for this assignment",
+    "descriptiondetail": "The project was a class exercise in javascript back in the second semester",
+    "aboutproject": "The assignment was to make an interactive webpage with javascript. Here me and my group picked a music quiz, since it’s fun and most people would know how one should work without too much research. The quiz is coded using default HTML, CSS and Javascript.",
+    "tags": ["React", "Portfolio", "Frontend"],
+    "image": "ProjectImages/MusicQuiz.jpg",
+    "image2": "ProjectImages/MusicQuiz2.jpg",
+       "appIcons": [
+      "public/Icons/VSCode.png",
+      "public/Icons/PremierePro.png"
+    ]
+  },
+
+    {
+    "id": 3,
+    "title": "Sonar, Radar Rebrand",
+    "year": 2024,
+    "month": 12,
+    "date": 19,
+    "description": "19/12 - 2024",
+    "grade": "Rated grade: 10",
+    "descriptiondetail": "The project was the final exam for the first semester on multimedia design",
+    "aboutproject": "The goal of the production was to analyze and investigate Radar’s current position in the market, conduct relevant user research, design, sketch solutions, and implement them with code in a supporting website. That way Radar could communicate their cultural value, services, offerings, and values to young people in Aarhus.",
+    "tags": ["Sonar", "Portfolio", "Frontend"],
+    "image": "ProjectImages/Sonar.jpg",
+    "image2": "ProjectImages/Sonar2.jpg",
+       "appIcons": [
+      "public/Icons/LightRoom.png",
+      "public/Icons/Illustrator.png",
+      "public/Icons/Procreate.png",
+      "public/Icons/VSCode.png"
+    ]
+  }
+
+
+
+]

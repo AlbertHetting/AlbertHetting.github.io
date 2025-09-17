@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import ProjectDisplay from "../components/Projectdisplay";
-import { NavLink } from "react-router";
 import "../components/Projects.css"
 import Footer from "../components/Footer.jsx"
 
@@ -36,7 +35,6 @@ export default function Projects() {
       {project.map((project) => (
         <div key={project.id}>
           <ProjectDisplay project={project} />
-          <NavLink to={`/projects/${project.id}`}>Se detaljer</NavLink>
         </div>
       ))}
     </section>

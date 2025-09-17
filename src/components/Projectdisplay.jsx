@@ -1,6 +1,7 @@
 const base = import.meta.env.BASE_URL || "/";
 const srcFromPublic = (p) => (typeof p === "string" ? p.replace(/^public\//, base) : "");
 import { useRevealOnScroll2 } from "../Hooks/ScrollAni2.jsx";
+import { NavLink } from "react-router-dom";
 
 
 export default function ProjectDisplay({ project }) {
@@ -18,6 +19,7 @@ const withBase = (p) => {
 
 
 
+
   return (
     <div className="project-container">
       <div className="Thumbnail reveal2 stagger">
@@ -26,6 +28,12 @@ const withBase = (p) => {
         <h3>{project.title}</h3>
         <div className="line"></div>
         <h2>{project.description}</h2>
+        <div className="line"></div>
+
+          <section className="Details">
+          <NavLink to={`/projects/${project.id}`}>See details</NavLink>
+          </section>
+
       </article>
       <figure>
 

@@ -193,6 +193,21 @@ body{
 }
 
 
+.Details a{
+  font-family: "lexend", serif;
+  text-decoration: none;
+  color: black;
+  font-size: var(--medium-font);
+  font-weight: 300;
+}
+
+
+.Details {
+margin-top: 1rem;
+}
+
+
+
 @media (max-width: 1950px){
 
 .projectimage{
