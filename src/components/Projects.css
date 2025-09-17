@@ -4,6 +4,7 @@
     --medium-font: 24px;
     --thumbnail-size: 1250px;
     --thumbnail-medium: 950px;
+    --thumbnail-small: 700px;
     --icon-size-normal: 40px;
 
 }
@@ -130,6 +131,14 @@ body{
 }
 
 
+  .line8 {
+  width: 100%;
+  height: 3px;
+  background: black;
+  opacity: 0.5;
+  border-radius: 2px;
+  margin-top: var(--space-md);
+}
 
 
 
@@ -247,3 +256,73 @@ margin-top: 1rem;
 
 }
 
+
+
+
+
+
+
+
+@media (max-width: 1350px){
+
+.projectimage{
+    max-width: var(--thumbnail-small);
+    position: relative;
+    display: block;
+    border-radius: 10px;
+     z-index: 1; 
+}
+
+.project-container{
+    padding-top: 3rem;
+}
+
+
+.project-row{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-right: 2%;
+}
+
+
+.project-apps img{
+    max-width: var(--icon-size-normal);
+    object-fit: contain;
+    display: block;
+    margin: 0; 
+}
+
+
+.project-row h3{
+    font-family: "lexend", serif;
+    color: black;
+    max-width: 10ch;
+    font-weight: 380;
+    font-size: 20px;
+}
+
+
+.project-row h2{
+    font-family: "lexend", serif;
+    color: black;
+    max-width: 10ch;
+    font-weight: 200;
+    font-size: 17px;
+    padding-top: 1rem;
+}
+
+
+.Details a{
+  font-family: "lexend", serif;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+
+
+}

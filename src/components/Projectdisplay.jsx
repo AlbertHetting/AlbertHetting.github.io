@@ -26,9 +26,9 @@ const withBase = (p) => {
     <section className="project-row">
       <article>
         <h3>{project.title}</h3>
-        <div className="line"></div>
+        <div className="line8"></div>
         <h2>{project.description}</h2>
-        <div className="line"></div>
+        <div className="line8"></div>
 
           <section className="Details">
           <NavLink to={`/projects/${project.id}`}>See details</NavLink>

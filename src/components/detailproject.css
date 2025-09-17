@@ -3,10 +3,11 @@
     --normal-text: 20px;
     --medium-font: 24px;
     --thumbnail-size2: 1555px;
+    --thumbnail-smaller: 1100px;
     --thumbnail-medium: 950px;
     --icon-size-normal: 40px;
-
     --thumbnail-small: 650px;
+    --thumbnail-xsmall: 450px;
 
 }
 
@@ -40,6 +41,15 @@ main{
   }
 
 
+
+  .line7 {
+  width: 100%;
+  height: 3px;
+  background: black;
+  opacity: 0.5;
+  border-radius: 2px;
+  margin-top: var(--space-md);
+}
 
   #detail h1{
     font-family: "lexend", serif;
@@ -95,7 +105,7 @@ main{
 
 
     .lowersectioncontainer h2{
-   max-width: 50ch;
+   max-width: 70ch;
   }
 
   .loweroutcon{
@@ -114,6 +124,13 @@ main{
     flex-direction: column;
   }
 
+ .Aboutextcon h2{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+
    .imagecontainer img{
     max-width: var(--thumbnail-small);
   }
@@ -121,3 +138,102 @@ main{
   #gradetext{
     padding-top: 1rem;
   }
+
+
+
+
+
+  /* Fade-down */
+
+
+:root{
+  --reveal-distance: -25px;   /* negative = fade-down */
+  --reveal-duration: .5s;
+  --stagger-step: 100ms;
+}
+
+/* container reveal */
+.Thumbnail2.reveal3{
+  opacity: 0;
+  transform: translateY(var(--reveal-distance));
+  transition: opacity var(--reveal-duration) ease,
+              transform var(--reveal-duration) ease;
+  will-change: opacity, transform;
+}
+.Thumbnail2.reveal3.in-view3{
+  opacity: 1;
+  transform: none;
+}
+
+/* GRANDCHILDREN initial state (wrapper > item) */
+.Thumbnail2.reveal3.stagger > * > *{
+  opacity: 0;
+  transform: translateY(var(--reveal-distance));
+  transition: opacity var(--reveal-duration) ease,
+              transform var(--reveal-duration) ease;
+}
+
+/* final state */
+.Thumbnail2.reveal3.in-view3.stagger > * > *{
+  opacity: 1;
+  transform: none;
+}
+
+/* stagger delays */
+.Thumbnail2.reveal3.in-view3.stagger > *:nth-child(1)  > * { transition-delay: calc(0 * var(--stagger-step)); }
+.Thumbnail2.reveal3.in-view3.stagger > *:nth-child(2)  > * { transition-delay: calc(1 * var(--stagger-step)); }
+.Thumbnail2.reveal3.in-view3.stagger > *:nth-child(3)  > * { transition-delay: calc(2 * var(--stagger-step)); }
+.Thumbnail2.reveal3.in-view3.stagger > *:nth-child(4)  > * { transition-delay: calc(3 * var(--stagger-step)); }
+.Thumbnail2.reveal3.in-view3.stagger > *:nth-child(5)  > * { transition-delay: calc(4 * var(--stagger-step)); }
+.Thumbnail2.reveal3.in-view3.stagger > *:nth-child(6)  > * { transition-delay: calc(5 * var(--stagger-step)); }
+.Thumbnail2.reveal3.in-view3.stagger > *:nth-child(7)  > * { transition-delay: calc(6 * var(--stagger-step)); }
+.Thumbnail2.reveal3.in-view3.stagger > *:nth-child(8)  > * { transition-delay: calc(7 * var(--stagger-step)); }
+.Thumbnail2.reveal3.in-view3.stagger > *:nth-child(9)  > * { transition-delay: calc(8 * var(--stagger-step)); }
+
+
+
+
+@media (max-width: 1750px){
+
+
+  .detailwrapper{
+    display: flex;
+    justify-content: center;
+    margin-left: 30rem;
+  }
+
+
+  #detail h1{
+    font-family: "lexend", serif;
+    color: black;
+    font-size: var(--header-font);
+  }
+
+
+    #detail h2{
+    padding-top: 1rem;
+  }
+
+  #detail, h3{
+    font-family: "lexend", serif;
+    color: black;
+    font-size: var(--normal-text);
+    font-weight: 300;
+    padding-top: 1rem;
+  }
+
+
+  .detailimage{
+    max-width: var(--thumbnail-smaller);
+  }
+
+      .lowersectioncontainer h2{
+   max-width: 49ch;
+  }
+
+
+     .imagecontainer img{
+    max-width: var(--thumbnail-xsmall);
+  }
+
+}

@@ -1,6 +1,8 @@
 :root {
   --icon-size: 80px;
   --Company-size: 80px;
+  --Company-size-small: 55px;
+  --icon-size-medium: 60px;
   --icon-size-small: 50px;
   --works-size: 600px;
   --works-size-small: 300px;
@@ -243,9 +245,9 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
   gap: 2rem;
-  max-width: 120rem;     /* center the whole grid block */
-  margin: 0 auto;        /* centers the container */
-  padding: 0 1rem;       /* optional side padding */
+  max-width: 120rem;     
+  margin: 0 auto;        
+  padding: 0 1rem;       
 }
 
 /* center content inside each card */
@@ -306,14 +308,7 @@
 }
 
 
-
-
-
-
-
-
 /*Meida Rules for en smule responsiveness*/
-
 
 
 @media (max-width: 1920px){
@@ -322,9 +317,9 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
   gap: 2rem;
-  max-width: 95rem;     /* center the whole grid block */
-  margin: 0 auto;        /* centers the container */
-  padding: 0 1rem;       /* optional side padding */
+  max-width: 95rem;     
+  margin: 0 auto;        
+  padding: 0 1rem;       
 }
 
 /* center content inside each card */
@@ -350,10 +345,6 @@
 }
 
 
-
-
-
-
 @media (max-width: 1640px) {
 
 .StatisticsCon {
@@ -366,7 +357,7 @@
 
 .Statistics {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;       
   gap: var(--space-xl);            
   margin-top: var(--space-md);     
@@ -384,23 +375,23 @@
   justify-content: center;
 }
 
-.line,
-.line2,
-.line3 {
-  width: 50%;
-  margin-left: 25%;
-  align-items: center;
-  height: 3px;
-  background: black;
-  opacity: 0.5;
-  border-radius: 2px;
-  margin-top: var(--space-md);
-}
-
 
 .Projekter h1{
   display: flex;
   justify-content: center;
+}
+
+
+.Projekter h2{
+  font-size: 50px;
+}
+
+.arbejdsinfo h2{
+  font-size: 50px;
+}
+
+.arbejdsinfo h3{
+  padding-top: 0.1rem;
 }
 
 
@@ -425,10 +416,6 @@ justify-content: center;
   display: block;
 }
 
-.arbejdsinfo img{
-  max-width: var(--icon-size);
-}
-
 
 .ProgramRow { 
   display: flex;
@@ -443,9 +430,9 @@ justify-content: center;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
   gap: 2rem;
-  max-width: 60rem;     /* center the whole grid block */
-  margin: 0 auto;        /* centers the container */
-  padding: 0 1rem;       /* optional side padding */
+  max-width: 60rem;     
+  margin: 0 auto;        
+  padding: 0 1rem;      
 }
 
 /* center content inside each card */
@@ -456,30 +443,70 @@ justify-content: center;
   max-width: var(--works-size-small);
 }
 
+.Companies img {
+  max-width: var(--Company-size-small);
+  border-radius: 12px;
+}
 
+}
+
+
+@media (max-width: 1230px){
+
+
+
+.Statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;       
+  gap: var(--space-xl);            
+  margin-top: var(--space-md);     
+}
+
+
+.program-icons img {
+  max-width: var(--icon-size-medium);
+  height: auto;                    
+  display: block;
+}
+
+.arbejdsinfo img{
+  max-width: var(--Company-size);
 }
 
 
 
 
-@media (max-width: 980px){
-
-
-.WorksIcon img{
-  max-width: var(--works-size-xs);
+.line,
+.line2,
+.line3 {
+  width: 50%;
+  margin-left: 25%;
+  align-items: center;
+  height: 3px;
+  background: black;
+  opacity: 0.5;
+  border-radius: 2px;
+  margin-top: var(--space-md);
 }
+
 
 .WorksGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
   gap: 2rem;
-  max-width: 40rem;     /* center the whole grid block */
-  margin: 0 auto;        /* centers the container */
-  padding: 0 1rem;       /* optional side padding */
+  max-width: 40rem;   
+  margin: 0 auto;        
+  padding: 0 1rem;       
 }
 
 /* center content inside each card */
 .WorksGrid > * { display: grid; place-items: center; }
+
+
+.WorksIcon img{
+  max-width: var(--works-size-xs);
+}
 
 }
 

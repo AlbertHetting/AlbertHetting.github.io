@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "../components/detailproject.css";
 import Footer from "../components/Footer.jsx";
+import { useRevealOnScroll3 } from "../Hooks/DetailAni.jsx";
 
 // GH Pages–safe helper
 const withBase = (p="") => {
@@ -9,7 +10,11 @@ const withBase = (p="") => {
   return base + p.replace(/^public\//, "").replace(/^\/?/, "");
 };
 
+
+
 export default function ProjectDetail() {
+    
+
 
 
   const { id } = useParams();               // /projects/:id
@@ -24,6 +29,8 @@ export default function ProjectDetail() {
     })();
   }, [id]);
 
+  useRevealOnScroll3(project?.id); 
+
   if (!project) return <main className="project-detail">Loading…</main>;
 
   return (
@@ -33,15 +40,15 @@ export default function ProjectDetail() {
         <img id="mainvideoDetail" src={withBase("videos/FrameVideo.jpg")} alt="" />
       </section>
 
-
-<div className="detailwrapper">
+<div className="Thumbnail2 reveal3 stagger">
+    <div className="detailwrapper">
       <section id="detail">
         <h1>{project.title}</h1>
         <h2> {project.description} </h2>
-        <div className="line"></div>
+        <div className="line7"></div>
         <h3> {project.descriptiondetail} </h3>
       </section>
-</div>
+    </div>
 
     <section className="images">
 
@@ -57,7 +64,7 @@ export default function ProjectDetail() {
         
         <div className="Aboutextcon">
         <h2>{project?.aboutproject}</h2>
-        <div className="line"></div>
+        <div className="line7"></div>
         <h2 id="gradetext">{project?.grade}</h2>
         </div>
 
@@ -73,6 +80,7 @@ export default function ProjectDetail() {
     </div>
 
     </section>
+    </div>
     
 
       <Footer />
