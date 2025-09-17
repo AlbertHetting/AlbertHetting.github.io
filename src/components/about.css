@@ -1,0 +1,29 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.PortfolioPic{
+    width: 70%;
+}
+
+
+
+.PortfolioPicCon{
+ display: flex;
+    justify-content: center;
+
+}
+
+#mainimage{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    aspect-ratio: 16 / 9;    
+}
+
+
+
