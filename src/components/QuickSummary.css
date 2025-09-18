@@ -444,8 +444,14 @@ justify-content: center;
   border-radius: 12px;
 }
 
+.Contact h1{
+  display: flex;
+  justify-content: flex-start;
 }
 
+
+
+}
 
 @media (max-width: 1230px){
 
