@@ -1,6 +1,9 @@
 :root {
   --workicon-size: 180px;
+  --work-size-sm: 140px;
+  --work-size-xs: 110px;
 --software-size: 80px;
+--software-size-md: 60px;
 
 }
 
@@ -19,7 +22,7 @@
 
 
 .PortfolioPicCon{
- display: flex;
+    display: flex;
     justify-content: center;
 
 }
@@ -156,7 +159,7 @@
 }
 
 
-.workhistoryline img{
+.workhistoryillustration img{
     max-width: 1200px;
     border-radius: 20px;
 }
@@ -263,3 +266,269 @@
 .things.reveal4.in-view4.stagger > * > *:nth-child(7) { transition-delay: calc(6 * var(--stagger-step)); }
 .things.reveal4.in-view4.stagger > * > *:nth-child(8) { transition-delay: calc(7 * var(--stagger-step)); }
 .things.reveal4.in-view4.stagger > * > *:nth-child(9) { transition-delay: calc(8 * var(--stagger-step)); }
+
+
+
+
+
+
+
+
+@media (max-width: 1920px){
+
+
+
+
+
+
+
+    .aboutmepart1{
+    display: flex;
+    gap: 5rem;
+}
+
+
+    .aboutmepart1 img{
+        max-width: 420px;
+        border-radius: 25px;
+}
+
+
+
+#corevalues h1{
+    color: black;
+    font-family: "lexend", serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+#aboutmetext2 h1{
+    color: black;
+    font-family: "lexend", serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+
+#aboutmetext2 p{
+    color: black;
+    font-family: "lexend", serif;
+    font-size: 20px;
+    max-width: 35ch;
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+
+#corevalues p{
+    color: black;
+    font-family: "lexend", serif;
+    font-size: 20px;
+    max-width: 35ch;
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+
+.software img{
+    max-width: var(--software-size-md);
+}
+
+
+.softwarecon{
+    width: 140px
+}
+
+
+  .line11 {
+  width: 50rem;
+  height: 3px;
+  background: black;
+  opacity: 0.5;
+  border-radius: 2px;
+  margin-top: var(--space-md);
+}
+
+
+.skillscon p{
+    color: black;
+    font-family: "lexend", serif;
+    max-width: 45ch;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+
+.detailedwork{
+    padding-top: 5rem;
+    gap: 4rem;
+    justify-content: center;
+}
+
+
+
+.detailedwork img{
+    max-width: var(--work-size-sm);
+    border-radius: 20px;
+}
+
+
+
+.detailedwork h2{
+    padding-top: 1rem;
+    font-size: 21px;
+    max-width: 30ch;
+ 
+}
+
+
+.workhistoryillustration img{
+    max-width: 900px;
+}
+
+
+
+.detailedwork h1{
+    padding-top: 1rem;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+}
+
+
+
+
+
+
+@media (max-width: 1500px){
+
+
+
+
+
+
+
+    .aboutmepart1{
+    display: flex;
+    gap: 3rem;
+}
+
+
+    .aboutmepart1 img{
+        max-width: 320px;
+        border-radius: 25px;
+}
+
+
+
+#corevalues h1{
+    color: black;
+    font-family: "lexend", serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+#aboutmetext2 h1{
+    color: black;
+    font-family: "lexend", serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+
+#aboutmetext2 p{
+    color: black;
+    font-family: "lexend", serif;
+    font-size: 20px;
+    max-width: 30ch;
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+
+#corevalues p{
+    color: black;
+    font-family: "lexend", serif;
+    font-size: 20px;
+    max-width: 30ch;
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+
+.software img{
+    max-width: var(--software-size-md);
+}
+
+
+.softwarecon{
+    width: 140px
+}
+
+
+  .line11 {
+  width: 50rem;
+  height: 3px;
+  background: black;
+  opacity: 0.5;
+  border-radius: 2px;
+  margin-top: var(--space-md);
+}
+
+
+.skillscon p{
+    color: black;
+    font-family: "lexend", serif;
+    max-width: 45ch;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+
+.detailedwork{
+    padding-top: 5rem;
+    gap: 4rem;
+    justify-content: center;
+}
+
+
+
+.detailedwork img{
+    max-width: var(--work-size-xs);
+    border-radius: 20px;
+}
+
+
+
+.detailedwork h2{
+    padding-top: 1rem;
+    font-size: 19px;
+    max-width: 27ch;
+ 
+}
+
+
+.workhistoryillustration img{
+    max-width: 800px;
+}
+
+
+
+.detailedwork h1{
+    padding-top: 1rem;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+
+}
