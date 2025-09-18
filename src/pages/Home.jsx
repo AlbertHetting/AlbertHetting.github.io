@@ -28,7 +28,7 @@ return (
 
   <a
     className="button"                              
-    href={`${import.meta.env.BASE_URL}public/CVALBERTHETING2025.jpg`}
+    href={`${import.meta.env.BASE_URL}CVALBERTHETING2025.jpg`}
     download
   >
     Download CV
