@@ -7,9 +7,10 @@
     "date": 23,
     "description": "23/5 - 2025",
     "grade": "Rated grade: 12",
-    "descriptiondetail": "The project was the final exam for the second semester on multimedia design",
+    "descriptiondetail": "The project was the final exam for the second semester on multimedia design made for Ipad Pro 12.9",
     "aboutproject": "We wanted to explore how we could make an exhibition at the Steno Museum more relevant and attractive for children aged 8–13, regardless of gender. In addition, we explored how to rethink the use of screens in exhibitions aimed at children and young teens, and how to connect the exhibition’s physical content with interactive on screen elements. The goal was to create a relevant, relatable, and exciting museum experience for the target audience, presented through a multimedia interactive design experience.",
     "tags": ["React", "Portfolio", "Frontend"],
+    "link": "https://steno.appixx.dk/",
     "image": "ProjectImages/Steeno.jpg",
     "image2": "ProjectImages/Steeno2.jpg",
       "appIcons": [
@@ -30,6 +31,7 @@
     "descriptiondetail": "The project was a class exercise in javascript back in the second semester",
     "aboutproject": "The assignment was to make an interactive webpage with javascript. Here me and my group picked a music quiz, since it’s fun and most people would know how one should work without too much research. The quiz is coded using default HTML, CSS and Javascript.",
     "tags": ["React", "Portfolio", "Frontend"],
+    "link": "https://musicquiz.appixx.dk/",
     "image": "ProjectImages/MusicQuiz.jpg",
     "image2": "ProjectImages/MusicQuiz2.jpg",
        "appIcons": [
@@ -49,6 +51,7 @@
     "descriptiondetail": "The project was the final exam for the first semester on multimedia design",
     "aboutproject": "The goal of the production was to analyze and investigate Radar’s current position in the market, conduct relevant user research, design, sketch solutions, and implement them with code in a supporting website. That way Radar could communicate their cultural value, services, offerings, and values to young people in Aarhus.",
     "tags": ["Sonar", "Portfolio", "Frontend"],
+    "link": "https://sonar.appixx.dk/",
     "image": "ProjectImages/Sonar.jpg",
     "image2": "ProjectImages/Sonar2.jpg",
        "appIcons": [

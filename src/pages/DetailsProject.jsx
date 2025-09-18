@@ -47,6 +47,8 @@ export default function ProjectDetail() {
         <h2> {project.description} </h2>
         <div className="line7"></div>
         <h3> {project.descriptiondetail} </h3>
+        
+        <a href={project?.link}>Visit Page</a>
       </section>
     </div>
 
