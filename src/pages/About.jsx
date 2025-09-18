@@ -93,7 +93,7 @@ return(
             </div>
             <div className="things reveal4 stagger">
           <div>
-          <p>Five years of Adobe Suite experience including After Effects, Premiere Pro, and Photoshop & Illustrator. This summer I also started using Blender to take my 3D skills to the next level. Go to the projects tab to view what software I’ve used for each of my projects.</p>
+          <p>Five years of Adobe Suite experience including After Effects, Premiere Pro, Photoshop & Illustrator. This summer I also started using Blender to take my 3D skills to the next level. Go to the projects tab to view what software I’ve used for each of my projects.</p>
           </div>
           </div>
           </div>
