@@ -40,8 +40,7 @@ return(
               <div id="corevalues">
                 <h1>Core Values</h1>
                 <div className="line10"></div>
-                  <p> I’ve been working at WiFi NOW for a bit more than 3 years, doing several tasks. Most of my work is database management & updating several webpages through wordpress when needed. I attend almost every WWC event recording and editing the footage for our customers as well as helping with the backend on our live webinars. </p>
-
+                  <p> I believe that digital workflows should always challenge what you can already do, having to work seamlessly between software and code is what makes or breaks a project. I am consistent in my work and practice, and that probably stems from my 7 years in the gym where consistency is the key for effective growth. As important as that is the passion to make what you’re building an amazing experience for both you and your user. </p>
               </div>
               </div>
 
