@@ -5,7 +5,7 @@
   --icon-size-medium: 60px;
   --icon-size-small: 50px;
   --works-size: 600px;
-  --works-size-small: 300px;
+  --works-size-small: 350px;
   --works-size-xs: 180px;
   --works-size-medium: 450px;
   --space-xs: 0.5rem;   /* ~8px  */
@@ -426,7 +426,7 @@ justify-content: center;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
   gap: 2rem;
-  max-width: 60rem;     
+  max-width: 71rem;     
   margin: 0 auto;        
   padding: 0 1rem;      
 }
@@ -449,9 +449,9 @@ justify-content: center;
   justify-content: flex-start;
 }
 
-
-
 }
+
+
 
 @media (max-width: 1230px){
 
