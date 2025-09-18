@@ -13,7 +13,7 @@ export default function Programs() {
 
   useEffect(() => {
     async function getData() {
-      const response = await fetch("/data/Programs.json"); // Icons JSON
+      const response = await fetch("/data/Programs.json"); 
       const data = await response.json();
       setPrograms(data);
     }
@@ -37,7 +37,7 @@ export default function Programs() {
             ? program.image.replace(/^public\//, "/")
             : "";
 
-            if (!src) return null; // skip if missing
+            if (!src) return null; 
 
             return (
                 <div key={program.id} className="program-icon">

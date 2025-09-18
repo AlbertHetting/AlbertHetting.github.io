@@ -12,7 +12,7 @@ export default function WorkHistory() {
    
   useEffect(() => {
     async function getData() {
-      const response = await fetch("/data/WorkHistory.json"); // Work History Json
+      const response = await fetch("/data/WorkHistory.json");
       const data = await response.json();
       setCompanies(data);
     }
@@ -40,7 +40,7 @@ export default function WorkHistory() {
             ? Companies.image.replace(/^public\//, "/")
             : "";
 
-            if (!src) return null; // skip if missing
+            if (!src) return null; 
 
             return (
                 <div key={Companies.id} className="Companies">

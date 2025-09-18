@@ -10,7 +10,7 @@ export function useRevealOnScroll2() {
         entries.forEach((e) => {
           if (e.isIntersecting) {
             e.target.classList.add("in-view2");
-            io.unobserve(e.target); // play once
+            io.unobserve(e.target); 
           }
         });
       },

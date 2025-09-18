@@ -76,8 +76,8 @@ header {
   align-items: center;
   position: relative;
 
-  line-height: 1;             /* Exactly one line tall */
-  white-space: nowrap;        /* Keeps words on one line */
+  line-height: 1;  /* Exactly one line tall */
+  white-space: nowrap; /* Keeps words on one line */
 }
 
 /* Keyboard focus */
@@ -89,9 +89,9 @@ header {
 
 /* Letter-by-letter roll */
 
-.nav-letters {    /* Wrap containing all letters */
+.nav-letters {    
   display: inline-flex;
-  height: 1em;     /* Visible viewport is exactly one line */
+  height: 1em;  /* Visible viewport is exactly one line */
   overflow: hidden;
 }
 
@@ -123,10 +123,6 @@ header {
 }
 
 
-
-/* ------------------------------------
-   Accessibility helpers
------------------------------------- */
 .sr-only {
   position: absolute !important;
   width: 1px; height: 1px;
@@ -144,9 +140,6 @@ header {
   }
 }
 
-/* ------------------------------------
-   Responsiveness
------------------------------------- */
 @media (max-width: 1200px) {
   .navigation ul { gap: 80px; }
   .navigation a { font-size: 26px; }

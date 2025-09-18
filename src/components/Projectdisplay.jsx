@@ -10,11 +10,11 @@ useRevealOnScroll2();
 
 
 const withBase = (p) => {
-  const base = import.meta.env.BASE_URL || "/"; // e.g. "/your-repo/" on GH Pages
+  const base = import.meta.env.BASE_URL || "/"; 
   if (!p) return "";
-  if (p.startsWith("public/")) return base + p.slice(7);          // "public/Projects/x.jpg" -> "/your-repo/Projects/x.jpg"
-  if (p.startsWith("/")) return base === "/" ? p : base + p.slice(1); // "/Projects/x.jpg" -> "/your-repo/Projects/x.jpg"
-  return base + p;                                                 // "Projects/x.jpg" -> "/your-repo/Projects/x.jpg"
+  if (p.startsWith("public/")) return base + p.slice(7);          
+  if (p.startsWith("/")) return base === "/" ? p : base + p.slice(1); 
+  return base + p;                                                 
 };
 
 
@@ -48,7 +48,7 @@ const withBase = (p) => {
       </figure>
 
 
-    {/* app icons (array of image URLs) */}
+    {}
       {Array.isArray(project.appIcons) && project.appIcons.length > 0 && (
         <div className="project-apps" aria-label="Apps used">
           {project.appIcons.map((iconSrc, i) => (

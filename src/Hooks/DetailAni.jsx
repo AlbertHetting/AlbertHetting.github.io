@@ -11,7 +11,7 @@ export function useRevealOnScroll3(watch = null) {
         for (const e of entries) {
           if (e.isIntersecting) {
             e.target.classList.add("in-view3");
-            io.unobserve(e.target); // play once
+            io.unobserve(e.target); 
           }
         }
       },
@@ -20,5 +20,5 @@ export function useRevealOnScroll3(watch = null) {
 
     els.forEach((el) => io.observe(el));
     return () => io.disconnect();
-  }, [watch]); // ← re-run when 'watch' changes (e.g., when project loads)
+  }, [watch]); // re-run when 'watch' changes
 }

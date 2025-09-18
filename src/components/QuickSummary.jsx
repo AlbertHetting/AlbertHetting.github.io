@@ -32,9 +32,10 @@ useRevealOnScroll();
             <div className="ProjectText">
             <h2>6+</h2>
 
-            <p>Projects that are completed <br></br>
-            related to school or work, check <br></br>
-            back to see this number increase!
+            <p> Completed school or work <br></br> projects 
+            - check back to see 
+            <br></br>this number increase!  
+          
             
             </p>
             </div>

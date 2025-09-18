@@ -4,7 +4,7 @@ import "../components/detailproject.css";
 import Footer from "../components/Footer.jsx";
 import { useRevealOnScroll3 } from "../Hooks/DetailAni.jsx";
 
-// GH Pages–safe helper
+// bruges til at fixe src pathing, forslået af chatGPT
 const withBase = (p="") => {
   const base = import.meta.env.BASE_URL || "/";
   return base + p.replace(/^public\//, "").replace(/^\/?/, "");
@@ -17,7 +17,7 @@ export default function ProjectDetail() {
 
 
 
-  const { id } = useParams();               // /projects/:id
+  const { id } = useParams();               
   const [project, setProject] = useState(null);
 
   useEffect(() => {

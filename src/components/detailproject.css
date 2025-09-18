@@ -147,7 +147,7 @@ main{
 
 
 :root{
-  --reveal-distance: -25px;   /* negative = fade-down */
+  --reveal-distance: -25px;
   --reveal-duration: .5s;
   --stagger-step: 100ms;
 }

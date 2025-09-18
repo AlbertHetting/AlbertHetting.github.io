@@ -162,16 +162,16 @@ body{
 .project-apps{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 per row */
-  column-gap: 0.5rem;   /* only horizontal spacing */
-  row-gap: 0.5rem;         /* no vertical spacing */
+  column-gap: 0.5rem;   
+  row-gap: 0.5rem;         
   list-style: none;   
-  padding: 0;         /* remove default UL padding */
-  margin: 0;          /* remove default UL margin */
+  padding: 0;         
+  margin: 0;          
 
     align-content: start;
     align-items: start;
     justify-items: start;
-     height: auto;       /* override any inherited fixed height */
+     height: auto;       
 
 }
 
@@ -181,7 +181,6 @@ body{
   display: block;
   width: 100%;
   border-radius: 20px;
-  /* single-color glow */
   box-shadow: 0 0 30px 8px hsla(347, 100%, 54%, 0.45);
 }
 
@@ -189,7 +188,6 @@ body{
   display: block;
   width: 100%;
   border-radius: 20px;
-  /* single-color glow */
   box-shadow: 0 0 30px 8px hsla(44, 54%, 54%, 0.45);
 }
 
@@ -197,7 +195,6 @@ body{
   display: block;
   width: 100%;
   border-radius: 12px;
-  /* single-color glow */
   box-shadow: 0 0 30px 8px hsla(279, 79%, 11%, 0.45);
 }
 
