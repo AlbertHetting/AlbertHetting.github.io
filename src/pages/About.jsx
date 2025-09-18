@@ -134,7 +134,7 @@ return(
         <img id="lif" src={withBase("Icons/Lystrup.jpg")} alt="" />
         <h1>Lystrup Svømning</h1>
         <div className="line10"></div>
-        <h2>I worked at Lystrup Svømning for around 7 years total. During that time I’ve been in almost every position they offered from a clerk kid to a manager. However most of my work was as a lifeguard and instructor where I studied and received certificates for both lifeguarding and Instructing.</h2>
+        <h2>I worked at Lystrup Swimming Club for a total of 7 years. During that time I’ve held almost every available position from a clerk to a manager. Most of my work was as a lifeguard and instructor where I studied and received certificates for both lifeguarding and swimming instruction.</h2>
         <a href="https://www.lystrupsvoemning.dk/">Visit</a>
         </div>
 
