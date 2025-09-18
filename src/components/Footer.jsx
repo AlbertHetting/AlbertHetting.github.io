@@ -58,7 +58,7 @@ useRevealOnScroll();
                     <div className="line4"></div>
                
                       <a className="button2"                              
-                        href={`${import.meta.env.BASE_URL}public/CVALBERTHETING2025.jpg`}
+                        href={`${import.meta.env.BASE_URL}CVALBERTHETING2025.jpg`}
                         download>
                         Download CV
                      </a>
