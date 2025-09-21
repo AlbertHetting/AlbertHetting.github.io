@@ -30,7 +30,7 @@ export default function WorkHistory() {
             <div className="arbejdsinfo">
             
             <div className="WorkText">
-            <h2>7+</h2>
+            <h2>8+</h2>
             <h3>Years</h3>
             </div>
 
