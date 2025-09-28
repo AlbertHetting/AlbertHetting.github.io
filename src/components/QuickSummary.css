@@ -315,7 +315,7 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
     gap: 2rem;
-    max-width: 95rem;
+    max-width: 92rem;
     margin: 0 auto;
     padding: 0 1rem;
   }
