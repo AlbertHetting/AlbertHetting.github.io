@@ -6,6 +6,6 @@
   { "id": 5, "image": "public/Highlights/Hornet7.jpg" },
   { "id": 6, "image": "public/Highlights/HornetsNest.jpg" },
   { "id": 7, "image": "public/Highlights/MomentetBillede.jpg" },
-    { "id": 8, "image": "public/Highlights/Taskbar.jpg" },
-    { "id": 9, "image": "public/Highlights/WaterRingBlender.jpg" }
+  { "id": 8, "image": "public/Highlights/Taskbar.jpg" },
+  { "id": 9, "image": "public/Highlights/WaterRingBlender.jpg" }
 ]
