@@ -29,6 +29,7 @@
   margin-top: 2%;
   display: flex;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 /* Quick Summary part */
@@ -307,6 +308,8 @@
   background-color: #000000;
   width: 3rem;
 }
+
+
 
 /*Meida Rules for en smule responsiveness*/
 
