@@ -1,11 +1,11 @@
 [
   { "id": 1, "image": "public/Highlights/AppiXx.jpg" },
   { "id": 2, "image": "public/Highlights/AtriumGaardBillede.jpg" },
-  { "id": 3, "image": "public/Highlights/Sauvage.png" },
-  { "id": 4, "image": "public/Highlights/Flower.png" },
-  { "id": 5, "image": "public/Highlights/Hornet7.png" },
-  { "id": 6, "image": "public/Highlights/HornetsNest.png" },
+  { "id": 3, "image": "public/Highlights/Sauvage.jpg" },
+  { "id": 4, "image": "public/Highlights/Flower.jpg" },
+  { "id": 5, "image": "public/Highlights/Hornet7.jpg" },
+  { "id": 6, "image": "public/Highlights/HornetsNest.jpg" },
   { "id": 7, "image": "public/Highlights/MomentetBillede.jpg" },
-    { "id": 8, "image": "public/Highlights/Taskbar.png" },
-    { "id": 9, "image": "public/Highlights/WaterRingBlender.png" }
+  { "id": 8, "image": "public/Highlights/Taskbar.jpg" },
+  { "id": 9, "image": "public/Highlights/WaterRingBlender.jpg" }
 ]
