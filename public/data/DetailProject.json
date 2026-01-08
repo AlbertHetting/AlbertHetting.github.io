@@ -8,7 +8,7 @@
     "month": 5,
     "date": 23,
     "description": "5/11 - 2025",
-    "grade": "Rated grade: Yet to be rated",
+    "grade": "Rated grade: 12",
     "descriptiondetail": "The project was the middle exam for the third semester on multimedia design made for iPhone Air",
     "aboutproject": "We made a social game app inspired by the already popular game Jackbox. We wanted to make an even more accessible app that would work just via your mobile phone. The result is a mobile only game app with a working realtime server that keeps the players states in sync.",
     "tags": ["React", "Portfolio", "Frontend"],
