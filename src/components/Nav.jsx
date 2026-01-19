@@ -5,6 +5,7 @@ const NAV = [
   { label: "Home", to: "/" },
   { label: "Projects", to: "/projects" },
   { label: "About", to: "/about" },
+  { label: "Blog", to: "/blog" },
 ];
 
 function LinkLabel({ text }) {
