@@ -8,7 +8,7 @@ useRevealOnScroll();
 
             return(
 
-
+                <main>
             <div className="FooterCon">
                 <footer>
 
@@ -71,7 +71,7 @@ useRevealOnScroll();
                 </footer>
 
             </div>
-
+            </main>
             )
 
 

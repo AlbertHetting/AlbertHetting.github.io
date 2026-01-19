@@ -1,4 +1,23 @@
 [
+
+    {
+    "id": 4,
+    "title": "GameSquare Web Application",
+    "year": 2025,
+    "month": 11,
+    "date": 5,
+    "description": "5/11 - 2025",
+    "tags": ["React", "Portfolio", "Frontend"],
+    "image": "ProjectImages/MysteryBowl.jpg",
+      "appIcons": [
+      "public/Icons/AfterEffects.png",
+      "public/Icons/PremierePro.png",
+      "public/Icons/Procreate.png",
+      "public/Icons/VSCode.png"
+    ]
+  },
+
+
   {
     "id": 1,
     "title": "Steeno Museum Interactive Experience",

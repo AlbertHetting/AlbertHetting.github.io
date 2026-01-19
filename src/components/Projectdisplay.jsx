@@ -31,7 +31,14 @@ const withBase = (p) => {
         <div className="line8"></div>
 
           <section className="Details">
-          <NavLink to={`/projects/${project.id}`}>See details</NavLink>
+          <NavLink to={`/projects/${project.id}`}>
+              <a
+                className="button2"                              
+                >
+                  See Details
+              </a>
+          </NavLink>
+
           </section>
 
       </article>

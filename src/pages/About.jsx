@@ -46,7 +46,7 @@ return(
               <div id="aboutmetext2">
                   <h1>About Me</h1>
                   <div className="line10"></div>
-                  <p> Hi! My name is Albert, and I’m currently studying multimedia design at Business Academy Aarhus. I’ve been in a wide variety of jobs ranging from service & communications to technical support & database management. My total time in the workforce is now over 8 years. I excel at creating graphics - in both 2D & 3D - and incorporating them into my workflows for both webpages and video editing. Personal interests are fitness, gaming, animation, and drawing.</p>
+                  <p> Hi! My name is Albert, and I’m currently studying multimedia design at Business Academy Aarhus. I’ve been in a wide variety of jobs ranging from service & communications to technical support & database management. My total time in the workforce is over 8 years. I excel at creating graphics - in both 2D & 3D - and incorporating them into my workflows for both webpages and video editing. Personal interests are fitness, gaming, animation, and drawing.</p>
               </div>
 
               <div id="corevalues">

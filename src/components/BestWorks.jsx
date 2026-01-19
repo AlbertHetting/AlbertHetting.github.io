@@ -27,7 +27,7 @@ export default function Highlights(){
     <div className="WorksContainer">
 
         <div className="WorksText">
-            <h1>Highlighted Work</h1>
+            <h1>Highlighted Design Work</h1>
         </div>
 
             <div className="program-icons reveal stagger">
