@@ -38,23 +38,25 @@ export default function Blog() {
                 morphing og 3D assets i AE. I dag (fredag) er jeg blevet sat til
                 nogle små forskellige animationer i AE. De inkluderer, en
                 counter animation, og en lille intro video til BMS (som jeg ikke
-                endnu er færdig med) Jysk Webbureau har ikke nogle grafiske
-                designere som sådan, det vil sige at mine skills i Illustrator
-                og AE kunne komme til at være nyttige så de ikke behøver at hyre
-                freelancere som de har gjort op til nu. På mandag har jeg møde
-                sammen med Jonas og arkitektladen, så jeg ved ikke lige hvornår
-                min nuværende animation er færdig. Refleksion: Jeg synes ugen er
-                gået fint, jeg er glad for jeg har fået nogle forskellige
-                opgaver. Jeg har haft en del frihed til at øve/producere hvad
-                jeg tænker kunne forbedre mine skills. De mennesker som arbejder
-                her er dygtige, det gør det svært at producere noget som faktisk
-                er op til standarden og som er brugbart for mine kollegaer.
-                Forhåbentligt bliver jeg i stand til at bidrage bedre senere i
-                forløbet. Generelt synes jeg ugen har været produktiv og jeg er
-                glad for de skills jeg har lært indtil videre. Jeg stræber mig
-                efter at være så produktiv så muligt samt lære det der skal til
-                for at bidrage væsentligt til produktionen og processen i flere
-                cases.
+                endnu er færdig med) <br></br>
+                <br></br> Jysk Webbureau har ikke nogle grafiske designere som
+                sådan, det vil sige at mine skills i Illustrator og AE kunne
+                komme til at være nyttige så de ikke behøver at hyre freelancere
+                som de har gjort op til nu. <br></br>
+                <br></br> På mandag har jeg møde sammen med Jonas og
+                arkitektladen, så jeg ved ikke lige hvornår min nuværende
+                animation er færdig. <br></br>
+                <br></br> Refleksion: Jeg synes ugen er gået fint, jeg er glad
+                for jeg har fået nogle forskellige opgaver. Jeg har haft en del
+                frihed til at øve/producere hvad jeg tænker kunne forbedre mine
+                skills. De mennesker som arbejder her er dygtige, det gør det
+                svært at producere noget som faktisk er op til standarden og som
+                er brugbart for mine kollegaer. Forhåbentligt bliver jeg i stand
+                til at bidrage bedre senere i forløbet. Generelt synes jeg ugen
+                har været produktiv og jeg er glad for de skills jeg har lært
+                indtil videre. Jeg stræber mig efter at være så produktiv så
+                muligt samt lære det der skal til for at bidrage væsentligt til
+                produktionen og processen i flere cases.
                 <br></br>
                 <br></br>
                 (Brugt som læring til AE videoer:<br></br>
