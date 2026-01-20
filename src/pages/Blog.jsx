@@ -24,6 +24,30 @@ export default function Blog() {
         <div className="BlogSectionMain">
           <div className="things reveal4 stagger">
             <div className="Daily">
+              <h1> 20/1 </h1>
+              <p className="PText">
+                Jeg har nu været i kontakt med Arkitektladen, og overall var
+                feedbacken faktisk ret god især taget i betragtning af at min
+                chef sagde “det er en besværlig kunde”. Der var selvfølgelig
+                nogle ting, som skulle ændres. De vender tilbage onsdag med
+                skriftlig kritik så vi kan have et endeligt design til fredag
+                (23/1) hvor vi bliver enige om et design så jeg kan begynde at
+                udvikle siden. <br></br> <br></br>
+                Refleksion: Selvom Jonas har været inde og rette til, var 80-90%
+                af designet noget jeg havde stået for, så det at der var positiv
+                feedback giver mig selvtillid til mine kommende opgaver og viser
+                mig samtidig hvor langt i processen jeg er nået. Selvom jeg
+                knoklede lidt hårdt for at nå det til endelige design, har det
+                hjulpet en hel masse med både firma og forståelsen med at
+                arbejde for en kunde.<br></br> <br></br>Ellers har jeg brugt
+                dagen på at lave en lille animation til en hjemmeside der er
+                under udvikling.
+              </p>
+            </div>
+          </div>
+
+          <div className="things reveal4 stagger">
+            <div className="Daily">
               <h1> 14/1 - 19/1 </h1>
               <p className="PText">
                 {" "}
