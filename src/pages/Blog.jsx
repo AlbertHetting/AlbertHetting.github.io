@@ -98,6 +98,12 @@ export default function Blog() {
                 </a>
                 <br></br>
               </p>
+
+              <img
+                className="imagecontainer1"
+                src={withBase("Images/2001.jpg")}
+                alt=""
+              />
             </div>
           </div>
 
@@ -237,6 +243,11 @@ export default function Blog() {
                 spørge ham til råds under mit og hans arbejde. Jeg er også glad
                 for at jeg er kommet på en virksomhedscase lige fra start.
               </p>
+              <img
+                className="imagecontainer1"
+                src={withBase("Images/1901.jpg")}
+                alt=""
+              />
             </div>
           </div>
         </div>
