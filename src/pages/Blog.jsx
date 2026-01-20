@@ -13,6 +13,13 @@ export default function Blog() {
 
   return (
     <div>
+      <section className="upperDetail">
+        <img
+          id="mainvideoDetail"
+          src={withBase("videos/FrameVideo.jpg")}
+          alt=""
+        />
+      </section>
       <div>
         <div className="BlogSectionMain">
           <div className="things reveal4 stagger">

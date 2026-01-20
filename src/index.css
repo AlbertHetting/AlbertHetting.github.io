@@ -21,7 +21,7 @@ body {
 }
 
 .BlogSectionMain {
-  margin-top: 8rem;
+  margin-top: 0rem;
   display: flex;
   flex-direction: column;
   align-items: center;
