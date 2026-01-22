@@ -46,7 +46,7 @@ export default function Blog() {
                 mellemrum i skill, men det ikke er nær så stort som på nogle af
                 de andre felter jeg har været inde for i løbet af min
                 praktikperiode.<br></br> <br></br> Jeg blev heller ikke briefet
-                på hvad præcis opgaven var inden vi tog afstande, så derfor
+                på hvad præcis opgaven var inden vi tog afsted, så derfor
                 havde jeg ikke noget overblik over hvordan dagen ville komme til
                 at forløbe sig eller hvad kunden præcis skulle bruge. Dette
                 fandt jeg ud af i løbet af shootet. <br></br> <br></br>{" "}
