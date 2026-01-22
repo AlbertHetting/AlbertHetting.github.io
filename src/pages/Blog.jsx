@@ -45,20 +45,25 @@ export default function Blog() {
                 op). Mit takeaway her er at der selvfølgelig stadig er et
                 mellemrum i skill, men det ikke er nær så stort som på nogle af
                 de andre felter jeg har været inde for i løbet af min
-                praktikperiode.<br></br> <br></br> Derudover havde de
-                selvfølgelig også bedre gear end det jeg bruger til event hos
-                min nuværende arbejdsgiver. Herunder DJI Ronin, et SONY A7s (vs
-                vores SONY A3) Sådan nogle ting kan gøre en kæmpe forskel, især
-                under dynamisk video optagelse.<br></br> <br></br> Vi har også
-                modtaget feedback fra Arkitektladen, der var ikke ret meget ud
-                over det som blev nævnt under mødet. Faktisk var der kun 3
-                kommentarer til hele siden, som nu er rettet til, og vi er klar
-                til mødet på fredag, hvor vi bliver enige om det endelige design
-                så jeg kan komme i gang med at udvikle siden for dem. Se
-                billedet nedenunder for de 3 hovedsider vi har designet til på
-                fredag:<br></br> <br></br> Derudover kan man se en animation jeg
-                har lavet til kryptonite inde på den her side, det er scroll
-                animationen jeg har lavet i AE:{" "}
+                praktikperiode.<br></br> <br></br> Jeg blev heller ikke briefet
+                på hvad præcis opgaven var inden vi tog afstande, så derfor
+                havde jeg ikke noget overblik over hvordan dagen ville komme til
+                at forløbe sig eller hvad kunden præcis skulle bruge. Dette
+                fandt jeg ud af i løbet af shootet. <br></br> <br></br>{" "}
+                Derudover havde de selvfølgelig også bedre gear end det jeg
+                bruger til event hos min nuværende arbejdsgiver. Herunder DJI
+                Ronin, et SONY A7s (vs vores SONY A3) Sådan nogle ting kan gøre
+                en kæmpe forskel, især under dynamisk video optagelse.<br></br>{" "}
+                <br></br> Vi har også modtaget feedback fra Arkitektladen, der
+                var ikke ret meget ud over det som blev nævnt under mødet.
+                Faktisk var der kun 3 kommentarer til hele siden, som nu er
+                rettet til, og vi er klar til mødet på fredag, hvor vi bliver
+                enige om det endelige design så jeg kan komme i gang med at
+                udvikle siden for dem. Se billedet nedenunder for de 3
+                hovedsider vi har designet til på fredag:<br></br> <br></br>{" "}
+                Derudover kan man se en animation jeg har lavet til kryptonite
+                inde på den her side, det er scroll animationen jeg har lavet i
+                AE:{" "}
                 <a href="https://kripthonite-therapeutics.webflow.io/">
                   Kripthonite
                 </a>
