@@ -24,6 +24,69 @@ export default function Blog() {
         <div className="BlogSectionMain">
           <div className="things reveal4 stagger">
             <div className="Daily">
+              <h1> 23/1 & 26/1 </h1>
+              <p className="PText">
+                Jeg har siddet og set introduktionen af materialet til webflow
+                samt forfinet animationen til Kripthonite. Webflow er det CMS
+                system Jysk Webbureau bruger og det virker faktisk bedre end
+                Wordpress (det system min arbejdsgiver pt. bruger). Det er
+                selvfølgelig et nyt system jeg skal lære, men det gør faktisk
+                ikke noget, da det kode vi har lært i skolen stadig er
+                fundamentet for hvordan systemet fungerer. <br></br> <br></br>{" "}
+                Jeg har også spurgt om jeg gerne må observere salg holdet en
+                smule lidt senere i forløbet så jeg kan lære noget af det. Jeg
+                beskriver hvorfor under noterne til mit andet læringsmål (de
+                uploades først til sidst i praktikforløbet) Derudover vil jeg
+                også gerne være en smule med på SEO holdet for at lære hvordan
+                man optimerer siderne til at rangere højt på søgemaskinerne.{" "}
+                <br></br> <br></br> I løbet af den 26. har jeg fortsat min
+                oplæring af Webflow og er gået videre med faktisk at bygge min
+                første test side. Dette er for at lære det mest basale, så jeg
+                kaster mig selv ud i dybt vand med arkitektladen fra start. Her
+                har jeg set følgende tutorials fra henholdsvis webflow og
+                youtube: <br></br> <br></br>
+                <a href="https://university.webflow.com/courses/getting-started-with-webflow">
+                  Getting Started With WebFlow
+                </a>
+                <br></br> <br></br>
+                <a href="https://university.webflow.com/courses/lay-out-style-your-site">
+                  Lay Out Style Yuor Site
+                </a>
+                <br></br> <br></br>
+                <a href="https://university.webflow.com/courses/full-site-build">
+                  Full Site Build WebFlow
+                </a>
+                <br></br> <br></br>
+                <br></br> <br></br>
+                Dette sætter mig godt op til at gå igang med Arkitektladens
+                website imorgen. Heldigvis er siden ikke super kompleks, så det
+                er en god en at starte med, så jeg kan få en fornemmelse af
+                hvordan jeg laver en komplet (statisk men scalable side) i
+                webflow.<br></br> <br></br> Desuden har jeg arbejdet med noget
+                der hedder client first. Dette er et framework der minder om
+                tailwind css. Her arbejder man med standard class navne så andre
+                developers der arbejder sammen med dig let kan afkode præcis
+                hvad hvert objekt gør samt hvad deres class er.<br></br>{" "}
+                <br></br>
+                <a href="https://www.youtube.com/watch?v=Qt2yAW6zN_U">
+                  Client-First Intro
+                </a>
+                <br></br> <br></br>
+                <a href="https://www.youtube.com/watch?v=IVy1N9ncCEE">
+                  Getting Started With Client-First
+                </a>
+              </p>
+
+              <img
+                className="imagecontainer1"
+                src={withBase("Images/2601.jpg")}
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="things reveal4 stagger">
+            <div className="Daily">
               <h1> 21/1 & 22/1 </h1>
               <p className="PText">
                 Jeg var med ude til video shoot i Aalborg Universitetshospital.
@@ -46,24 +109,23 @@ export default function Blog() {
                 mellemrum i skill, men det ikke er nær så stort som på nogle af
                 de andre felter jeg har været inde for i løbet af min
                 praktikperiode.<br></br> <br></br> Jeg blev heller ikke briefet
-                på hvad præcis opgaven var inden vi tog afsted, så derfor
-                havde jeg ikke noget overblik over hvordan dagen ville komme til
-                at forløbe sig eller hvad kunden præcis skulle bruge. Dette
-                fandt jeg ud af i løbet af shootet. <br></br> <br></br>{" "}
-                Derudover havde de selvfølgelig også bedre gear end det jeg
-                bruger til event hos min nuværende arbejdsgiver. Herunder DJI
-                Ronin, et SONY A7s (vs vores SONY A3) Sådan nogle ting kan gøre
-                en kæmpe forskel, især under dynamisk video optagelse.<br></br>{" "}
-                <br></br> Vi har også modtaget feedback fra Arkitektladen, der
-                var ikke ret meget ud over det som blev nævnt under mødet.
-                Faktisk var der kun 3 kommentarer til hele siden, som nu er
-                rettet til, og vi er klar til mødet på fredag, hvor vi bliver
-                enige om det endelige design så jeg kan komme i gang med at
-                udvikle siden for dem. Se billedet nedenunder for de 3
-                hovedsider vi har designet til på fredag:<br></br> <br></br>{" "}
-                Derudover kan man se en animation jeg har lavet til kryptonite
-                inde på den her side, det er scroll animationen jeg har lavet i
-                AE:{" "}
+                på hvad præcis opgaven var inden vi tog afsted, så derfor havde
+                jeg ikke noget overblik over hvordan dagen ville komme til at
+                forløbe sig eller hvad kunden præcis skulle bruge. Dette fandt
+                jeg ud af i løbet af shootet. <br></br> <br></br> Derudover
+                havde de selvfølgelig også bedre gear end det jeg bruger til
+                event hos min nuværende arbejdsgiver. Herunder DJI Ronin, et
+                SONY A7s (vs vores SONY A3) Sådan nogle ting kan gøre en kæmpe
+                forskel, især under dynamisk video optagelse.<br></br> <br></br>{" "}
+                Vi har også modtaget feedback fra Arkitektladen, der var ikke
+                ret meget ud over det som blev nævnt under mødet. Faktisk var
+                der kun 3 kommentarer til hele siden, som nu er rettet til, og
+                vi er klar til mødet på fredag, hvor vi bliver enige om det
+                endelige design så jeg kan komme i gang med at udvikle siden for
+                dem. Se billedet nedenunder for de 3 hovedsider vi har designet
+                til på fredag:<br></br> <br></br> Derudover kan man se en
+                animation jeg har lavet til kryptonite inde på den her side, det
+                er scroll animationen jeg har lavet i AE:{" "}
                 <a href="https://kripthonite-therapeutics.webflow.io/">
                   Kripthonite
                 </a>
