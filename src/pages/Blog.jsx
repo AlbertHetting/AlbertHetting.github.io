@@ -57,7 +57,6 @@ export default function Blog() {
                   Full Site Build WebFlow
                 </a>
                 <br></br> <br></br>
-                <br></br> <br></br>
                 Dette sætter mig godt op til at gå igang med Arkitektladens
                 website imorgen. Heldigvis er siden ikke super kompleks, så det
                 er en god en at starte med, så jeg kan få en fornemmelse af
