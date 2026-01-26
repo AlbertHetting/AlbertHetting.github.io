@@ -33,12 +33,12 @@ export default function Blog() {
                 selvfølgelig et nyt system jeg skal lære, men det gør faktisk
                 ikke noget, da det kode vi har lært i skolen stadig er
                 fundamentet for hvordan systemet fungerer. <br></br> <br></br>{" "}
-                Jeg har også spurgt om jeg gerne må observere salg holdet en
-                smule lidt senere i forløbet så jeg kan lære noget af det. Jeg
-                beskriver hvorfor under noterne til mit andet læringsmål (de
-                uploades først til sidst i praktikforløbet) Derudover vil jeg
-                også gerne være en smule med på SEO holdet for at lære hvordan
-                man optimerer siderne til at rangere højt på søgemaskinerne.{" "}
+                Jeg har også spurgt om jeg gerne må observere salg holdet lidt
+                senere i forløbet så jeg kan lære noget af det. Jeg beskriver
+                hvorfor under noterne til mit andet læringsmål (de uploades
+                først til sidst i praktikforløbet) Derudover vil jeg også gerne
+                være en smule med på SEO holdet for at lære hvordan man
+                optimerer siderne til at rangere højt på søgemaskinerne.{" "}
                 <br></br> <br></br> I løbet af den 26. har jeg fortsat min
                 oplæring af Webflow og er gået videre med faktisk at bygge min
                 første test side. Dette er for at lære det mest basale, så jeg
