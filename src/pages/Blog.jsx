@@ -24,6 +24,32 @@ export default function Blog() {
         <div className="BlogSectionMain">
           <div className="things reveal4 stagger">
             <div className="Daily">
+              <h1> 27/1 </h1>
+              <p className="PText">
+                Det har været en hård dag i dag. Jeg er startet op med en lidt
+                mere virkelig case (stadig øvelse før jeg går til arkitektladen)
+                Føler virkelig jeg har fået meget ud af dagen med en masse hjælp
+                fra Web-Udviklings holdet. Tænker ikke der går mere end et par
+                dage før jeg rigtigt kan starte op på Arkitektladens hjemmeside
+                i webflow.<br></br> <br></br>
+                Refleksioner: <br></br> Det har været en stor udfordring at
+                starte op på webflow. Der er en meget specifik måde som siderne
+                skal bygges op på (udover client first). Dette er meget
+                anderledes end min normale måde at tænke på når jeg koder. Jeg
+                plejer for eksempel at bygge mine sektioner op af forskellige
+                div’er så jeg kan give margins (synes det er lettest). Her
+                bruger men i stedet div’er mellem hvert enkelt element og giver
+                dem en højde (så bagvendt ift. hvad jeg plejer). <br></br>{" "}
+                <br></br> Det gør det ekstremt svært for mig at tænke mig
+                hurtigt til løsninger, da det ikke rent kode mæssigt er som det
+                plejer at være. Overall synes jeg dagen har været produktiv og
+                jeg er kommet lagt på så kort tid.
+              </p>
+            </div>
+          </div>
+
+          <div className="things reveal4 stagger">
+            <div className="Daily">
               <h1> 23/1 & 26/1 </h1>
               <p className="PText">
                 Jeg har siddet og set introduktionen af materialet til webflow
