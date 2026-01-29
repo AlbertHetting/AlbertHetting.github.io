@@ -26,6 +26,39 @@ export default function Blog() {
             <div className="Daily">
               <h1> 27/1 </h1>
               <p className="PText">
+                Jeg har kæmpet videre med webflow i dag. Jeg har lavet nogle af
+                de sidste justeringer på testsiden, ved at gøre den responsiv i
+                alle formater. Jeg føler jeg har forstået hvordan man bygger
+                hjemmesider på i webflow på et basalt niveau nu. Med de sidste
+                justeringer er jeg klar til at starte på Arkitektladens
+                hjemmeside i webflow (jeg ved godt jeg har sagt det mange gange
+                nu, men min mentor mener for real jeg er klar nu) <br></br>{" "}
+                <br></br> Nu skal Jonas oprette variablene i dokumentet så jeg
+                kan komme i gang med den. I dag (29/1) har været lidt sløv. Jeg
+                har rettet de allersidste småting på øvelses hjemmesiden duotec,
+                så den er lavet på den PRÆCISE måde, Jysk webbureau ville have
+                lavet den. Jeg sidder lige pt. og skriver ansøgning til
+                hovedopgave hos steno, jeg venter dog med at sende den afsted
+                til jeg har snakket med min vejleder.<br></br> <br></br> (28/1)
+                Jeg brugte også en del krudt på at tænke over hovedopgaven, da
+                Steno har kontaktet mig med en case der virker meget interessant
+                for mig. Jeg har kontaktet min vejleder og skal snakke imorgen
+                om hovedopgaven. Min mentor siger jeg snart er klar til at
+                starte på Arkitektladen.
+              </p>
+
+              <img
+                className="imagecontainer1"
+                src={withBase("Images/2901.jpg")}
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="things reveal4 stagger">
+            <div className="Daily">
+              <h1> 27/1 </h1>
+              <p className="PText">
                 Det har været en hård dag i dag. Jeg er startet op med en lidt
                 mere virkelig case (stadig øvelse før jeg går til arkitektladen)
                 Føler virkelig jeg har fået meget ud af dagen med en masse hjælp
