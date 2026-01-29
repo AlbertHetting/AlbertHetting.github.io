@@ -24,7 +24,7 @@ export default function Blog() {
         <div className="BlogSectionMain">
           <div className="things reveal4 stagger">
             <div className="Daily">
-              <h1> 27/1 </h1>
+              <h1> 28/1 & 29/1 </h1>
               <p className="PText">
                 Jeg har kæmpet videre med webflow i dag. Jeg har lavet nogle af
                 de sidste justeringer på testsiden, ved at gøre den responsiv i
