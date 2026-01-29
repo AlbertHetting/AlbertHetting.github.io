@@ -76,7 +76,7 @@ export default function Blog() {
                 </a>
                 <br></br> <br></br>
                 <a href="https://university.webflow.com/courses/lay-out-style-your-site">
-                  Lay Out Style Yuor Site
+                  Lay Out Style Your Site
                 </a>
                 <br></br> <br></br>
                 <a href="https://university.webflow.com/courses/full-site-build">
