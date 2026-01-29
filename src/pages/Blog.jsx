@@ -39,12 +39,18 @@ export default function Blog() {
                 så den er lavet på den PRÆCISE måde, Jysk webbureau ville have
                 lavet den. Jeg sidder lige pt. og skriver ansøgning til
                 hovedopgave hos steno, jeg venter dog med at sende den afsted
-                til jeg har snakket med min vejleder.<br></br> <br></br> (28/1)
-                Jeg brugte også en del krudt på at tænke over hovedopgaven, da
-                Steno har kontaktet mig med en case der virker meget interessant
-                for mig. Jeg har kontaktet min vejleder og skal snakke imorgen
-                om hovedopgaven. Min mentor siger jeg snart er klar til at
-                starte på Arkitektladen.
+                til jeg har snakket med min vejleder.<br></br> <br></br> Jeg har
+                nu arbejdet med arkitektladen og startet op på sitet, jeg er
+                ikke nået ret langt (har ikke engang fået det første element til
+                at virke endnu) fordi jeg skulle hjælpe med noget tweaking af en
+                animation jeg havde hjulpet udviklerholdet. I Morgen hjælper
+                Jacob mig med at sætte CMS op til den slider der skal være
+                øverst på forsiden. <br></br> <br></br> (28/1) Jeg brugte også
+                en del krudt på at tænke over hovedopgaven, da Steno har
+                kontaktet mig med en case der virker meget interessant for mig.
+                Jeg har kontaktet min vejleder og skal snakke imorgen om
+                hovedopgaven. Min mentor siger jeg snart er klar til at starte
+                på Arkitektladen.
               </p>
 
               <img
