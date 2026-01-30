@@ -24,6 +24,36 @@ export default function Blog() {
         <div className="BlogSectionMain">
           <div className="things reveal4 stagger">
             <div className="Daily">
+              <h1> 30/1 </h1>
+              <p className="PText">
+                Jeg er kommet i gang med arkitektladens hjemmeside nu, og jeg
+                har lavet headeren, så den fungerer som tænkt samt lavet den
+                responsiv. Det lyder ikke af meget men den voldte mange
+                problemer. Jeg havde fået et basis template af Jacob jeg kunne
+                bruge men jeg skulle selv læse og forstå den custom kode han har
+                skrevet så jeg kunne anvende den til mit projekt. Jeg synes jeg
+                er nået langt i forløbet, og jeg er snart halvvejs gennem
+                praktikforløbet.<br></br>
+                <br></br> Arbejds fremgangen her er meget metodisk. Der er nogle
+                helt bestemte måder, de arbejder på. Dette spiller også ind i
+                mit læringsmål om at være på et større team, da det standard kan
+                hjælpe de andre udviklere med at forstå opbygningen af din
+                løsning. Dette er anderledes end skolen hvor man typisk koder
+                den første løsning der falder en ind. Det er på en måde lidt
+                ligesom at have et benspænd på.<br></br>
+                <br></br> Jeg har vedhæftet headeren på arkitektladen nedenfor:
+              </p>
+
+              <img
+                className="imagecontainer1"
+                src={withBase("Images/3001.jpg")}
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="things reveal4 stagger">
+            <div className="Daily">
               <h1> 28/1 & 29/1 </h1>
               <p className="PText">
                 Jeg har kæmpet videre med webflow i dag. Jeg har lavet nogle af
