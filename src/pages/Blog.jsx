@@ -24,7 +24,7 @@ export default function Blog() {
         <div className="BlogSectionMain">
           <div className="things reveal4 stagger">
             <div className="Daily">
-              <h1> 30/1 </h1>
+              <h1> 2/2 & 3/2 </h1>
               <p className="PText">
                 Jeg har arbejdet videre med arkitektladens hjemmeside. Jeg har
                 nu lavet 2 ud af 4-5 CMS integration. Det er fundamentalt
