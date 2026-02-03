@@ -26,6 +26,58 @@ export default function Blog() {
             <div className="Daily">
               <h1> 30/1 </h1>
               <p className="PText">
+                Jeg har arbejdet videre med arkitektladens hjemmeside. Jeg har
+                nu lavet 2 ud af 4-5 CMS integration. Det er fundamentalt
+                anderledes fra det arbejde vi laver i skolen da det ikke har
+                været “scaleable” endnu. Der har allerede været en del
+                funktionalitet på siden, så det er ikke bare styling. Det gør
+                opgaven meget mere krævende end hvad jeg have regnet med når jeg
+                skulle arbejde med et CMS værktøj. Ved interesse kan development
+                hjemmesiden tilgås her:<br></br> <br></br>
+                <a href="https://arkitektladen-development.webflow.io/ ">
+                  Development Hjemmeside
+                </a>
+                <br></br> <br></br>
+                Refleksion: <br></br>
+                Jeg synes at det er gået godt med webflow, der er en steep
+                learning curve men min mentor synes at mit arbejde er fint og at
+                jeg bare kan blive ved med at spørge om hjælp / guiden.
+                Fundamentalt er arbejdet meget mere funktionelt end det vi laver
+                i skolen. Her skal man hele tiden have i baghovedet, at der skal
+                kobles CMS/Scalability på så kunden kan lave ændringer og
+                indholdsmæssige ændringer i takt med at de laver flere
+                projekter. De hjemmesider vi har lavet i skolen var alle
+                statiske og er ikke blevet rørt siden aflevering. (på nær
+                portfolio) Planen er at gøre forsiden færdig og derefter
+                navigationen, så siden virkelig kommer I live. <br></br>{" "}
+                <br></br>
+                3/2: Forsiden er nu færdig og sendt til rettelse hos min mentor.
+                Der er brugt 2-3 dage på forsiden nu, og den har mange CMS
+                elementer der gør den scalable når kunden får den. Jeg har
+                fokuseret på at på at bygge siden så den er responsiv og den
+                ligner designet så perfekt så muligt samt bruge de variable der
+                er sat op fra start så det let kan ændres. <br></br> <br></br>
+                Jeg synes faktisk der er kommet fart på nu hvor jeg har lært det
+                basale i webflow. Jeg får selvfølgelig hjælp når jeg har brug
+                for det ift. rigtig opsætning af CMS og nogle af de features der
+                skal være meget scalable. Det er interessant at lave en
+                hjemmeside der faktisk skal bruges. Her skal man virkelig tænke
+                over hvordan man inkorporerer CMS rigtigt og intuitivt så kunden
+                selv kan opdatere/oprette uden forvirring.
+              </p>
+
+              <img
+                className="imagecontainer1"
+                src={withBase("Images/0302.jpg")}
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="things reveal4 stagger">
+            <div className="Daily">
+              <h1> 30/1 </h1>
+              <p className="PText">
                 Jeg er kommet i gang med arkitektladens hjemmeside nu, og jeg
                 har lavet headeren, så den fungerer som tænkt samt lavet den
                 responsiv. Det lyder ikke af meget men den voldte mange
