@@ -22,6 +22,39 @@ export default function Blog() {
       </section>
       <div>
         <div className="BlogSectionMain">
+
+
+        <div className="things reveal4 stagger">
+            <div className="Daily">
+              <h1> 4/2 & 5/2 </h1>
+              <p className="PText">
+                Det kører egentligt bare lige nu, udviklingen af Arkitektladens side er godt på vej, jeg er kon omkring halvvejs (minus rettelser) så måske ⅓ færdig nu. Jeg er virkelig kommet ind på hvordan Jysk Webbureau arbejder med webflow og opbygningen. <br></br> <br></br>
+                Mig og Jakob har været igennem en rettelses sektion nu, hvor han gennemgik hvordan siderne skal opbygges, han sagde at det jeg havde lavet var godt fordi det hele faktisk virkede og var hooket op på CMS. Der var nogle ting ift. code embeds om skal ligge inde i "head" elementet og mange classnames der skulle ændres så der var bedre struktur på siden. Med Jakobs ord var det “småting”.<br></br> <br></br>
+                Refleksion: Det med class navne og “combo classes” er meget vigtigt at de har en tydelig struktur så andre på holdet kan forstå hvordan løsningen er lavet. Fundamentet er forskelligt fra det arbejde vi laver i skolen hvor der ikke er samme meget strikse måde at opbygge class navne fordi det kun er os selv der skal se og rette dem.<br></br> <br></br>
+               
+               Nedenfor kan der findes link til om arkitektladens development side: <br></br> <br></br>
+               
+               <a href="https://arkitektladen-development.webflow.io/om-arkitektladen">
+                  Development Hjemmeside Om Arkitektladen
+                </a>
+              </p>
+              <img
+                className="imagecontainer1"
+                src={withBase("Images/0502.jpg")}
+                alt=""
+              />
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
           <div className="things reveal4 stagger">
             <div className="Daily">
               <h1> 2/2 & 3/2 </h1>
