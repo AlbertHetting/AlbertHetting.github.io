@@ -24,6 +24,29 @@ export default function Blog() {
         <div className="BlogSectionMain">
 
 
+          <div className="things reveal4 stagger">
+            <div className="Daily">
+              <h1> 6/2 - 12/2 </h1>
+              <p className="PText">
+                Det har været lidt on & off her de sidste par dage. Fredag d.6/2 kunne jeg ikke møde ind, da alt offentlig  transport var aflyst pga. sne, så den dag blev der lavet en smule videre hjemmefra.<br></br> <br></br>
+                Mandag d.9/2 var jeg halvsyg, så jeg blev nødt til at tage hjem tidligt. Jeg fik dog færdiggjort undersiden om-arkitektladen, da det blev tirsdag d.10/2 var jeg syg med feber og derfor blev jeg hjemme for at slappe af og blive rask igen., der havde min mentor også tid til at kigge på den underside jeg var blevet færdig med og lave nogle kommentarer til rettelse og overall gode tips and tricks.<br></br> <br></br>
+                Jeg sidder nu med den mest komplicerede underside, nemlig den der skal være sat op på samtlige CMS’er der skal være forbundet så de kan hente den rigtige data til hvert enkelt template underside. <br></br> <br></br>
+                Siderne med der er 100% CMS er nu lavet med design, det vil sige at der kun mangler indhold, som kommer til at være en langvarig proces. <br></br> <br></br>
+
+
+                Refleksion: Det er meget ærgerligt at jeg har været syg / ikke kunne komme ind på kontoret, men det arbejde jeg har lavet er relevant for kunden og er god erfaring for mig. Det at casen er virkelig og skal ud og tages i brug gør at jeg skal tænke dybt over hvordan jeg implementerer de forskellige CMS systemer og hvordan designet bliver responsivt på en god måde.<br></br> <br></br>
+
+               Se gerne denne side for den progress jeg har lavet på arkitektladen:<br></br> <br></br>
+               <a href="https://arkitektladen-development.webflow.io/kategorisider/barn-style">
+                  Development Hjemmeside Kategori Sider
+                </a>
+              </p>
+            </div>
+          </div>
+
+
+
+
         <div className="things reveal4 stagger">
             <div className="Daily">
               <h1> 4/2 & 5/2 </h1>
