@@ -169,6 +169,48 @@ header {
   border: 0;
 }
 
+
+
+.læringsmål-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.læringsmål-con p, h2{
+  color: black;
+  max-width: 700px;
+  font-family: "Lexend", serif;
+}
+
+.læringsmål-con h1{
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 30px;
+}
+
+.læringsmål-con h2{
+  font-size: 20px;
+}
+
+
+.læringsmål-con p{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-weight: 300;
+}
+
+.læringsmål-con h2{
+  font-weight: 500;
+}
+
+
+
+
+
+
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .nav-letter-inner {

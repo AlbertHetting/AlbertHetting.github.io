@@ -20,8 +20,86 @@ export default function Blog() {
           alt=""
         />
       </section>
+
+      <div className="things reveal4 stagger">
+        <div className="læringsmål-con">
+
+      <h1 className="LæringsmålH1">Læringsmål</h1>
+
+
+          <h2 className="læringsmålH">1: Være i samarbejde med kunder og skabe relevante og gode løsninger til dem, og reflektere over hvordan man bedst arbejder med kundernes behov.</h2>
+          <p className="Ptext2">Jeg har nu været i samarbejde med en kunde og snakket med dem 2 gange. Som udgangspunkt er det gået godt, især taget i betragtning at det var en “vanskelig kunde” så det at webdesignerne blev  godkendt på ca. 1 uge af frem og tilbage er virkelig godt! Jeg skal nu videre i casen da jeg står for udviklingen af hjemmesiden i Webflow.  Løsningen (websiden) er stort set færdig nu og skal til revision så kunden kan få den.</p>
+
+           <h2 className="læringsmålH">2: Blive en del af et større team og lære hvordan man arbejder i en multimedievirksomhed og hvor jeg bedst passer ind ift. min faglighed.</h2>
+          <p className="Ptext2">Jeg har nu arbejdet i lidt over 6 uger og jeg har indtil videre været med til web-design (i figma) og animation samt lært en smule om color correcting i premiere pro. Jeg har også bidraget til andre projekter med animationer i after effects samt logo animationer. Jeg har også været ude med video-holdet på et shoot.  Derudover har jeg udviklet hele Arkitektladens hjemmeside i Webflow (ca. 4 ugers arbejde)
+
+        Generelt kunne jeg godt tænke mig at komme rundt til både salgs afdelingen og SEO  afdelingen, så har jeg faktisk været rundt stort set alle steder (bortset fra  ved direktøren) 
+
+        Især salg og SEO er vigtigt, jeg vil gerne lære ting som jeg ikke har mulighed for at lære på studiet. Salg er hjørnestenen af hvert firma, hvis man ikke kan sælge noget tjener man ikke nogen penge, derfor har jeg spurgt om jeg gerne må være med på nogle salgsmøder hvor jeg kan lære og se hvilke tips and tricks jeg kan tage med mig og eventuelt byde ind med relevante indsigter som udvikler og designer.
+        </p>
+
+           <h2 className="læringsmålH">3: Udfordre mine nuværende kodeevner og lære det kodesprog, de bruger hos Jysk Webbureau</h2>
+          <p className="Ptext2"> Jeg har nu været på webflow i 28 dage og jeg er godt på vej med arkitektladens side, Selve kode delen er en lille del af Webflow da det er et CMS værktøj ligesom Elementor. Jeg har stadig lært en masse om hvordan strukturen skal være og hvordan man opbygger CMS som kunder kan bruge til at opdatere deres sider.</p>
+
+           <h2 className="læringsmålH">4: Lære mere inden for mit personlige felt om video og billede fra dem, de har ansat. Derefter kan jeg prøve at implementere løsningerne i relevante projekter</h2>
+          <p className="Ptext2"> Jeg er blevet instrueret i hvordan color correcter og hvordan video integreres i webflow. Herunder skal jeg lære om en extension i After Effects så de animationer jeg laver i AE kan bruges som SVG video materiale i webflow. Overall har video holdet haft meget travlt derfor har jeg kun været med på et shoot. Jeg var bare en spectator i det shoot så meget har jeg ikke fået lavet.</p>
+
+           <h2 className="læringsmålH">5: Være med i et større og længere projekt med samarbejde og kommunikation både med kolleger og med kunden</h2>
+          <p className="Ptext2">Det design jeg har lavet i fællesskab med min mentor Jonas er første skridt i en længere proces som er hele udviklingen af en ny custom built hjemmeside til Arkitektladen. Nu hvor hjemmesiden stort set er færdig mangler det sidste led bare hvor kunden skal give feedback på produktet. Det vil sige at jeg sådan set er nået i mål her
+            </p>
+
+        </div>
+      </div >
+
+
+
+
+
+
       <div>
         <div className="BlogSectionMain">
+
+
+
+          <div className="things reveal4 stagger">
+            <div className="Daily">
+              <h1> 13/2 - 18/2 </h1>
+              <p className="PText">
+Jeg har været i gang med Arkitektladens side i lidt over 2 uger nu og jeg kan se målstregen. Der er ikke som sådan nogle store key takeaways som der var i starten af forløbet. Jeg bliver selvfølgelig bedre til webflow, men  de store refleksioner og vigtigste ting jeg opdagede var helt klart mest i starten af udviklingsprocessen.<br></br> <br></br>
+
+Helt konkret er det meget det samme som tidligere med at man skal have de samme ting i baghovedet når man laver en hjemmeside der skal køres via CMS og skal kunne opdateres i real time. Hjemmesiden skal gennemarbejdes på et højere niveau end det vi har lavet i skolen. Her skal funktionen ikke bare virke men den skal virke på alle skærmstørrelser og den skal rettes til med billeder og tekst af kunden. Dette gør at hvert enkelt lille skridt kan tage utrolig lang tid, da man ikke bare kan lave det hurtigt og uden scalability og så være færdig.<br></br> <br></br>
+
+Konkrete ting jeg har nået:<br></br> <br></br>
+CMS på alle arkitektur sider<br></br>
+CMS på interiør<br></br>
+CMS på uderum<br></br>
+Design og responsivitet af om arkitektladen<br></br>
+Byggerådgiver SEO side designet og klar (ikke responsiv endnu)<br></br>
+Skrevet hjælpende tekst til hvert afsnit i CMS (det som kunden skal have med at gøre)<br></br>
+Navigation med CMS integration og korrekte links<br></br>
+
+<br></br><br></br>
+Jeg mangler konkret:
+<br></br><br></br>
+
+Oprette alt deres nuværende content på CMS<br></br>
+Fikse footer med CMS og linkstruktur<br></br>
+Lave kontaktside færdig<br></br>
+Lave Byggerådgiver responsiv<br></br>
+Gennemcheck af hele siden<br></br>
+Feedback fra mentor<br></br>
+
+
+
+               <a href="https://arkitektladen-development.webflow.io/">
+                  Se gerne siden nu, alle undersider er færdige og navigationen fungerer
+                </a>
+              </p>
+            </div>
+          </div>
+
+
+
 
 
           <div className="things reveal4 stagger">
