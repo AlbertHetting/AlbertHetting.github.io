@@ -65,7 +65,7 @@ export default function Blog() {
 
 <div className="things reveal4 stagger">
             <div className="Daily">
-              <h1> 19/2 - 14/2 </h1>
+              <h1> 19/2 - 24/2 </h1>
               <p className="PText">
                 Arkitektladen er nu under revision. Der er ikke mange takeaways her. Det er mest bare små styling ting som hurtigt kunne rettes. Der var nogle kommentarer som vi skulle snakke om, men ikke noget som jeg kunne reflektere over. Nu skal siden forbi kunden så de kan evaluere den. <br></br> <br></br>
 
