@@ -61,40 +61,83 @@ export default function Blog() {
 
 
 
+
+
+<div className="things reveal4 stagger">
+            <div className="Daily">
+              <h1> 19/2 - 14/2 </h1>
+              <p className="PText">
+                Arkitektladen er nu under revision. Der er ikke mange takeaways her. Det er mest bare små styling ting som hurtigt kunne rettes. Der var nogle kommentarer som vi skulle snakke om, men ikke noget som jeg kunne reflektere over. Nu skal siden forbi kunden så de kan evaluere den. <br></br> <br></br>
+
+                Jeg brugte omkring 2 dage på at fikse en af de sliders der er på siden da der var problemer med den bredde som slider API’en regnede sig frem til der gjorde at man ikke kunne se hele det sidste billede.<br></br> <br></br>
+
+                Imorgen har vi en samtale om hovedopgaven og en evaluering af praktikforløbet, sammen med vores mentorer og direktøren. <br></br> <br></br> 
+
+                Lige nu sidder jeg med nogle animations opgaver og imorgen starter jeg på et illustrator projekt ift. logo for en virksomhed der skal have lavet en i forbindelse med ny hjemmeside. <br></br> <br></br>
+
+                Det vil sige at siden nu kun mangler at komme forbi Daniel for final approval og at den skal fremvises for kunden. <br></br> <br></br>
+
+               <a href="https://arkitektladen-development.webflow.io/">
+                  Færdig side, Efter revision og skal sendes til kunden
+                </a>
+              </p>
+
+               <img
+                className="imagecontainer1"
+                src={withBase("Images/0502.jpg")}
+                alt=""
+              />
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <div className="things reveal4 stagger">
             <div className="Daily">
               <h1> 13/2 - 18/2 </h1>
               <p className="PText">
-Jeg har været i gang med Arkitektladens side i lidt over 2 uger nu og jeg kan se målstregen. Der er ikke som sådan nogle store key takeaways som der var i starten af forløbet. Jeg bliver selvfølgelig bedre til webflow, men  de store refleksioner og vigtigste ting jeg opdagede var helt klart mest i starten af udviklingsprocessen.<br></br> <br></br>
+                    Jeg har været i gang med Arkitektladens side i lidt over 2 uger nu og jeg kan se målstregen. Der er ikke som sådan nogle store key takeaways som der var i starten af forløbet. Jeg bliver selvfølgelig bedre til webflow, men  de store refleksioner og vigtigste ting jeg opdagede var helt klart mest i starten af udviklingsprocessen.<br></br> <br></br>
 
-Helt konkret er det meget det samme som tidligere med at man skal have de samme ting i baghovedet når man laver en hjemmeside der skal køres via CMS og skal kunne opdateres i real time. Hjemmesiden skal gennemarbejdes på et højere niveau end det vi har lavet i skolen. Her skal funktionen ikke bare virke men den skal virke på alle skærmstørrelser og den skal rettes til med billeder og tekst af kunden. Dette gør at hvert enkelt lille skridt kan tage utrolig lang tid, da man ikke bare kan lave det hurtigt og uden scalability og så være færdig.<br></br> <br></br>
+                    Helt konkret er det meget det samme som tidligere med at man skal have de samme ting i baghovedet når man laver en hjemmeside der skal køres via CMS og skal kunne opdateres i real time. Hjemmesiden skal gennemarbejdes på et højere niveau end det vi har lavet i skolen. Her skal funktionen ikke bare virke men den skal virke på alle skærmstørrelser og den skal rettes til med billeder og tekst af kunden. Dette gør at hvert enkelt lille skridt kan tage utrolig lang tid, da man ikke bare kan lave det hurtigt og uden scalability og så være færdig.<br></br> <br></br>
 
-Konkrete ting jeg har nået:<br></br> <br></br>
-CMS på alle arkitektur sider<br></br>
-CMS på interiør<br></br>
-CMS på uderum<br></br>
-Design og responsivitet af om arkitektladen<br></br>
-Byggerådgiver SEO side designet og klar (ikke responsiv endnu)<br></br>
-Skrevet hjælpende tekst til hvert afsnit i CMS (det som kunden skal have med at gøre)<br></br>
-Navigation med CMS integration og korrekte links<br></br>
+                    Konkrete ting jeg har nået:<br></br> <br></br>
+                    CMS på alle arkitektur sider<br></br>
+                    CMS på interiør<br></br>
+                    CMS på uderum<br></br>
+                    Design og responsivitet af om arkitektladen<br></br>
+                    Byggerådgiver SEO side designet og klar (ikke responsiv endnu)<br></br>
+                    Skrevet hjælpende tekst til hvert afsnit i CMS (det som kunden skal have med at gøre)<br></br>
+                    Navigation med CMS integration og korrekte links<br></br>
 
-<br></br><br></br>
-Jeg mangler konkret:
-<br></br><br></br>
+                    <br></br><br></br>
+                    Jeg mangler konkret:
+                    <br></br><br></br>
 
-Oprette alt deres nuværende content på CMS<br></br>
-Fikse footer med CMS og linkstruktur<br></br>
-Lave kontaktside færdig<br></br>
-Lave Byggerådgiver responsiv<br></br>
-Gennemcheck af hele siden<br></br>
-Feedback fra mentor<br></br>
-
-
-
+                    Oprette alt deres nuværende content på CMS<br></br>
+                    Fikse footer med CMS og linkstruktur<br></br>
+                    Lave kontaktside færdig<br></br>
+                    Lave Byggerådgiver responsiv<br></br>
+                    Gennemcheck af hele siden<br></br>
+                    Feedback fra mentor<br></br>
                <a href="https://arkitektladen-development.webflow.io/">
                   Se gerne siden nu, alle undersider er færdige og navigationen fungerer
                 </a>
               </p>
+              
             </div>
           </div>
 
