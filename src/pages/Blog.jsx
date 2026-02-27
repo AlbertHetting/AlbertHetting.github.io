@@ -63,20 +63,15 @@ export default function Blog() {
 
 
 
+
 <div className="things reveal4 stagger">
             <div className="Daily">
               <h1> 19/2 - 24/2 </h1>
               <p className="PText">
-                Arkitektladen er nu under revision. Der er ikke mange takeaways her. Det er mest bare små styling ting som hurtigt kunne rettes. Der var nogle kommentarer som vi skulle snakke om, men ikke noget som jeg kunne reflektere over. Nu skal siden forbi kunden så de kan evaluere den. <br></br> <br></br>
-
-                Jeg brugte omkring 2 dage på at fikse en af de sliders der er på siden da der var problemer med den bredde som slider API’en regnede sig frem til der gjorde at man ikke kunne se hele det sidste billede.<br></br> <br></br>
-
-                Imorgen har vi en samtale om hovedopgaven og en evaluering af praktikforløbet, sammen med vores mentorer og direktøren. <br></br> <br></br> 
-
-                Lige nu sidder jeg med nogle animations opgaver og imorgen starter jeg på et illustrator projekt ift. logo for en virksomhed der skal have lavet en i forbindelse med ny hjemmeside. <br></br> <br></br>
-
-                Det vil sige at siden nu kun mangler at komme forbi Daniel for final approval og at den skal fremvises for kunden. <br></br> <br></br>
-
+                Arkitektladens hjemmeside er nu helt færdig og har været gennem revision 2 gange. Nu er der booket møde til d.9/3 så vi kan sende dem et link til løsningen og derefter give feedback. når vi får den feedback er jeg allerede i gang med min hovedopgave, så jeg kommer desværre ikke til at arbejde yderligere med arkitektladens hjemmeside og være der til at arbejde med den inden den skal lanceres.<br></br> <br></br> 
+                Jeg startede på en videoopgave for Jysk badeteknik, det er en statement video, så det handler om at finde de bedste udtalelser og klippe dem ned så de ikke tager længere end 2 minutter sammen. Derefter skal der udvælges A roll footage som passer med hvad der bliver sagt og skaber stemning. Til sidst skal der laves lydspor rigtigt (så det lyder godt) og derefter skal der color correctes. Dette gør så videoen færdig og dermed mit lille video projekt færdigt.<br></br> <br></br> 
+                Lige nu har jeg klippet udtalelserne ned så der tager omkring 1:30 og jeg har set alle A roll videoerne igennem og markeret de bedste.<br></br> <br></br> 
+                Indtil videre er refleksionerne at videoen skal fokusere på det som taler kunden bedst op. Den skal lægge vægt på det som B2B (business to business) kunder er mest interesserede i. Herunder er det ikke præcis “hvad” men mere “hvordan” jeg skal have fokus på. Hvordan var de at arbejde sammen med? Var der levering til tiden? Fungerer løsningen? Er de til at få fat i ved spørgsmål? osv. Man skal sætte sig ned og tænke “hvis jeg var en smømmehal der skulle have ny teknik, hvad ville jeg så gerne vide?” Hvad kan være vigtigt, men ekspertisen og samarbejdet tager overhånd her.<br></br> <br></br>
                <a href="https://arkitektladen-development.webflow.io/">
                   Færdig side, Efter revision og skal sendes til kunden
                 </a>
@@ -87,6 +82,33 @@ export default function Blog() {
                 src={withBase("Images/0502.jpg")}
                 alt=""
               />
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+<div className="things reveal4 stagger">
+            <div className="Daily">
+              <h1> 15/2 - 28/2 </h1>
+              <p className="PText">
+                Arkitektladen er nu under revision. Der er ikke mange takeaways her. Det er mest bare små styling ting som hurtigt kunne rettes. Der var nogle kommentarer som vi skulle snakke om, men ikke noget som jeg kunne reflektere over. Nu skal siden forbi kunden så de kan evaluere den. <br></br> <br></br>
+
+                Jeg brugte omkring 2 dage på at fikse en af de sliders der er på siden da der var problemer med den bredde som slider API’en regnede sig frem til der gjorde at man ikke kunne se hele det sidste billede.<br></br> <br></br>
+
+                Imorgen har vi en samtale om hovedopgaven og en evaluering af praktikforløbet, sammen med vores mentorer og direktøren. <br></br> <br></br> 
+
+                Lige nu sidder jeg med nogle animations opgaver og imorgen starter jeg på et illustrator projekt ift. logo for en virksomhed der skal have lavet en i forbindelse med ny hjemmeside. <br></br> <br></br>
+
+                Det vil sige at siden nu kun mangler at komme forbi Daniel for final approval og at den skal fremvises for kunden. <br></br> <br></br>
+              </p>
             </div>
           </div>
 
