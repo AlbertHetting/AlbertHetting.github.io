@@ -61,6 +61,26 @@ export default function Blog() {
 
 
 
+<div className="things reveal4 stagger">
+            <div className="Daily">
+              <h1> 25/2 - 27/2 </h1>
+              <p className="PText">
+Arkitektladens hjemmeside er nu helt færdig og har været gennem revision 2 gange. Nu er der booket møde til d.9/3 så vi kan sende dem et link til løsningen og derefter give feedback. når vi får den feedback er jeg allerede i gang med min hovedopgave, så jeg kommer desværre ikke til at arbejde yderligere med arkitektladens hjemmeside og være der til at arbejde med den inden den skal lanceres.<br></br> <br></br> 
+
+
+              </p>
+
+               <img
+                className="imagecontainer1"
+                src={withBase("Images/0502.jpg")}
+                alt=""
+              />
+            </div>
+          </div>
+
+
+
+
 
 
 
