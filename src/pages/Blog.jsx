@@ -23,81 +23,183 @@ export default function Blog() {
 
       <div className="things reveal4 stagger">
         <div className="læringsmål-con">
+          <h1 className="LæringsmålH1">Læringsmål</h1>
 
-      <h1 className="LæringsmålH1">Læringsmål</h1>
+          <h2 className="læringsmålH">
+            1: Være i samarbejde med kunder og skabe relevante og gode løsninger
+            til dem, og reflektere over hvordan man bedst arbejder med kundernes
+            behov.
+          </h2>
+          <p className="Ptext2">
+            Jeg har nu været i samarbejde med en kunde og snakket med dem 2
+            gange. Som udgangspunkt er det gået godt, især taget i betragtning
+            at det var en “vanskelig kunde” så det at webdesignerne blev
+            godkendt på ca. 1 uge af frem og tilbage er virkelig godt! Jeg skal
+            nu videre i casen da jeg står for udviklingen af hjemmesiden i
+            Webflow. Løsningen (websiden) er stort set færdig nu og skal til
+            revision så kunden kan få den.
+          </p>
 
+          <h2 className="læringsmålH">
+            2: Blive en del af et større team og lære hvordan man arbejder i en
+            multimedievirksomhed og hvor jeg bedst passer ind ift. min
+            faglighed.
+          </h2>
+          <p className="Ptext2">
+            Jeg har nu arbejdet i lidt over 6 uger og jeg har indtil videre
+            været med til web-design (i figma) og animation samt lært en smule
+            om color correcting i premiere pro. Jeg har også bidraget til andre
+            projekter med animationer i after effects samt logo animationer. Jeg
+            har også været ude med video-holdet på et shoot. Derudover har jeg
+            udviklet hele Arkitektladens hjemmeside i Webflow (ca. 4 ugers
+            arbejde) Generelt kunne jeg godt tænke mig at komme rundt til både
+            salgs afdelingen og SEO afdelingen, så har jeg faktisk været rundt
+            stort set alle steder (bortset fra ved direktøren) Især salg og SEO
+            er vigtigt, jeg vil gerne lære ting som jeg ikke har mulighed for at
+            lære på studiet. Salg er hjørnestenen af hvert firma, hvis man ikke
+            kan sælge noget tjener man ikke nogen penge, derfor har jeg spurgt
+            om jeg gerne må være med på nogle salgsmøder hvor jeg kan lære og se
+            hvilke tips and tricks jeg kan tage med mig og eventuelt byde ind
+            med relevante indsigter som udvikler og designer.
+          </p>
 
-          <h2 className="læringsmålH">1: Være i samarbejde med kunder og skabe relevante og gode løsninger til dem, og reflektere over hvordan man bedst arbejder med kundernes behov.</h2>
-          <p className="Ptext2">Jeg har nu været i samarbejde med en kunde og snakket med dem 2 gange. Som udgangspunkt er det gået godt, især taget i betragtning at det var en “vanskelig kunde” så det at webdesignerne blev  godkendt på ca. 1 uge af frem og tilbage er virkelig godt! Jeg skal nu videre i casen da jeg står for udviklingen af hjemmesiden i Webflow.  Løsningen (websiden) er stort set færdig nu og skal til revision så kunden kan få den.</p>
+          <h2 className="læringsmålH">
+            3: Udfordre mine nuværende kodeevner og lære det kodesprog, de
+            bruger hos Jysk Webbureau
+          </h2>
+          <p className="Ptext2">
+            {" "}
+            Jeg har nu været på webflow i 28 dage og jeg er godt på vej med
+            arkitektladens side, Selve kode delen er en lille del af Webflow da
+            det er et CMS værktøj ligesom Elementor. Jeg har stadig lært en
+            masse om hvordan strukturen skal være og hvordan man opbygger CMS
+            som kunder kan bruge til at opdatere deres sider.
+          </p>
 
-           <h2 className="læringsmålH">2: Blive en del af et større team og lære hvordan man arbejder i en multimedievirksomhed og hvor jeg bedst passer ind ift. min faglighed.</h2>
-          <p className="Ptext2">Jeg har nu arbejdet i lidt over 6 uger og jeg har indtil videre været med til web-design (i figma) og animation samt lært en smule om color correcting i premiere pro. Jeg har også bidraget til andre projekter med animationer i after effects samt logo animationer. Jeg har også været ude med video-holdet på et shoot.  Derudover har jeg udviklet hele Arkitektladens hjemmeside i Webflow (ca. 4 ugers arbejde)
+          <h2 className="læringsmålH">
+            4: Lære mere inden for mit personlige felt om video og billede fra
+            dem, de har ansat. Derefter kan jeg prøve at implementere
+            løsningerne i relevante projekter
+          </h2>
+          <p className="Ptext2">
+            {" "}
+            Jeg er blevet instrueret i hvordan color correcter og hvordan video
+            integreres i webflow. Herunder skal jeg lære om en extension i After
+            Effects så de animationer jeg laver i AE kan bruges som SVG video
+            materiale i webflow. Overall har video holdet haft meget travlt
+            derfor har jeg kun været med på et shoot. Jeg var bare en spectator
+            i det shoot så meget har jeg ikke fået lavet.
+          </p>
 
-        Generelt kunne jeg godt tænke mig at komme rundt til både salgs afdelingen og SEO  afdelingen, så har jeg faktisk været rundt stort set alle steder (bortset fra  ved direktøren) 
-
-        Især salg og SEO er vigtigt, jeg vil gerne lære ting som jeg ikke har mulighed for at lære på studiet. Salg er hjørnestenen af hvert firma, hvis man ikke kan sælge noget tjener man ikke nogen penge, derfor har jeg spurgt om jeg gerne må være med på nogle salgsmøder hvor jeg kan lære og se hvilke tips and tricks jeg kan tage med mig og eventuelt byde ind med relevante indsigter som udvikler og designer.
-        </p>
-
-           <h2 className="læringsmålH">3: Udfordre mine nuværende kodeevner og lære det kodesprog, de bruger hos Jysk Webbureau</h2>
-          <p className="Ptext2"> Jeg har nu været på webflow i 28 dage og jeg er godt på vej med arkitektladens side, Selve kode delen er en lille del af Webflow da det er et CMS værktøj ligesom Elementor. Jeg har stadig lært en masse om hvordan strukturen skal være og hvordan man opbygger CMS som kunder kan bruge til at opdatere deres sider.</p>
-
-           <h2 className="læringsmålH">4: Lære mere inden for mit personlige felt om video og billede fra dem, de har ansat. Derefter kan jeg prøve at implementere løsningerne i relevante projekter</h2>
-          <p className="Ptext2"> Jeg er blevet instrueret i hvordan color correcter og hvordan video integreres i webflow. Herunder skal jeg lære om en extension i After Effects så de animationer jeg laver i AE kan bruges som SVG video materiale i webflow. Overall har video holdet haft meget travlt derfor har jeg kun været med på et shoot. Jeg var bare en spectator i det shoot så meget har jeg ikke fået lavet.</p>
-
-           <h2 className="læringsmålH">5: Være med i et større og længere projekt med samarbejde og kommunikation både med kolleger og med kunden</h2>
-          <p className="Ptext2">Det design jeg har lavet i fællesskab med min mentor Jonas er første skridt i en længere proces som er hele udviklingen af en ny custom built hjemmeside til Arkitektladen. Nu hvor hjemmesiden stort set er færdig mangler det sidste led bare hvor kunden skal give feedback på produktet. Det vil sige at jeg sådan set er nået i mål her
-            </p>
-
+          <h2 className="læringsmålH">
+            5: Være med i et større og længere projekt med samarbejde og
+            kommunikation både med kolleger og med kunden
+          </h2>
+          <p className="Ptext2">
+            Det design jeg har lavet i fællesskab med min mentor Jonas er første
+            skridt i en længere proces som er hele udviklingen af en ny custom
+            built hjemmeside til Arkitektladen. Nu hvor hjemmesiden stort set er
+            færdig mangler det sidste led bare hvor kunden skal give feedback på
+            produktet. Det vil sige at jeg sådan set er nået i mål her
+          </p>
         </div>
-      </div >
+      </div>
 
 
 
+
+    
+        <div className="BlogSectionMain">
+          <div className="things reveal4 stagger">
+            <div className="Daily">
+              <h1> 25/2 - 27/2 </h1>
+              <p className="PText">
+                Jeg kører videre med video, det er en langsom proces da jeg har haft en del tanker om hovedopgaven og der har været nogle besværligheder med virksomheden. <br></br> <br></br>
+
+
+
+              </p>
+            </div>
+          </div>
 
 
 
       <div>
         <div className="BlogSectionMain">
-
-
-
-<div className="things reveal4 stagger">
+          <div className="things reveal4 stagger">
             <div className="Daily">
               <h1> 25/2 - 27/2 </h1>
               <p className="PText">
-Arkitektladens hjemmeside er nu helt færdig og har været gennem revision 2 gange. Nu er der booket møde til d.9/3 så vi kan sende dem et link til løsningen og derefter give feedback. når vi får den feedback er jeg allerede i gang med min hovedopgave, så jeg kommer desværre ikke til at arbejde yderligere med arkitektladens hjemmeside og være der til at arbejde med den inden den skal lanceres.<br></br> <br></br> 
-
-
+                Arkitektladens hjemmeside er nu helt færdig og har været gennem
+                revision 2 gange. Nu er der booket møde til d.9/3 så vi kan
+                sende dem et link til løsningen og derefter give feedback. når
+                vi får den feedback er jeg allerede i gang med min hovedopgave,
+                så jeg kommer desværre ikke til at arbejde yderligere med
+                arkitektladens hjemmeside og være der til at arbejde med den
+                inden den skal lanceres.<br></br> <br></br>
+                Jeg startede på en videoopgave for Jysk badeteknik, det er en
+                statement video, så det handler om at finde de bedste udtalelser
+                og klippe dem ned så de ikke tager længere end 2 minutter
+                sammen. Derefter skal der udvælges A roll footage som passer med
+                hvad der bliver sagt og skaber stemning. Til sidst skal der
+                laves lydspor rigtigt (så det lyder godt) og derefter skal der
+                color correctes. Dette gør så videoen færdig og dermed mit lille
+                video projekt færdigt.<br></br> <br></br>
+                Lige nu har jeg klippet udtalelserne ned så der tager omkring
+                1:30 og jeg har set alle A roll videoerne igennem og markeret de
+                bedste.<br></br> <br></br>
+                Indtil videre er refleksionerne at videoen skal fokusere på det
+                som taler kunden bedst op. Den skal lægge vægt på det som B2B
+                (business to business) kunder er mest interesserede i. Herunder
+                er det ikke præcis “hvad” men mere “hvordan” jeg skal have fokus
+                på. Hvordan var de at arbejde sammen med? Var der levering til
+                tiden? Fungerer løsningen? Er de til at få fat i ved spørgsmål?
+                osv. Man skal sætte sig ned og tænke “hvis jeg var en smømmehal
+                der skulle have ny teknik, hvad ville jeg så gerne vide?” Hvad
+                kan være vigtigt, men ekspertisen og samarbejdet tager overhånd
+                her.
               </p>
-
-               <img
-                className="imagecontainer1"
-                src={withBase("Images/0502.jpg")}
-                alt=""
-              />
             </div>
           </div>
 
-
-
-
-
-
-
-<div className="things reveal4 stagger">
+          <div className="things reveal4 stagger">
             <div className="Daily">
               <h1> 19/2 - 24/2 </h1>
               <p className="PText">
-                Arkitektladens hjemmeside er nu helt færdig og har været gennem revision 2 gange. Nu er der booket møde til d.9/3 så vi kan sende dem et link til løsningen og derefter give feedback. når vi får den feedback er jeg allerede i gang med min hovedopgave, så jeg kommer desværre ikke til at arbejde yderligere med arkitektladens hjemmeside og være der til at arbejde med den inden den skal lanceres.<br></br> <br></br> 
-                Jeg startede på en videoopgave for Jysk badeteknik, det er en statement video, så det handler om at finde de bedste udtalelser og klippe dem ned så de ikke tager længere end 2 minutter sammen. Derefter skal der udvælges A roll footage som passer med hvad der bliver sagt og skaber stemning. Til sidst skal der laves lydspor rigtigt (så det lyder godt) og derefter skal der color correctes. Dette gør så videoen færdig og dermed mit lille video projekt færdigt.<br></br> <br></br> 
-                Lige nu har jeg klippet udtalelserne ned så der tager omkring 1:30 og jeg har set alle A roll videoerne igennem og markeret de bedste.<br></br> <br></br> 
-                Indtil videre er refleksionerne at videoen skal fokusere på det som taler kunden bedst op. Den skal lægge vægt på det som B2B (business to business) kunder er mest interesserede i. Herunder er det ikke præcis “hvad” men mere “hvordan” jeg skal have fokus på. Hvordan var de at arbejde sammen med? Var der levering til tiden? Fungerer løsningen? Er de til at få fat i ved spørgsmål? osv. Man skal sætte sig ned og tænke “hvis jeg var en smømmehal der skulle have ny teknik, hvad ville jeg så gerne vide?” Hvad kan være vigtigt, men ekspertisen og samarbejdet tager overhånd her.<br></br> <br></br>
-               <a href="https://arkitektladen-development.webflow.io/">
+                Arkitektladens hjemmeside er nu helt færdig og har været gennem
+                revision 2 gange. Nu er der booket møde til d.9/3 så vi kan
+                sende dem et link til løsningen og derefter give feedback. når
+                vi får den feedback er jeg allerede i gang med min hovedopgave,
+                så jeg kommer desværre ikke til at arbejde yderligere med
+                arkitektladens hjemmeside og være der til at arbejde med den
+                inden den skal lanceres.<br></br> <br></br>
+                Jeg startede på en videoopgave for Jysk badeteknik, det er en
+                statement video, så det handler om at finde de bedste udtalelser
+                og klippe dem ned så de ikke tager længere end 2 minutter
+                sammen. Derefter skal der udvælges A roll footage som passer med
+                hvad der bliver sagt og skaber stemning. Til sidst skal der
+                laves lydspor rigtigt (så det lyder godt) og derefter skal der
+                color correctes. Dette gør så videoen færdig og dermed mit lille
+                video projekt færdigt.<br></br> <br></br>
+                Lige nu har jeg klippet udtalelserne ned så der tager omkring
+                1:30 og jeg har set alle A roll videoerne igennem og markeret de
+                bedste.<br></br> <br></br>
+                Indtil videre er refleksionerne at videoen skal fokusere på det
+                som taler kunden bedst op. Den skal lægge vægt på det som B2B
+                (business to business) kunder er mest interesserede i. Herunder
+                er det ikke præcis “hvad” men mere “hvordan” jeg skal have fokus
+                på. Hvordan var de at arbejde sammen med? Var der levering til
+                tiden? Fungerer løsningen? Er de til at få fat i ved spørgsmål?
+                osv. Man skal sætte sig ned og tænke “hvis jeg var en smømmehal
+                der skulle have ny teknik, hvad ville jeg så gerne vide?” Hvad
+                kan være vigtigt, men ekspertisen og samarbejdet tager overhånd
+                her.<br></br> <br></br>
+                <a href="https://arkitektladen-development.webflow.io/">
                   Færdig side, Efter revision og skal sendes til kunden
                 </a>
               </p>
 
-               <img
+              <img
                 className="imagecontainer1"
                 src={withBase("Images/0502.jpg")}
                 alt=""
@@ -105,122 +207,145 @@ Arkitektladens hjemmeside er nu helt færdig og har været gennem revision 2 gan
             </div>
           </div>
 
-
-
-
-
-
-
-
-
-
-
-<div className="things reveal4 stagger">
+          <div className="things reveal4 stagger">
             <div className="Daily">
               <h1> 15/2 - 28/2 </h1>
               <p className="PText">
-                Arkitektladen er nu under revision. Der er ikke mange takeaways her. Det er mest bare små styling ting som hurtigt kunne rettes. Der var nogle kommentarer som vi skulle snakke om, men ikke noget som jeg kunne reflektere over. Nu skal siden forbi kunden så de kan evaluere den. <br></br> <br></br>
-
-                Jeg brugte omkring 2 dage på at fikse en af de sliders der er på siden da der var problemer med den bredde som slider API’en regnede sig frem til der gjorde at man ikke kunne se hele det sidste billede.<br></br> <br></br>
-
-                Imorgen har vi en samtale om hovedopgaven og en evaluering af praktikforløbet, sammen med vores mentorer og direktøren. <br></br> <br></br> 
-
-                Lige nu sidder jeg med nogle animations opgaver og imorgen starter jeg på et illustrator projekt ift. logo for en virksomhed der skal have lavet en i forbindelse med ny hjemmeside. <br></br> <br></br>
-
-                Det vil sige at siden nu kun mangler at komme forbi Daniel for final approval og at den skal fremvises for kunden. <br></br> <br></br>
+                Arkitektladen er nu under revision. Der er ikke mange takeaways
+                her. Det er mest bare små styling ting som hurtigt kunne rettes.
+                Der var nogle kommentarer som vi skulle snakke om, men ikke
+                noget som jeg kunne reflektere over. Nu skal siden forbi kunden
+                så de kan evaluere den. <br></br> <br></br>
+                Jeg brugte omkring 2 dage på at fikse en af de sliders der er på
+                siden da der var problemer med den bredde som slider API’en
+                regnede sig frem til der gjorde at man ikke kunne se hele det
+                sidste billede.<br></br> <br></br>
+                Imorgen har vi en samtale om hovedopgaven og en evaluering af
+                praktikforløbet, sammen med vores mentorer og direktøren.{" "}
+                <br></br> <br></br>
+                Lige nu sidder jeg med nogle animations opgaver og imorgen
+                starter jeg på et illustrator projekt ift. logo for en
+                virksomhed der skal have lavet en i forbindelse med ny
+                hjemmeside. <br></br> <br></br>
+                Det vil sige at siden nu kun mangler at komme forbi Daniel for
+                final approval og at den skal fremvises for kunden. <br></br>{" "}
+                <br></br>
               </p>
             </div>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
           <div className="things reveal4 stagger">
             <div className="Daily">
               <h1> 13/2 - 18/2 </h1>
               <p className="PText">
-                    Jeg har været i gang med Arkitektladens side i lidt over 2 uger nu og jeg kan se målstregen. Der er ikke som sådan nogle store key takeaways som der var i starten af forløbet. Jeg bliver selvfølgelig bedre til webflow, men  de store refleksioner og vigtigste ting jeg opdagede var helt klart mest i starten af udviklingsprocessen.<br></br> <br></br>
-
-                    Helt konkret er det meget det samme som tidligere med at man skal have de samme ting i baghovedet når man laver en hjemmeside der skal køres via CMS og skal kunne opdateres i real time. Hjemmesiden skal gennemarbejdes på et højere niveau end det vi har lavet i skolen. Her skal funktionen ikke bare virke men den skal virke på alle skærmstørrelser og den skal rettes til med billeder og tekst af kunden. Dette gør at hvert enkelt lille skridt kan tage utrolig lang tid, da man ikke bare kan lave det hurtigt og uden scalability og så være færdig.<br></br> <br></br>
-
-                    Konkrete ting jeg har nået:<br></br> <br></br>
-                    CMS på alle arkitektur sider<br></br>
-                    CMS på interiør<br></br>
-                    CMS på uderum<br></br>
-                    Design og responsivitet af om arkitektladen<br></br>
-                    Byggerådgiver SEO side designet og klar (ikke responsiv endnu)<br></br>
-                    Skrevet hjælpende tekst til hvert afsnit i CMS (det som kunden skal have med at gøre)<br></br>
-                    Navigation med CMS integration og korrekte links<br></br>
-
-                    <br></br><br></br>
-                    Jeg mangler konkret:
-                    <br></br><br></br>
-
-                    Oprette alt deres nuværende content på CMS<br></br>
-                    Fikse footer med CMS og linkstruktur<br></br>
-                    Lave kontaktside færdig<br></br>
-                    Lave Byggerådgiver responsiv<br></br>
-                    Gennemcheck af hele siden<br></br>
-                    Feedback fra mentor<br></br>
-               <a href="https://arkitektladen-development.webflow.io/">
-                  Se gerne siden nu, alle undersider er færdige og navigationen fungerer
+                Jeg har været i gang med Arkitektladens side i lidt over 2 uger
+                nu og jeg kan se målstregen. Der er ikke som sådan nogle store
+                key takeaways som der var i starten af forløbet. Jeg bliver
+                selvfølgelig bedre til webflow, men de store refleksioner og
+                vigtigste ting jeg opdagede var helt klart mest i starten af
+                udviklingsprocessen.<br></br> <br></br>
+                Helt konkret er det meget det samme som tidligere med at man
+                skal have de samme ting i baghovedet når man laver en hjemmeside
+                der skal køres via CMS og skal kunne opdateres i real time.
+                Hjemmesiden skal gennemarbejdes på et højere niveau end det vi
+                har lavet i skolen. Her skal funktionen ikke bare virke men den
+                skal virke på alle skærmstørrelser og den skal rettes til med
+                billeder og tekst af kunden. Dette gør at hvert enkelt lille
+                skridt kan tage utrolig lang tid, da man ikke bare kan lave det
+                hurtigt og uden scalability og så være færdig.<br></br>{" "}
+                <br></br>
+                Konkrete ting jeg har nået:<br></br> <br></br>
+                CMS på alle arkitektur sider<br></br>
+                CMS på interiør<br></br>
+                CMS på uderum<br></br>
+                Design og responsivitet af om arkitektladen<br></br>
+                Byggerådgiver SEO side designet og klar (ikke responsiv endnu)
+                <br></br>
+                Skrevet hjælpende tekst til hvert afsnit i CMS (det som kunden
+                skal have med at gøre)<br></br>
+                Navigation med CMS integration og korrekte links<br></br>
+                <br></br>
+                <br></br>
+                Jeg mangler konkret:
+                <br></br>
+                <br></br>
+                Oprette alt deres nuværende content på CMS<br></br>
+                Fikse footer med CMS og linkstruktur<br></br>
+                Lave kontaktside færdig<br></br>
+                Lave Byggerådgiver responsiv<br></br>
+                Gennemcheck af hele siden<br></br>
+                Feedback fra mentor<br></br>
+                <a href="https://arkitektladen-development.webflow.io/">
+                  Se gerne siden nu, alle undersider er færdige og navigationen
+                  fungerer
                 </a>
               </p>
-              
             </div>
           </div>
-
-
-
-
 
           <div className="things reveal4 stagger">
             <div className="Daily">
               <h1> 6/2 - 12/2 </h1>
               <p className="PText">
-                Det har været lidt on & off her de sidste par dage. Fredag d.6/2 kunne jeg ikke møde ind, da alt offentlig  transport var aflyst pga. sne, så den dag blev der lavet en smule videre hjemmefra.<br></br> <br></br>
-                Mandag d.9/2 var jeg halvsyg, så jeg blev nødt til at tage hjem tidligt. Jeg fik dog færdiggjort undersiden om-arkitektladen, da det blev tirsdag d.10/2 var jeg syg med feber og derfor blev jeg hjemme for at slappe af og blive rask igen., der havde min mentor også tid til at kigge på den underside jeg var blevet færdig med og lave nogle kommentarer til rettelse og overall gode tips and tricks.<br></br> <br></br>
-                Jeg sidder nu med den mest komplicerede underside, nemlig den der skal være sat op på samtlige CMS’er der skal være forbundet så de kan hente den rigtige data til hvert enkelt template underside. <br></br> <br></br>
-                Siderne med der er 100% CMS er nu lavet med design, det vil sige at der kun mangler indhold, som kommer til at være en langvarig proces. <br></br> <br></br>
-
-
-                Refleksion: Det er meget ærgerligt at jeg har været syg / ikke kunne komme ind på kontoret, men det arbejde jeg har lavet er relevant for kunden og er god erfaring for mig. Det at casen er virkelig og skal ud og tages i brug gør at jeg skal tænke dybt over hvordan jeg implementerer de forskellige CMS systemer og hvordan designet bliver responsivt på en god måde.<br></br> <br></br>
-
-               Se gerne denne side for den progress jeg har lavet på arkitektladen:<br></br> <br></br>
-               <a href="https://arkitektladen-development.webflow.io/kategorisider/barn-style">
+                Det har været lidt on & off her de sidste par dage. Fredag d.6/2
+                kunne jeg ikke møde ind, da alt offentlig transport var aflyst
+                pga. sne, så den dag blev der lavet en smule videre hjemmefra.
+                <br></br> <br></br>
+                Mandag d.9/2 var jeg halvsyg, så jeg blev nødt til at tage hjem
+                tidligt. Jeg fik dog færdiggjort undersiden om-arkitektladen, da
+                det blev tirsdag d.10/2 var jeg syg med feber og derfor blev jeg
+                hjemme for at slappe af og blive rask igen., der havde min
+                mentor også tid til at kigge på den underside jeg var blevet
+                færdig med og lave nogle kommentarer til rettelse og overall
+                gode tips and tricks.<br></br> <br></br>
+                Jeg sidder nu med den mest komplicerede underside, nemlig den
+                der skal være sat op på samtlige CMS’er der skal være forbundet
+                så de kan hente den rigtige data til hvert enkelt template
+                underside. <br></br> <br></br>
+                Siderne med der er 100% CMS er nu lavet med design, det vil sige
+                at der kun mangler indhold, som kommer til at være en langvarig
+                proces. <br></br> <br></br>
+                Refleksion: Det er meget ærgerligt at jeg har været syg / ikke
+                kunne komme ind på kontoret, men det arbejde jeg har lavet er
+                relevant for kunden og er god erfaring for mig. Det at casen er
+                virkelig og skal ud og tages i brug gør at jeg skal tænke dybt
+                over hvordan jeg implementerer de forskellige CMS systemer og
+                hvordan designet bliver responsivt på en god måde.<br></br>{" "}
+                <br></br>
+                Se gerne denne side for den progress jeg har lavet på
+                arkitektladen:<br></br> <br></br>
+                <a href="https://arkitektladen-development.webflow.io/kategorisider/barn-style">
                   Development Hjemmeside Kategori Sider
                 </a>
               </p>
             </div>
           </div>
 
-
-
-
-        <div className="things reveal4 stagger">
+          <div className="things reveal4 stagger">
             <div className="Daily">
               <h1> 4/2 & 5/2 </h1>
               <p className="PText">
-                Det kører egentligt bare lige nu, udviklingen af Arkitektladens side er godt på vej, jeg er kon omkring halvvejs (minus rettelser) så måske ⅓ færdig nu. Jeg er virkelig kommet ind på hvordan Jysk Webbureau arbejder med webflow og opbygningen. <br></br> <br></br>
-                Mig og Jakob har været igennem en rettelses sektion nu, hvor han gennemgik hvordan siderne skal opbygges, han sagde at det jeg havde lavet var godt fordi det hele faktisk virkede og var hooket op på CMS. Der var nogle ting ift. code embeds om skal ligge inde i "head" elementet og mange classnames der skulle ændres så der var bedre struktur på siden. Med Jakobs ord var det “småting”.<br></br> <br></br>
-                Refleksion: Det med class navne og “combo classes” er meget vigtigt at de har en tydelig struktur så andre på holdet kan forstå hvordan løsningen er lavet. Fundamentet er forskelligt fra det arbejde vi laver i skolen hvor der ikke er samme meget strikse måde at opbygge class navne fordi det kun er os selv der skal se og rette dem.<br></br> <br></br>
-               
-               Nedenfor kan der findes link til om arkitektladens development side: <br></br> <br></br>
-               
-               <a href="https://arkitektladen-development.webflow.io/om-arkitektladen">
+                Det kører egentligt bare lige nu, udviklingen af Arkitektladens
+                side er godt på vej, jeg er kon omkring halvvejs (minus
+                rettelser) så måske ⅓ færdig nu. Jeg er virkelig kommet ind på
+                hvordan Jysk Webbureau arbejder med webflow og opbygningen.{" "}
+                <br></br> <br></br>
+                Mig og Jakob har været igennem en rettelses sektion nu, hvor han
+                gennemgik hvordan siderne skal opbygges, han sagde at det jeg
+                havde lavet var godt fordi det hele faktisk virkede og var
+                hooket op på CMS. Der var nogle ting ift. code embeds om skal
+                ligge inde i "head" elementet og mange classnames der skulle
+                ændres så der var bedre struktur på siden. Med Jakobs ord var
+                det “småting”.<br></br> <br></br>
+                Refleksion: Det med class navne og “combo classes” er meget
+                vigtigt at de har en tydelig struktur så andre på holdet kan
+                forstå hvordan løsningen er lavet. Fundamentet er forskelligt
+                fra det arbejde vi laver i skolen hvor der ikke er samme meget
+                strikse måde at opbygge class navne fordi det kun er os selv der
+                skal se og rette dem.<br></br> <br></br>
+                Nedenfor kan der findes link til om arkitektladens development
+                side: <br></br> <br></br>
+                <a href="https://arkitektladen-development.webflow.io/om-arkitektladen">
                   Development Hjemmeside Om Arkitektladen
                 </a>
               </p>
@@ -231,15 +356,6 @@ Arkitektladens hjemmeside er nu helt færdig og har været gennem revision 2 gan
               />
             </div>
           </div>
-
-
-
-
-
-
-
-
-
 
           <div className="things reveal4 stagger">
             <div className="Daily">
