@@ -108,7 +108,7 @@ export default function Blog() {
       <div className="BlogSectionMain">
         <div className="things reveal4 stagger">
           <div className="Daily">
-            <h1> 25/2 - 27/2 </h1>
+            <h1> 2/3 - 6/3 </h1>
             <p className="PText">
               Jeg kører videre med video, det er en langsom proces da jeg har
               haft en del tanker om hovedopgaven og der har været nogle
