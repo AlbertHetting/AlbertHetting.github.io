@@ -105,24 +105,31 @@ export default function Blog() {
         </div>
       </div>
 
-
-
-
-    
-        <div className="BlogSectionMain">
-          <div className="things reveal4 stagger">
-            <div className="Daily">
-              <h1> 25/2 - 27/2 </h1>
-              <p className="PText">
-                Jeg kører videre med video, det er en langsom proces da jeg har haft en del tanker om hovedopgaven og der har været nogle besværligheder med virksomheden. <br></br> <br></br>
-
-
-
-              </p>
-            </div>
+      <div className="BlogSectionMain">
+        <div className="things reveal4 stagger">
+          <div className="Daily">
+            <h1> 25/2 - 27/2 </h1>
+            <p className="PText">
+              Jeg kører videre med video, det er en langsom proces da jeg har
+              haft en del tanker om hovedopgaven og der har været nogle
+              besværligheder med virksomheden. <br></br> <br></br> 1: Non
+              destructive workflow, her bruges adjustment layers til de
+              forskellige corrections, på den måde behøver man ikke lave color
+              correction for hvert enkelt klip, og man kan let finde rundt i
+              sine ændringer og slå dem fra og til.<br></br> <br></br>
+              2: specifik farveændring, det handler om at bruge HSL til at
+              udvælge specifikke farver der skal re-mappes fordi de måske er en
+              smule off. Dette bruges tit til skintone, da hud under nogle
+              forhold kan se rød/lilla ud.<br></br> <br></br>
+              Overall har det været en produktiv dag, jeg er glad for videoen
+              indtil videre og min nye mentor har været god til at vise præcis
+              hvordan man gør. Videoen er nu klippet sammen og der mangler bare
+              noget finpudsning nu ift. lydeffekter, colorgrade på nogle af de
+              grimmeste klip og noget intro og outro materiale.
+            </p>
           </div>
-
-
+        </div>
+      </div>
 
       <div>
         <div className="BlogSectionMain">
