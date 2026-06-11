@@ -1,41 +1,33 @@
 :root {
   --header-font: 32px;
-    --normal-text: 20px;
-    --medium-font: 24px;
-    --thumbnail-size: 1250px;
-    --thumbnail-medium: 950px;
-    --thumbnail-small: 700px;
-    --icon-size-normal: 40px;
-
+  --normal-text: 20px;
+  --medium-font: 24px;
+  --thumbnail-size: 1250px;
+  --thumbnail-medium: 950px;
+  --thumbnail-small: 700px;
+  --icon-size-normal: 40px;
 }
 
-body{
-    color: white;
-
+body {
+  color: white;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-
-
-
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* ANIMATION af ikoner og tekst I quicksummary (fra hook)*/
 
-:root{
+:root {
   --reveal-distance: -25px;
-  --reveal-duration: .5s;
-  --stagger-step: 100ms; 
+  --reveal-duration: 0.5s;
+  --stagger-step: 100ms;
 }
 
-
 /* Fade-down */
-.Thumbnail.reveal2{
+.Thumbnail.reveal2 {
   opacity: 0;
   transform: translateY(var(--reveal-distance));
   transition:
@@ -43,13 +35,13 @@ body{
     transform var(--reveal-duration) ease;
   will-change: opacity, transform;
 }
-.Thumbnail.reveal2.in-view2{
+.Thumbnail.reveal2.in-view2 {
   opacity: 1;
   transform: none;
 }
 
 /* Animate GRANDCHILDREN: .program-icons.reveal.stagger */
-.Thumbnail.reveal2.stagger > * > *{
+.Thumbnail.reveal2.stagger > * > * {
   opacity: 0;
   transform: translateY(var(--reveal-distance));
   transition:
@@ -58,80 +50,85 @@ body{
 }
 
 /* Final state */
-.Thumbnail.reveal2.in-view2.stagger > * > *{
+.Thumbnail.reveal2.in-view2.stagger > * > * {
   opacity: 1;
   transform: none;
 }
 
 /* Stagger delays across the grandchildren */
-.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(1) { transition-delay: calc(0 * var(--stagger-step)); }
-.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(2) { transition-delay: calc(1 * var(--stagger-step)); }
-.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(3) { transition-delay: calc(2 * var(--stagger-step)); }
-.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(4) { transition-delay: calc(3 * var(--stagger-step)); }
-.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(5) { transition-delay: calc(4 * var(--stagger-step)); }
-.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(6) { transition-delay: calc(5 * var(--stagger-step)); }
-.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(7) { transition-delay: calc(6 * var(--stagger-step)); }
-.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(8) { transition-delay: calc(7 * var(--stagger-step)); }
-.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(9) { transition-delay: calc(8 * var(--stagger-step)); }
-
-
-
-
-
-
-
-  
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(1) {
+  transition-delay: calc(0 * var(--stagger-step));
+}
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(2) {
+  transition-delay: calc(1 * var(--stagger-step));
+}
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(3) {
+  transition-delay: calc(2 * var(--stagger-step));
+}
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(4) {
+  transition-delay: calc(3 * var(--stagger-step));
+}
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(5) {
+  transition-delay: calc(4 * var(--stagger-step));
+}
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(6) {
+  transition-delay: calc(5 * var(--stagger-step));
+}
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(7) {
+  transition-delay: calc(6 * var(--stagger-step));
+}
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(8) {
+  transition-delay: calc(7 * var(--stagger-step));
+}
+.Thumbnail.reveal2.in-view2.stagger > * > *:nth-child(9) {
+  transition-delay: calc(8 * var(--stagger-step));
+}
 
 /* Rest of css */
 
-.upper2{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.upper2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-#mainvideo2{
-    width: 85%;
-    overflow: hidden;
-    height: auto;
-    aspect-ratio: 32 / 15;    
+#mainvideo2 {
+  width: 85%;
+  overflow: hidden;
+  height: auto;
+  aspect-ratio: 32 / 15;
 }
 
-
-
-.project-row h3{
-    font-family: "lexend", serif;
-    color: black;
-    max-width: 10ch;
-    font-weight: 380;
-    font-size: var(--medium-font);
+.project-row h3 {
+  font-family: "lexend", serif;
+  color: black;
+  max-width: 10ch;
+  font-weight: 380;
+  font-size: var(--medium-font);
 }
 
-
-.project-row h2{
-    font-family: "lexend", serif;
-    color: black;
-    max-width: 10ch;
-    font-weight: 200;
-    font-size: var(--normal-text);
-    padding-top: 1rem;
+.project-row h2 {
+  font-family: "lexend", serif;
+  color: black;
+  max-width: 10ch;
+  font-weight: 200;
+  font-size: var(--normal-text);
+  padding-top: 1rem;
 }
 
-
-.projectimage{
-    max-width: var(--thumbnail-size);
-    position: relative;
-    display: block;
-    border-radius: 10px;
-     z-index: 1; 
+.projectimage {
+  max-width: var(--thumbnail-size);
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  z-index: 1;
 }
 
-.project-container{
-    padding-top: 3rem;
+.project-container {
+  padding-top: 3rem;
 }
 
-
-  .line8 {
+.line8 {
   width: 100%;
   height: 3px;
   background: black;
@@ -140,42 +137,36 @@ body{
   margin-top: var(--space-md);
 }
 
-
-
-.project-row{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    padding-right: 1%;
+.project-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-right: 3%;
 }
 
-
-.project-apps img{
-    max-width: var(--icon-size-normal);
-    object-fit: contain;
-    display: block;
-    margin: 0; 
+.project-apps img {
+  max-width: var(--icon-size-normal);
+  object-fit: contain;
+  display: block;
+  margin: 0;
 }
 
-.project-apps{
+.project-apps {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 per row */
-  column-gap: 0.5rem;   
-  row-gap: 0.5rem;         
-  list-style: none;   
-  padding: 0;         
-  margin: 0;          
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 
-    align-content: start;
-    align-items: start;
-    justify-items: start;
-     height: auto;       
-
+  align-content: start;
+  align-items: start;
+  justify-items: start;
+  height: auto;
 }
-
-
 
 #glow-1 {
   display: block;
@@ -205,9 +196,7 @@ body{
   box-shadow: 0 0 30px 8px hsla(315, 100%, 82%, 0.45);
 }
 
-
-
-.Details a{
+.Details a {
   font-family: "lexend", serif;
   text-decoration: none;
   color: black;
@@ -215,119 +204,91 @@ body{
   font-weight: 300;
 }
 
-
 .Details {
-margin-top: 1rem;
+  margin-top: 1rem;
 }
 
-
-
-@media (max-width: 1950px){
-
-.projectimage{
+@media (max-width: 1950px) {
+  .projectimage {
     max-width: var(--thumbnail-medium);
     position: relative;
     display: block;
     border-radius: 10px;
-     z-index: 1; 
-}
+    z-index: 1;
+  }
 
-.project-container{
+  .project-container {
     padding-top: 3rem;
-}
+  }
 
-
-
-
-
-.project-row{
+  .project-row {
     display: flex;
     justify-content: center;
     gap: 2rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
     padding-right: 2%;
-}
+  }
 
-
-.project-apps img{
+  .project-apps img {
     max-width: var(--icon-size-normal);
     object-fit: contain;
     display: block;
-    margin: 0; 
+    margin: 0;
+  }
 }
 
-
-
-}
-
-
-
-
-
-
-
-
-@media (max-width: 1350px){
-
-.projectimage{
+@media (max-width: 1350px) {
+  .projectimage {
     max-width: var(--thumbnail-small);
     position: relative;
     display: block;
     border-radius: 10px;
-     z-index: 1; 
-}
+    z-index: 1;
+  }
 
-.project-container{
+  .project-container {
     padding-top: 3rem;
-}
+  }
 
-
-.project-row{
+  .project-row {
     display: flex;
     justify-content: center;
     gap: 2rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
     padding-right: 2%;
-}
+  }
 
-
-.project-apps img{
+  .project-apps img {
     max-width: var(--icon-size-normal);
     object-fit: contain;
     display: block;
-    margin: 0; 
-}
+    margin: 0;
+  }
 
-
-.project-row h3{
+  .project-row h3 {
     font-family: "lexend", serif;
     color: black;
     max-width: 10ch;
     font-weight: 380;
     font-size: 20px;
-}
+  }
 
-
-.project-row h2{
+  .project-row h2 {
     font-family: "lexend", serif;
     color: black;
     max-width: 10ch;
     font-weight: 200;
     font-size: 17px;
     padding-top: 1rem;
-}
+  }
 
-
-.Details a{
-  font-family: "lexend", serif;
-  text-decoration: none;
-  color: black;
-  font-size: 22px;
-  font-weight: 300;
-}
-
-
-
+  .Details a {
+    font-family: "lexend", serif;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 300;
+  }
 }
