@@ -23,7 +23,7 @@ export default function QuickSummary() {
 
       <div className="StatisticsCon">
         <section className="Statistics">
-          <section className="WotkHistory">
+          <section className="WorkHistory">
             <WorkHistory></WorkHistory>
           </section>
 
@@ -50,7 +50,7 @@ export default function QuickSummary() {
 
       <div className="things reveal4 stagger">
         <div className="workheader">
-          <h1>Work Experience</h1>
+          <h1 className="WorkHistory">Work Experience</h1>
         </div>
       </div>
 
@@ -72,15 +72,17 @@ export default function QuickSummary() {
           </div>
 
           <div className="skovgaarddetails">
-            <img id="skovgaard" src={withBase("Icons/Skovgaard.jpg")} alt="" />
-            <h1>Skovgaard & Damgaard</h1>
+            <img id="skovgaard" src={withBase("Icons/JyskWeb.jpg")} alt="" />
+            <h1>Jysk Webbureau</h1>
             <div className="line10"></div>
             <h2>
-              Working at Skovgaard & Damgaard is my first official splash into
-              the multimedia sector. My tasks include graphic design, wordpress
-              updates, SoMe posts, and strategic development.{" "}
+              During my Multimedia course I worked as an intern at Jysk
+              Webbureau. The intership was a great learning experience. I
+              learned how fast development moves in the real word as well as how
+              demanding som clients can be. Overall the experience leveled up my
+              design and web development skills by a few levels{" "}
             </h2>
-            <a href="https://skovgaard-damgaard.dk/en/">Visit</a>
+            <a href="https://www.jyskwebbureau.dk/">Visit</a>
           </div>
 
           <div className="lifdetails">

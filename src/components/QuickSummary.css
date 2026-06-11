@@ -76,7 +76,7 @@
 
 .ProgramRow {
   display: flex;
-  gap: 8px;
+  gap: 12px;
   margin-top: var(--space-lg);
 }
 
@@ -88,7 +88,7 @@
 
 .arbejdsinfo {
   display: flex;
-  gap: 8px;
+  gap: 12px;
   margin-top: var(--space-lg);
 }
 
@@ -111,8 +111,7 @@
   border-radius: 12px;
 }
 
-.arbejde,
-.program-icons {
+.arbejde {
   width: auto;
 }
 
@@ -120,6 +119,10 @@
   display: flex;
   gap: var(--space-lg);
   margin-top: var(--space-lg);
+}
+
+.WorkHistory {
+  font-size: 24px;
 }
 
 .Projekter p {
@@ -494,5 +497,103 @@
 
   .WorksIcon img {
     max-width: var(--works-size-xs);
+  }
+}
+
+@media (max-width: 550px) {
+  .SummaryText {
+    color: black;
+    font-family: "lexend", serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .workheader h1 {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .arbejdsinfo {
+    display: flex;
+    gap: 8px;
+    margin-top: var(--space-lg);
+  }
+
+  .arbejdsinfo h3 {
+    font-family: "lexend", serif;
+    font-weight: 250;
+    color: black;
+    opacity: 0.7;
+  }
+
+  .WorksText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .WorksText h2 {
+    font-size: 12px;
+  }
+
+  .Companies img {
+    max-width: 60px;
+    border-radius: 12px;
+  }
+
+  .Statistics h1 {
+    font-size: 20px;
+  }
+
+  .Statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+  }
+
+  .ProgramRow {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 4px;
+    margin-top: var(--space-lg);
+  }
+
+  .Statistics h2 {
+    color: black;
+    font-family: "lexend", serif;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .WorksText h1 {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+    color: black;
+    font-family: "lexend", Serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    opacity: 1;
+  }
+
+  .WorksGrid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0.5rem;
+    max-width: 100%;
+  }
+
+  .WorksIcon img {
+    max-width: 190px;
   }
 }

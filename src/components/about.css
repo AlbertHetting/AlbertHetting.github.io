@@ -43,7 +43,7 @@
 .workheader h1 {
   padding-top: 3rem;
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 500;
 }
 
@@ -70,7 +70,7 @@
 .workhistoryillustration {
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 .aboutmedetail {
@@ -339,10 +339,6 @@
     max-width: var(--software-size-md);
   }
 
-  .softwarecon {
-    width: 450px;
-  }
-
   .line11 {
     width: 60rem;
     height: 3px;
@@ -532,5 +528,53 @@
     max-width: 50ch;
     padding-top: 1rem;
     font-weight: 300;
+  }
+}
+
+@media (max-width: 550px) {
+  .workheader h1 {
+    padding-top: 1rem;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .detailedwork {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+  }
+
+  .workhistoryillustration img {
+    max-width: 400px;
+    border-radius: 20px;
+  }
+
+  .detailedwork h2 {
+    padding-top: 1rem;
+    font-size: 18px;
+    max-width: 35ch;
+  }
+
+  .detailedwork h1 {
+    padding-top: 1rem;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .detailedwork a {
+    padding-top: 1rem;
+    display: flex;
+    font-family: "lexend", serif;
+    color: black;
+    font-size: 18px;
+  }
+
+  .detailedwork {
+    width: 90%;
+    margin-left: 5%;
   }
 }
