@@ -246,11 +246,10 @@ h2 {
     aspect-ratio: 16 / 9;
   }
 
-
   .navigation ul {
     gap: 60px;
   }
   .navigation a {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
