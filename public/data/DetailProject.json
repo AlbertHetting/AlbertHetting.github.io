@@ -7,7 +7,7 @@
     "date": 22,
     "description": "22/5 - 2026",
     "grade": "Rated grade: 12",
-    "descriptiondetail": "Tis Project was the final exam for the Multimedia education",
+    "descriptiondetail": "This Project was the final exam for the Multimedia education",
     "aboutproject": "The goal of this porject was to update and make a better user experience for WiFi NOW TV. The current solution that exists on their webpage is subpar. The page is supposed to take all the WiFi NOW design elements and modernise them as well as make the user experience much easier and more readable",
     "tags": ["React", "Portfolio", "Frontend"],
     "link": "https://alberthetting.github.io/WiFiNOWTV/",
