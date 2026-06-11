@@ -76,7 +76,7 @@
 
 .ProgramRow {
   display: flex;
-  gap: var(--space-lg);
+  gap: 8px;
   margin-top: var(--space-lg);
 }
 
@@ -88,7 +88,7 @@
 
 .arbejdsinfo {
   display: flex;
-  gap: var(--space-lg);
+  gap: 8px;
   margin-top: var(--space-lg);
 }
 
@@ -173,7 +173,8 @@
 .program-icons.reveal {
   opacity: 0;
   transform: translateY(var(--reveal-distance));
-  transition: opacity var(--reveal-duration) ease,
+  transition:
+    opacity var(--reveal-duration) ease,
     transform var(--reveal-duration) ease;
   will-change: opacity, transform;
 }
@@ -186,7 +187,8 @@
 .program-icons.reveal.stagger > * > * {
   opacity: 0;
   transform: translateY(var(--reveal-distance));
-  transition: opacity var(--reveal-duration) ease,
+  transition:
+    opacity var(--reveal-duration) ease,
     transform var(--reveal-duration) ease;
 }
 
@@ -308,8 +310,6 @@
   background-color: #000000;
   width: 3rem;
 }
-
-
 
 /*Meida Rules for en smule responsiveness*/
 
