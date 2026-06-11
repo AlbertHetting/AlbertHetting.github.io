@@ -299,3 +299,85 @@ body {
     font-weight: 300;
   }
 }
+
+@media (max-width: 550px) {
+  .upper2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-apps {
+    display: grid;
+    grid-template-columns: repeat(5, max-content); /* 2 per row */
+    column-gap: 0.25rem;
+    row-gap: 0.25rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  #mainvideo2 {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    aspect-ratio: 32 / 15;
+  }
+
+  .project-row h3 {
+    font-family: "lexend", serif;
+    color: black;
+    max-width: 30ch;
+    font-weight: 380;
+    font-size: var(--medium-font);
+  }
+
+  .project-row h2 {
+    font-family: "lexend", serif;
+    color: black;
+    max-width: 10ch;
+    font-weight: 200;
+    font-size: var(--normal-text);
+    padding-top: 0.5rem;
+  }
+
+  .projectimage {
+    max-width: 400px;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .project-container {
+    padding-top: 3rem;
+  }
+
+  .line8 {
+    width: 80%;
+    height: 3px;
+    background: black;
+    opacity: 0.5;
+    border-radius: 2px;
+    margin-top: var(--space-md);
+  }
+
+  .project-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-right: 0%;
+    padding-left: 3%;
+  }
+
+  .project-apps img {
+    max-width: var(--icon-size-normal);
+    object-fit: contain;
+    display: block;
+    margin: 0;
+  }
+}
