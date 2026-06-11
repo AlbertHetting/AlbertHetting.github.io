@@ -1,6 +1,23 @@
 [
+  {
+    "id": 5,
+    "title": "WiFi NOW TV",
+    "year": 2026,
+    "month": 5,
+    "date": 22,
+    "description": "5/5 - 2026",
+    "tags": ["React", "Portfolio", "Frontend"],
+    "image": "ProjectImages/WiFiNOWTV1.jpg",
+    "appIcons": [
+      "public/Icons/Figma.png",
+      "public/Icons/AfterEffects.png",
+      "public/Icons/PremierePro.png",
+      "public/Icons/Procreate.png",
+      "public/Icons/VSCode.png"
+    ]
+  },
 
-    {
+  {
     "id": 4,
     "title": "GameSquare Web Application",
     "year": 2025,
@@ -9,14 +26,14 @@
     "description": "5/11 - 2025",
     "tags": ["React", "Portfolio", "Frontend"],
     "image": "ProjectImages/MysteryBowl.jpg",
-      "appIcons": [
+    "appIcons": [
+      "public/Icons/Figma.png",
       "public/Icons/AfterEffects.png",
       "public/Icons/PremierePro.png",
       "public/Icons/Procreate.png",
       "public/Icons/VSCode.png"
     ]
   },
-
 
   {
     "id": 1,
@@ -27,7 +44,8 @@
     "description": "23/5 - 2025",
     "tags": ["React", "Portfolio", "Frontend"],
     "image": "ProjectImages/Steeno.jpg",
-      "appIcons": [
+    "appIcons": [
+      "public/Icons/Figma.png",
       "public/Icons/AfterEffects.png",
       "public/Icons/PremierePro.png",
       "public/Icons/VSCode.png"
@@ -43,13 +61,14 @@
     "description": "6/2 - 2025",
     "tags": ["React", "Portfolio", "Frontend"],
     "image": "ProjectImages/MusicQuiz.jpg",
-       "appIcons": [
+    "appIcons": [
       "public/Icons/VSCode.png",
+      "public/Icons/Figma.png",
       "public/Icons/PremierePro.png"
     ]
   },
 
-    {
+  {
     "id": 3,
     "title": "Sonar, Radar Rebrand",
     "year": 2024,
@@ -58,14 +77,12 @@
     "description": "19/12 - 2024",
     "tags": ["Sonar", "Portfolio", "Frontend"],
     "image": "ProjectImages/Sonar.jpg",
-       "appIcons": [
+    "appIcons": [
+      "public/Icons/Figma.png",
       "public/Icons/LightRoom.png",
       "public/Icons/Illustrator.png",
       "public/Icons/Procreate.png",
       "public/Icons/VSCode.png"
     ]
   }
-
-
-
 ]

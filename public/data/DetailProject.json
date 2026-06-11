@@ -1,7 +1,28 @@
 [
+  {
+    "id": 5,
+    "title": "WiFi NOW TV Streaming Service",
+    "year": 2026,
+    "month": 5,
+    "date": 22,
+    "description": "22/5 - 2026",
+    "grade": "Rated grade: 12",
+    "descriptiondetail": "Tis Project was the final exam for the Multimedia education",
+    "aboutproject": "The goal of this porject was to update and make a better user experience for WiFi NOW TV. The current solution that exists on their webpage is subpar. The page is supposed to take all the WiFi NOW design elements and modernise them as well as make the user experience much easier and more readable",
+    "tags": ["React", "Portfolio", "Frontend"],
+    "link": "https://alberthetting.github.io/WiFiNOWTV/",
+    "image": "ProjectImages/WiFiNOWTV1.jpg",
+    "image2": "ProjectImages/WiFiNOWTV2.jpg",
+    "appIcons": [
+      "public/Icons/Figma.png",
+      "public/Icons/AfterEffects.png",
+      "public/Icons/PremierePro.png",
+      "public/Icons/Procreate.png",
+      "public/Icons/VSCode.png"
+    ]
+  },
 
-
-    {
+  {
     "id": 4,
     "title": "GameSquare Web Application",
     "year": 2025,
@@ -15,16 +36,14 @@
     "link": "https://alberthetting.github.io/GameCenter/",
     "image": "ProjectImages/MysteryBowl.jpg",
     "image2": "ProjectImages/MysteryBowl2.jpg",
-      "appIcons": [
+    "appIcons": [
+      "public/Icons/Figma.png",
       "public/Icons/AfterEffects.png",
       "public/Icons/PremierePro.png",
       "public/Icons/Procreate.png",
       "public/Icons/VSCode.png"
     ]
   },
-
-
-
 
   {
     "id": 1,
@@ -40,7 +59,8 @@
     "link": "https://steno.appixx.dk/",
     "image": "ProjectImages/Steeno.jpg",
     "image2": "ProjectImages/Steeno2.jpg",
-      "appIcons": [
+    "appIcons": [
+      "public/Icons/Figma.png",
       "public/Icons/AfterEffects.png",
       "public/Icons/PremierePro.png",
       "public/Icons/VSCode.png"
@@ -61,13 +81,14 @@
     "link": "https://musicquiz.appixx.dk/",
     "image": "ProjectImages/MusicQuiz.jpg",
     "image2": "ProjectImages/MusicQuiz2.jpg",
-       "appIcons": [
+    "appIcons": [
+      "public/Icons/Figma.png",
       "public/Icons/VSCode.png",
       "public/Icons/PremierePro.png"
     ]
   },
 
-    {
+  {
     "id": 3,
     "title": "Sonar, Radar Rebrand",
     "year": 2024,
@@ -81,14 +102,12 @@
     "link": "https://sonar.appixx.dk/",
     "image": "ProjectImages/Sonar.jpg",
     "image2": "ProjectImages/Sonar2.jpg",
-       "appIcons": [
+    "appIcons": [
+      "public/Icons/Figma.png",
       "public/Icons/LightRoom.png",
       "public/Icons/Illustrator.png",
       "public/Icons/Procreate.png",
       "public/Icons/VSCode.png"
     ]
   }
-
-
-
 ]
