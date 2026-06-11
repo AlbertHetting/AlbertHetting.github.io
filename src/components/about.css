@@ -2,165 +2,143 @@
   --workicon-size: 180px;
   --work-size-sm: 140px;
   --work-size-xs: 110px;
---software-size: 80px;
---software-size-md: 60px;
-
+  --software-size: 80px;
+  --software-size-md: 60px;
 }
-
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-
-.PortfolioPic{
-    width: 70%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-.PortfolioPicCon{
-    display: flex;
-    justify-content: center;
-
+.PortfolioPic {
+  width: 70%;
 }
 
-#mainimage{
-    width: 100%;
-    overflow: hidden;
-    height: auto;
-    aspect-ratio: 16 / 9;    
+.PortfolioPicCon {
+  display: flex;
+  justify-content: center;
 }
 
-
-.detailedwork img{
-    max-width: var(--workicon-size);
-    border-radius: 20px;
+#mainimage {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  aspect-ratio: 16 / 9;
 }
 
-
-.detailedwork{
-    padding-top: 5rem;
-    display: flex;
-    gap: 8rem;
-    justify-content: center;
+.detailedwork img {
+  max-width: var(--workicon-size);
+  border-radius: 20px;
 }
 
-.workheader h1{
-    padding-top: 3rem;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 500;
+.detailedwork {
+  padding-top: 5rem;
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
 }
 
-
-.detailedwork h2{
-    padding-top: 1rem;
-    font-size: 22px;
-    max-width: 35ch;
- 
+.workheader h1 {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
 }
 
-
-.detailedwork h1{
-    padding-top: 1rem;
-    font-size: 35px;
-    font-weight: 500;
+.detailedwork h2 {
+  padding-top: 1rem;
+  font-size: 22px;
+  max-width: 35ch;
 }
 
-
-.detailedwork a{
-    padding-top: 1rem;
-    display: flex;
-    font-family: "lexend", serif;
-    color: black;
-    font-size: 22px;
+.detailedwork h1 {
+  padding-top: 1rem;
+  font-size: 35px;
+  font-weight: 500;
 }
 
-
-
-.workhistoryillustration{
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
+.detailedwork a {
+  padding-top: 1rem;
+  display: flex;
+  font-family: "lexend", serif;
+  color: black;
+  font-size: 22px;
 }
 
-
-.aboutmedetail{
-    display: flex;
-    justify-content: center;
-    padding-top: 8rem;
-    padding-bottom: 6rem;
+.workhistoryillustration {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
 }
 
-
-.aboutmepart1 img{
-        max-width: 500px;
-        border-radius: 25px;
+.aboutmedetail {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
 }
 
-
-#aboutmetext2 p{
-    color: black;
-    font-family: "lexend", serif;
-    font-size: 22px;
-    max-width: 35ch;
-    padding-top: 1rem;
-    font-weight: 300;
+.aboutmepart1 img {
+  max-width: 500px;
+  border-radius: 25px;
 }
 
-
-#corevalues p{
-    color: black;
-    font-family: "lexend", serif;
-    font-size: 22px;
-    max-width: 35ch;
-    padding-top: 1rem;
-    font-weight: 300;
+#aboutmetext2 p {
+  color: black;
+  font-family: "lexend", serif;
+  font-size: 22px;
+  max-width: 35ch;
+  padding-top: 1rem;
+  font-weight: 300;
 }
 
-
-#corevalues h1{
-    color: black;
-    font-family: "lexend", serif;
-    font-size: 35px;
-    font-weight: 500;
+#corevalues p {
+  color: black;
+  font-family: "lexend", serif;
+  font-size: 22px;
+  max-width: 35ch;
+  padding-top: 1rem;
+  font-weight: 300;
 }
 
-
-#personalinfo h1{
-    color: black;
-    font-family: "lexend", serif;
-    font-size: 35px;
-    font-weight: 500;
+#corevalues h1 {
+  color: black;
+  font-family: "lexend", serif;
+  font-size: 35px;
+  font-weight: 500;
 }
 
-
-#personalinfo h3{
-    color: black;
-    font-family: "lexend", serif;
-    font-size: 22px;
-    max-width: 35ch;
-    padding-top: 1rem;
-    font-weight: 300;
+#personalinfo h1 {
+  color: black;
+  font-family: "lexend", serif;
+  font-size: 35px;
+  font-weight: 500;
 }
 
-#aboutmetext2 h1{
-    color: black;
-    font-family: "lexend", serif;
-    font-size: 35px;
-    font-weight: 500;
+#personalinfo h3 {
+  color: black;
+  font-family: "lexend", serif;
+  font-size: 22px;
+  max-width: 35ch;
+  padding-top: 1rem;
+  font-weight: 300;
 }
 
-.aboutmepart1{
-    display: flex;
-    gap: 8rem;
+#aboutmetext2 h1 {
+  color: black;
+  font-family: "lexend", serif;
+  font-size: 35px;
+  font-weight: 500;
 }
 
+.aboutmepart1 {
+  display: flex;
+  gap: 8rem;
+}
 
-  .line10 {
+.line10 {
   width: 100%;
   height: 3px;
   background: black;
@@ -169,14 +147,13 @@
   margin-top: var(--space-md);
 }
 
-
-#linecon{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 3rem;
+#linecon {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
 }
 
-  .line11 {
+.line11 {
   width: 57rem;
   height: 3px;
   background: black;
@@ -185,77 +162,63 @@
   margin-top: var(--space-md);
 }
 
-
-.workhistoryillustration img{
-    max-width: 1200px;
-    border-radius: 20px;
+.workhistoryillustration img {
+  max-width: 1200px;
+  border-radius: 20px;
 }
 
-
-.skills{
-   background-color: rgb(235, 235, 235);
-   padding-bottom: 4rem;
+.skills {
+  background-color: rgb(235, 235, 235);
+  padding-bottom: 4rem;
 }
 
-.skillscon{
-    display: flex;
-    gap: 4rem;
-    justify-content: center;
+.skillscon {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
 }
 
-
-.skillscon p{
-    color: black;
-    font-family: "lexend", serif;
-    max-width: 45ch;
-    font-size: 25px;
-    font-weight: 300;
+.skillscon p {
+  color: black;
+  font-family: "lexend", serif;
+  max-width: 45ch;
+  font-size: 25px;
+  font-weight: 300;
 }
 
-
-.skills h1{
-    font-family: "lexend", serif;
-    font-size: 35px;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+.skills h1 {
+  font-family: "lexend", serif;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
-
-.software img{
-    max-width: var(--software-size);
+.software img {
+  max-width: var(--software-size);
 }
 
-
-
-
-.software{
+.software {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.5rem;
 }
 
-.softwarecon{
-    width: 180px
+.softwarecon {
+  width: 180px;
 }
-
-
-
-
-
 
 /* ANIMATION af ikoner og tekst I quicksummary (fra hook)*/
 
-:root{
+:root {
   --reveal-distance: -25px;
-  --reveal-duration: .5s;
-  --stagger-step: 100ms; 
+  --reveal-duration: 0.5s;
+  --stagger-step: 100ms;
 }
 
-
 /* Fade-down */
-.things.reveal4{
+.things.reveal4 {
   opacity: 0;
   transform: translateY(var(--reveal-distance));
   transition:
@@ -263,13 +226,13 @@
     transform var(--reveal-duration) ease;
   will-change: opacity, transform;
 }
-.things.reveal4.in-view4{
+.things.reveal4.in-view4 {
   opacity: 1;
   transform: none;
 }
 
 /* Animate GRANDCHILDREN: .program-icons.reveal.stagger */
-.things.reveal4.stagger > * > *{
+.things.reveal4.stagger > * > * {
   opacity: 0;
   transform: translateY(var(--reveal-distance));
   transition:
@@ -278,367 +241,295 @@
 }
 
 /* Final state */
-.things.reveal4.in-view4.stagger > * > *{
+.things.reveal4.in-view4.stagger > * > * {
   opacity: 1;
   transform: none;
 }
 
 /* Stagger delays across the grandchildren */
-.things.reveal4.in-view4.stagger > * > *:nth-child(1) { transition-delay: calc(0 * var(--stagger-step)); }
-.things.reveal4.in-view4.stagger > * > *:nth-child(2) { transition-delay: calc(1 * var(--stagger-step)); }
-.things.reveal4.in-view4.stagger > * > *:nth-child(3) { transition-delay: calc(2 * var(--stagger-step)); }
-.things.reveal4.in-view4.stagger > * > *:nth-child(4) { transition-delay: calc(3 * var(--stagger-step)); }
-.things.reveal4.in-view4.stagger > * > *:nth-child(5) { transition-delay: calc(4 * var(--stagger-step)); }
-.things.reveal4.in-view4.stagger > * > *:nth-child(6) { transition-delay: calc(5 * var(--stagger-step)); }
-.things.reveal4.in-view4.stagger > * > *:nth-child(7) { transition-delay: calc(6 * var(--stagger-step)); }
-.things.reveal4.in-view4.stagger > * > *:nth-child(8) { transition-delay: calc(7 * var(--stagger-step)); }
-.things.reveal4.in-view4.stagger > * > *:nth-child(9) { transition-delay: calc(8 * var(--stagger-step)); }
+.things.reveal4.in-view4.stagger > * > *:nth-child(1) {
+  transition-delay: calc(0 * var(--stagger-step));
+}
+.things.reveal4.in-view4.stagger > * > *:nth-child(2) {
+  transition-delay: calc(1 * var(--stagger-step));
+}
+.things.reveal4.in-view4.stagger > * > *:nth-child(3) {
+  transition-delay: calc(2 * var(--stagger-step));
+}
+.things.reveal4.in-view4.stagger > * > *:nth-child(4) {
+  transition-delay: calc(3 * var(--stagger-step));
+}
+.things.reveal4.in-view4.stagger > * > *:nth-child(5) {
+  transition-delay: calc(4 * var(--stagger-step));
+}
+.things.reveal4.in-view4.stagger > * > *:nth-child(6) {
+  transition-delay: calc(5 * var(--stagger-step));
+}
+.things.reveal4.in-view4.stagger > * > *:nth-child(7) {
+  transition-delay: calc(6 * var(--stagger-step));
+}
+.things.reveal4.in-view4.stagger > * > *:nth-child(8) {
+  transition-delay: calc(7 * var(--stagger-step));
+}
+.things.reveal4.in-view4.stagger > * > *:nth-child(9) {
+  transition-delay: calc(8 * var(--stagger-step));
+}
 
-
-
-
-
-
-
-
-@media (max-width: 1920px){
-
-
-
-
-
-
-
-    .aboutmepart1{
+@media (max-width: 1920px) {
+  .aboutmepart1 {
     display: flex;
     gap: 5rem;
-}
+  }
 
+  .aboutmepart1 img {
+    max-width: 420px;
+    border-radius: 25px;
+  }
 
-    .aboutmepart1 img{
-        max-width: 420px;
-        border-radius: 25px;
-}
-
-
-
-#corevalues h1{
+  #corevalues h1 {
     color: black;
     font-family: "lexend", serif;
     font-size: 30px;
     font-weight: 500;
-}
+  }
 
-
-#aboutmetext2 h1{
+  #aboutmetext2 h1 {
     color: black;
     font-family: "lexend", serif;
     font-size: 30px;
     font-weight: 500;
-}
+  }
 
-
-
-
-#personalinfo h1{
+  #personalinfo h1 {
     color: black;
     font-family: "lexend", serif;
     font-size: 30px;
     font-weight: 500;
-}
+  }
 
-
-#personalinfo h3{
+  #personalinfo h3 {
     color: black;
     font-family: "lexend", serif;
     font-size: 20px;
     max-width: 35ch;
     padding-top: 1rem;
     font-weight: 300;
-}
+  }
 
-
-
-
-#aboutmetext2 p{
+  #aboutmetext2 p {
     color: black;
     font-family: "lexend", serif;
     font-size: 20px;
     max-width: 35ch;
     padding-top: 1rem;
     font-weight: 300;
-}
+  }
 
-
-#corevalues p{
+  #corevalues p {
     color: black;
     font-family: "lexend", serif;
     font-size: 20px;
     max-width: 35ch;
     padding-top: 1rem;
     font-weight: 300;
-}
+  }
 
-
-.software img{
+  .software img {
     max-width: var(--software-size-md);
-}
+  }
 
-
-.softwarecon{
-    width: 140px
-}
-
+  .softwarecon {
+    width: 140px;
+  }
 
   .line11 {
-  width: 50rem;
-  height: 3px;
-  background: black;
-  opacity: 0.5;
-  border-radius: 2px;
-  margin-top: var(--space-md);
-}
+    width: 50rem;
+    height: 3px;
+    background: black;
+    opacity: 0.5;
+    border-radius: 2px;
+    margin-top: var(--space-md);
+  }
 
-
-.skillscon p{
+  .skillscon p {
     color: black;
     font-family: "lexend", serif;
     max-width: 45ch;
     font-size: 22px;
     font-weight: 300;
-}
+  }
 
-
-
-.detailedwork{
+  .detailedwork {
     padding-top: 5rem;
     gap: 4rem;
     justify-content: center;
-}
+  }
 
-
-
-.detailedwork img{
+  .detailedwork img {
     max-width: var(--work-size-sm);
     border-radius: 20px;
-}
+  }
 
-
-
-.detailedwork h2{
+  .detailedwork h2 {
     padding-top: 1rem;
     font-size: 21px;
     max-width: 30ch;
- 
-}
+  }
 
-
-.workhistoryillustration img{
+  .workhistoryillustration img {
     max-width: 900px;
-}
+  }
 
-
-
-.detailedwork h1{
+  .detailedwork h1 {
     padding-top: 1rem;
     font-size: 30px;
     font-weight: 500;
+  }
 }
 
-
-}
-
-
-
-
-
-
-@media (max-width: 1500px){
-
-
-
-
-
-
-
-    .aboutmepart1{
+@media (max-width: 1500px) {
+  .aboutmepart1 {
     display: flex;
     gap: 3rem;
-}
+  }
 
+  .aboutmepart1 img {
+    max-width: 320px;
+    border-radius: 25px;
+  }
 
-    .aboutmepart1 img{
-        max-width: 320px;
-        border-radius: 25px;
-}
-
-
-
-#corevalues h1{
+  #corevalues h1 {
     color: black;
     font-family: "lexend", serif;
     font-size: 30px;
     font-weight: 500;
-}
+  }
 
-
-#aboutmetext2 h1{
+  #aboutmetext2 h1 {
     color: black;
     font-family: "lexend", serif;
     font-size: 30px;
     font-weight: 500;
-}
+  }
 
-
-#personalinfo h1{
+  #personalinfo h1 {
     color: black;
     font-family: "lexend", serif;
     font-size: 30px;
     font-weight: 500;
-}
+  }
 
-
-#personalinfo h3{
+  #personalinfo h3 {
     color: black;
     font-family: "lexend", serif;
     font-size: 20px;
     max-width: 30ch;
     padding-top: 1rem;
     font-weight: 300;
-}
+  }
 
-
-
-#aboutmetext2 p{
+  #aboutmetext2 p {
     color: black;
     font-family: "lexend", serif;
     font-size: 20px;
     max-width: 30ch;
     padding-top: 1rem;
     font-weight: 300;
-}
+  }
 
-
-#corevalues p{
+  #corevalues p {
     color: black;
     font-family: "lexend", serif;
     font-size: 20px;
     max-width: 30ch;
     padding-top: 1rem;
     font-weight: 300;
-}
+  }
 
-
-.software img{
+  .software img {
     max-width: var(--software-size-md);
-}
+  }
 
-
-.softwarecon{
-    width: 140px
-}
-
+  .softwarecon {
+    width: 140px;
+  }
 
   .line11 {
-  width: 50rem;
-  height: 3px;
-  background: black;
-  opacity: 0.5;
-  border-radius: 2px;
-  margin-top: var(--space-md);
-}
+    width: 50rem;
+    height: 3px;
+    background: black;
+    opacity: 0.5;
+    border-radius: 2px;
+    margin-top: var(--space-md);
+  }
 
-
-.skillscon p{
+  .skillscon p {
     color: black;
     font-family: "lexend", serif;
     max-width: 45ch;
     font-size: 22px;
     font-weight: 300;
-}
+  }
 
-
-
-.detailedwork{
+  .detailedwork {
     padding-top: 5rem;
     gap: 4rem;
     justify-content: center;
-}
+  }
 
-
-
-.detailedwork img{
+  .detailedwork img {
     max-width: var(--work-size-xs);
     border-radius: 20px;
-}
+  }
 
-
-
-.detailedwork h2{
+  .detailedwork h2 {
     padding-top: 1rem;
     font-size: 19px;
     max-width: 27ch;
- 
-}
+  }
 
-
-.workhistoryillustration img{
+  .workhistoryillustration img {
     max-width: 800px;
-}
+  }
 
-
-
-.detailedwork h1{
+  .detailedwork h1 {
     padding-top: 1rem;
     font-size: 27px;
     font-weight: 500;
+  }
 }
 
-
-}
-
-
-
-@media (max-width: 1250px){
-.aboutmepart1{
+@media (max-width: 1250px) {
+  .aboutmepart1 {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-}
+  }
 
-
-
-
-#personalinfo h3{
+  #personalinfo h3 {
     color: black;
     font-family: "lexend", serif;
     font-size: 20px;
     max-width: 50ch;
     padding-top: 1rem;
     font-weight: 300;
-}
+  }
 
-
-
-#aboutmetext2 p{
+  #aboutmetext2 p {
     color: black;
     font-family: "lexend", serif;
     font-size: 20px;
     max-width: 50ch;
     padding-top: 1rem;
     font-weight: 300;
-}
+  }
 
-
-#corevalues p{
+  #corevalues p {
     color: black;
     font-family: "lexend", serif;
     font-size: 20px;
     max-width: 50ch;
     padding-top: 1rem;
     font-weight: 300;
-}
-
-
-
+  }
 }
